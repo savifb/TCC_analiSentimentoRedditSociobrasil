@@ -1,0 +1,6 @@
+id,text,type,date,sentiment
+1,"Exemplo de postagem sobre Auxílio Brasil",post,2025-09-01,neutral
+2,"Comentário crítico sobre a política X",comment,2025-09-02,negative
+3,"Comentário de apoio ao programa",comment,2025-09-03,positive
+4,"Outra postagem neutra sobre economia",post,2025-09-04,neutral
+5,"Comentário consolidado negativo",comment,2025-09-05,negative

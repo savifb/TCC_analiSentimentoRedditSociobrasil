@@ -1,0 +1,947 @@
+;Unnamed: 0.1;Unnamed: 0;id Post;Link;Comentario;Classe Sentimento;rotulo;prob_NEG;prob_NEU;prob_POS
+0;0;488;w3kn0b;https://valorinveste.globo.com/mercados/brasil-e-politica/programas-sociais/noticia/2022/07/20/emprestimo-consignado-do-auxilio-brasil-so-favorece-bancos-alerta-idec.ghtml;"Se tu tem uma dívida de cartão de crédito, e pega um consignado pra pagar essa dívida, é uma boa... Porém
+
+Poucas serão as pessoas que fariam tal uso do consignado no auxílio Brasil, entao embora tenha seus bons usos, sou contra a possibilidade de se fazer isso pq a maioria dos casos irão so gerar mais dívidas pras pessoas";NEU;NEU;0.33566316962242126;0.5363427400588989;0.1279940903186798
+1;1;457;1jgje48;https://i.redd.it/gdc4ui6792qe1.png;E quantos % dos beneficiários do bolsa família trabalham?;NEU;NEU;0.02848353236913681;0.9622289538383484;0.00928753986954689
+2;2;410;1dw6dul;https://v.redd.it/8x3ai27q5rad1;"O video claramente é fake.
+
+Só a título de curiosidade, os valores do Bolsa família são: R$ 600 fixo + R$ 50 por criança entre 07 e 18 anos + R$ 150 por criança de 0 a 6 anos. O valor médio que as familias recebem, segundo dados do governo é R$ 686,10.
+
+Não acredito que alguém consiga pagar absolutamente todas as suas contas e ainda ""luxar"" só com bolsa família. O valor é simbólico só para as pessoas literalmente não morrerem de fome.";NEU;POS;0.31603533029556274;0.6501519680023193;0.03381270915269852
+3;3;86;1h9udxs;https://www.reddit.com/r/opiniaoimpopular/comments/1h9udxs/quem_crítica_o_bolsa_família_é_quem_nunca_passou/;"O problema não é o programa em si, mas sim como ele foi feito e é aplicado.  
+A pessoa não teve oportunidade, ok, isso infelizmente acontece.  
+Mas o que tem de gente aí que junta bolsa família de 3, 4 filhos e não trabalha pra não perder o direito, não é brincadeira.
+
+Quer dar o bolsa família? Ok, mas então dê a oportunidade também. Diminui um pouco do imposto dos patrões malvados pra eles aumentarem o efetivo sem um gasto muito alto.  
+Contrata essa galera pra vagas que estão em déficit no município, estado, sei lá. O que não falta no Brasil é trabalho.  
+Dá um curso de especialização e obriga esse povo a comparecer as aulas (inclusive ,o próprio professor poderia ser um beneficiário também)  
+O que não dá é pra se manter como é hoje, pq o que foi feito pra socorrer pessoas carentes tá virando muleta de vagabundo.";NEG;NEG;0.7815616130828857;0.17679841816425323;0.04163995385169983
+4;4;334;1kk8lfe;https://www.reddit.com/r/opiniaoimpopular/comments/1kk8lfe/trabalhar_home_office_no_brasil_ganhando_em/;">E ainda vai poder ganhar bolsa família e acessar todos os programas sociais do Brasil
+
+Corrupto falando em roubo do INSS";NEG;NEG;0.7308541536331177;0.240320086479187;0.028825806453824043
+5;5;140;1ft9tuj;https://www.cnnbrasil.com.br/politica/em-votacao-na-camara-governo-e-pt-derrubaram-freio-a-apostas-por-beneficiario-do-bolsa-familia/;"Thread da [Amanda Rossi](https://bsky.app/profile/amandarossi.bsky.social/post/3l55nocy3na2x), repórter do núcleo investigativo do UOL:    
+    
+>Vamos entender a pegadinha nos dados do Banco Central sobre bets e Bolsa Família.   
+   
+>O Banco Central divulgou só 3 dados (absolutamente arredondados):   
+   
+>- 5 milhões de beneficiários do Bolsa Família apostaram em bets em agosto;   
+>- gastaram R$ 3 bilhões só por pix;   
+>- mediana de gastos foi de R$ 100.   
+    
+>Já que sabemos o valor total e o nº de beneficiários, podemos calcular outro dado: a média de gastos.    
+    
+>R$ 3 bi por 5 mi de PESSOAS em famílias que recebem Bolsa Família = em média R$ 600 por PESSOA.    
+    
+>Isso por si só é muito esquisito. O valor médio pago pelo Bolsa Família foi de R$ 681 por FAMÍLIA.    
+   
+>O Banco Central não divulgou a média, mas divulgou a mediana de gastos em bets. O que é a mediana?    
+   
+>Se você tem 5 milhões de apostadores e uma mediana de R$ 100, isso significa que 2,5 milhões apostaram de R$ 100 para baixo. E os outros 2,5 milhões apostaram de R$ 100 pra cima.   
+    
+>Então, temos:   
+   
+>- média = R$ 600;   
+>- mediana = R$ 100;   
+   
+>Quando a média e a mediana são muito diferentes, como nesse caso, isso indica que há um topo da pirâmide, com valores muito altos, puxando a média pra cima.   
+   
+>Se a média de gastos das 5 milhões de pessoas é de R$ 600, mas já sabemos que metade dessas pessoas gastou R$ 100 ou menos (a mediana), então é preciso que a outra metade tenha gastado muitoooooo mais que os R$ 600 pra fechar a conta.    
+   
+>O 
+@zerotoledo.bsky.social
+ fez um cálculo conservador pra demonstrar isso no podcast A Hora.    
+    
+>Se 2,5 milhões de pessoas da metade de baixo apostaram R$ 100 cada. E 2,499 milhões apostaram todo o Bolsa Família (R$ 681).     
+   
+>A média de R$ 600 só fecha se 1.000 pessoas apostaram R$ 1 milhão cada.    
+   
+>O que isso significa? Que a principal descoberta do Banco Central NÃO é que os beneficiários do Bolsa Família gastaram R$ 3 bi em bets.    
+   
+>Mas que há um grupo de beneficiários que gastam muito em bets e, portanto, tem renda incompatível com sua presença no Bolsa Família.   
+   
+>INDÍCIO DE FRAUDE.   
+    
+>Uma das fraudes possíveis - e prováveis - são pessoas com renda maior que o limite do Bolsa Família recebendo o benefício indevidamente.    
+    
+>Outra possibilidade é o uso indevido dos dados de beneficiários do Bolsa Família para fazer apostas.   
+     
+>Tem ainda uma nuance: o Banco Central selecionou quem recebeu Bolsa Família em dez/2023 e viu quanto apostou em ago/2024. Nesse período, o programa passou por um pente-fino em busca de irregularidades, que eliminou + de 1 milhão de beneficiários. Parte da fraude pode já ter acabado aí? Não sabemos.    
+   
+>Pra entender melhor, seria preciso ter acesso aos dados - ou, ao menos, à metodologia do Banco Central. Mas o órgão se recusou a informar.   
+   
+>E aí fica a dúvida: pq o Banco Central divulgou só 3 dados? E pq não falou nada sobre um topo de pirâmide incompatível com o Bolsa Família e indícios de fraude?";NEU;NEU;0.06716550886631012;0.8958433270454407;0.03699112683534622
+6;6;255;1faj31j;https://noticias.uol.com.br/eleicoes/2024/09/06/pablo-marcal-bolsa-familia-desempregados-profissionais.htm;"Ele tá certo. Do jeito que é feito hoje, só vai criar """"acomodados"""".
+
+O bolsa família é extremamente útil pra população de baixa renda, e quem diseer que não, merece tiro, sério. Mas a forma como ele é feito, sem prazo de validade, é horrível.
+
+Também merece tiro e cacete quem acha que em 30 anos ou mais de bolsa família a pessoa não vai ter capacidade de melhorar a vida pra pelo menos não precisar mais do bolsa família. Quem pensa assim é porque nunk viveu numa favela direito e não vê a situação das crianças que vivem de pipoca e danone, enquanto as mães tão com garrafas de cerveja numa mão e na outra um cigarro/pino de droga. 
+
+Acredito que deveria ser o valor que é hoje (um pouco pra mais ou pra menos), mas deveria ter prazo de validade. Pra mim seria 25 anos de recebimento. Depois disso, a pessoa não tem mais direito a receber.
+
+25 anos é tempo suficiente pra: estudar, criar os filhos, se profissionalizar, mudar de emprego, subir na carreira etc... Isso dá até uma força pro filho dessa pessoa que vai receber até os 25 anos de idade, dá tempo de fazer uma faculdade (a maioria), curso técnico/idiomas e arranjar um emprego.
+
+Vai ter gente que vai fugir dessa estatística? Vai, infelizmente. Mas vai ser um número bem menor do que dos ""acomodados"" que temos hoje em dia.
+
+Sem falar que isso vai ajudar a criar a mentalidade de que ""preciso mudar/melhorar de vida"" e não o pensamento de ""procurar emprego??? Depois eu vejo isso, tá passando o jogo do Vasco"".";NEG;NEG;0.9498076438903809;0.03263705223798752;0.01755530759692192
+7;7;264;1ftseov;https://www1.folha.uol.com.br/mercado/2024/10/e-injusto-punir-beneficiario-do-bolsa-familia-que-aposta-em-bets-diz-pesquisadora.shtml;"O mais correto seria bloquear pelo CPF qualquer pessoa que estivesse cadastrada em algum programa social.
+Se está em algum programa social é porque passa por algum tipo de necessidade. Jogar deveria ser proibido para essas pessoas. Até mesmo porque usar impedir o uso do dinheiro do bolsa família não significa que a pessoa não está jogando e pode estar se afundando ainda mais em problemas. Bloquear o CPF para esses sites é a solução definitiva.";NEG;NEG;0.7415024638175964;0.18345460295677185;0.07504283636808395
+8;8;101;1f1o9b0;https://www.cnnbrasil.com.br/blogs/fernando-nakagawa/economia/macroeconomia/cresce-o-debate-sobre-o-aumento-do-bolsa-familia-e-a-perda-do-interesse-em-procurar-emprego/;"O bolsa família deveria ser 1 salário mínimo, 600 não tem como sustentar uma família. 
+
+Assim, coloca o piso dos salários pra cima";NEG;NEG;0.7253425121307373;0.24855196475982666;0.026105519384145737
+9;9;520;wlgtks;https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2333914;"Despacho (10/08/2022):
+
+""Apresentação do Projeto de Lei Complementar n. 109/2022, pelo Deputado Christino Aureo (PP/RJ), que ""Dispõe sobre a permanência dos programas Auxilio Brasil, Auxílio Gás dos Brasileiros e Alimenta Brasil"".""";NEU;NEU;0.037732187658548355;0.8992801308631897;0.06298772990703583
+10;10;412;1dw6dul;https://v.redd.it/8x3ai27q5rad1;Esse ainda tá gastando muito. Em vila e favela não paga água e nem luz, o bolsa família entra limpo.;NEG;NEU;0.6380544900894165;0.3290049731731415;0.032940562814474106
+11;11;555;yxtski;https://i.redd.it/saq0fvpw9j0a1.png;"Sim, eu confirmo: sou amigo de todos eles, fiz o L, passei no programa de **trainee** de uma **multinacional**, e recebi e-mail agora: ""devido ao aumento das incertezas econômicas, a companhia optou por cancelar o programa nesta oportunidade"". Eu ia ganhar um bom salário, agora talvez ganhe o Bolsa Família.
+
+E quanto a vocês? Mais alguém aqui fez o L, passou no programa de **trainee** de uma **multinacional**, e recebeu e-mail agora: ""devido ao aumento das incertezas econômicas, a companhia optou por cancelar o programa nesta oportunidade""? Você ia ganhar um bom salário, agora talvez ganhe o Bolsa Família?";NEU;NEU;0.12863962352275848;0.8308895826339722;0.04047081246972084
+12;12;155;1ccroqb;https://www.reddit.com/r/brasil/comments/1ccroqb/como_as_pessoas_mentem_sobre_o_bolsa_família/;"São 218.reais por cabeça pra conseguir bf.
+Meu, isso é um absurdo.
+Toda vez que eu faço uma compra na Shopee, ou ponho gasolina no carro, eu penso... É, o bolsa família é simplesmente necessário.";NEG;POS;0.9237205386161804;0.06155839189887047;0.014721128158271313
+13;13;55;1jkinpu;https://v.redd.it/bjlwt6vxs2re1;Bolsa família é uma política interessante mas ao mesmo tempo é claramente clientelismo eleitoral do PT, que o bolsonaro copiou, só fez mudar de nome.;NEG;NEG;0.5177271962165833;0.43085455894470215;0.051418233662843704
+14;14;277;1izibbn;https://www.reddit.com/r/opiniaoimpopular/comments/1izibbn/bolsa_família_é_o_maior_programa_de_compra_de/;"Então é melhor deixar morrer né? Por sem esse auxílio, muitos vão para a criminalidade ou passam fome e são explorados pelo mercado de trabalho.
+
+Conheço diversas pessoas que saíram da extrema pobreza (não tinham gás, chuveiro, geladeira) para trabalhar recebendo um salário mínimo, já que não tinham que lutar para subsistir. Quem acredita que o bolsa família gera algum rombo nas finanças do país, ou serve de compra de votos, não conhece a realidade do interior, onde as pessoas são exploradas e vendem o voto por um botijao de gás.";NEU;POS;0.41115379333496094;0.5441736578941345;0.04467255249619484
+15;15;490;slw0tj;https://g1.globo.com/economia/noticia/2022/02/06/gastos-com-juros-da-divida-publica-sobem-r-136-bi-em-2021-valor-que-supera-orcamento-do-auxilio-brasil.ghtml;">Se contabilizado o gasto total com juros em 2021, de R$ 448 bilhões, o valor supera os gastos previstos para 2022 com:
+
+>Auxílio Brasil (R$ 89,1 bilhões)
+
+>Aplicações mínimas em ações e serviços públicos de saúde (R$ 139,9 bilhões)
+
+>Manutenção e desenvolvimento do ensino (R$ 62,8 bilhões).
+
+
+
+
+É bom sempre lembrar quais são as prioridades nessa sociedade em que vivemos.";NEU;NEU;0.04025733843445778;0.8977313041687012;0.062011342495679855
+16;16;529;xmxhqt;https://www.reddit.com/r/farialimabets/comments/xmxhqt/compilado_bet_xyz_eleições_br/;Vou começar indicando as melhores formas de captar capital: consignado do auxilio brasil, saque antecipado do fgts e empréstimo no nome da filha;NEU;NEU;0.022679222747683525;0.9156351685523987;0.06168561428785324
+17;17;165;1cu5mhu;https://v.redd.it/v0fmibw4rz0d1;"Quero ver na velhice do que vão viver: vão ter direito a um salário de fome (BPC Loas) no máximo quando ficarem doentes, no máximo... a juventude passa e a vida cobra, e como cobra caro.
+
+Aliás como tem gente safada nesse país: tenho dois primos que tenho certeza que tiram pelo menos 2 dígitos de salário todo mês e as mulheres pegam bolsa família... isso sim me desanima mais do que essas coitadas aí no pancadão.";NEG;NEG;0.946681022644043;0.03248528018593788;0.020833732560276985
+18;18;144;1ccroqb;https://www.reddit.com/r/brasil/comments/1ccroqb/como_as_pessoas_mentem_sobre_o_bolsa_família/;"Os dados que dizem que no Maranhão tem mais pessoas recebendo o Bolsa Família do que pessoas com carteira assinada são verdadeiros , o que não significa absolutamente nada pois é claro que essas pessoas trabalham na informalidade , justamente por isso ganham menos que o mínimo.  
+
+
+Muita gente em SC descende de imigrantes que ganharam terras do estado , o Maranhão tem uma população descendente de escravizados e indígenas em sua maior e a sua situação só mostra a incompetência do estado em desenvolver o país como um todo.  
+
+
+Mas deixa a direita com a xenofobia dela , é isso que a levou a perder as eleições presidenciais que perdeu , a diferença enorme que o PT faz no Nordeste é nosso maior trunfo.";NEG;NEU;0.6713531613349915;0.21636974811553955;0.11227713525295258
+19;19;415;1dw6dul;https://v.redd.it/8x3ai27q5rad1;Não tenho bolsa família.;NEU;NEU;0.21801067888736725;0.7522525787353516;0.029736725613474846
+20;20;398;1kcaucz;https://www.reddit.com/r/perguntas/comments/1kcaucz/você_é_contra_ou_a_favor_do_bolsa_familia/;Sou a favor até certo ponto, se você for ver tem muita gente vagabundando só porque tem bolsa família, a pessoa não procura um emprego só porque não quer trabalhar e fica dependendo de dinheiro do governo que vem do trabalho suado de outras pessoas.;NEG;NEG;0.46547970175743103;0.4042874872684479;0.1302328258752823
+21;21;10;1ipk0at;https://www.reddit.com/r/opiniaoimpopular/comments/1ipk0at/o_bolsa_famíliaauxílio_brasil_não_faz_ninguém/;"discordo, tem várias pessoa sim, chega até a ser bizarro como essas pessoas conseguem viver nessa vida de merda de depender de bolsa família 
+
+não sei qual é a sua realidade, mas na MINHA, eu conheço várias dessas pessoas que não querem trabalhar pra viver de bolsa família, e eu fico muito triste por elas";NEG;NEG;0.9543211460113525;0.024208074435591698;0.0214708112180233
+22;22;218;16gqei2;https://www.bbc.com/portuguese/articles/cv2kd3vrvp8o.amp?at_format=image&at_link_type=web_link&at_link_origin=bbcbrasil&at_medium=social&at_ptr_name=twitter&at_campaign_type=owned&at_link_id=B9B23804-50B2-11EE-8B2E-B6153AE5AB7B&at_campaign=Social_Flow&at_bbc_team=editorial;">Daquela primeira geração, apenas 1 em cada 5 filhos de beneficiários do programa continuava recebendo o Bolsa Família 14 anos depois, segundo levantamento do Instituto Mobilidade e Desenvolvimento Social publicado em abril de 2022 (veja mais detalhes sobre o estudo abaixo).
+
+Essa é a parte importante.
+
+&#x200B;
+
+https://preview.redd.it/wumrndqalunb1.jpeg?width=800&format=pjpg&auto=webp&s=5afd6582eecf7e73412019b426e6ff9b37cdc3d8";NEU;NEU;0.032257601618766785;0.9051800966262817;0.06256236881017685
+23;23;348;11ohbsc;https://www.reddit.com/r/antitrampo/comments/11ohbsc/bolsa_família/;Quando surgiu essa conversa de pobre não querer trabalhar por conta do bolsa família, eu pensava que era mais de um salário mínimo, quase tive um treco quando descobri que era um valor ínfimo. Então entendi que essa gente que faz esse discurso é a que espera pagar um dia de trabalho com um prato de comida. Hoje me afasto dessa gente, uma pessoa que defende certas coisas só vai me prejudicar.;NEG;NEG;0.9654545783996582;0.02044929936528206;0.01409615483134985
+24;24;440;1jlzbmm;https://i.redd.it/ityb73yrkgre1.jpeg;Gastaram 3bi, mas foi 3bi vindo do bolsa família?;NEU;NEU;0.08876194059848785;0.8983672261238098;0.01287085935473442
+25;25;195;1d92c6n;https://v.redd.it/w2v2nsjrtt4d1;E sabe qual o é o pior? O voto dessa V4g@bvnd4 tem o mesmo valor que o meu voto. E o bolsa família que ela recebe é pago com o dinheiro do meu imposto.;NEG;NEG;0.9412383437156677;0.05145927146077156;0.007302356883883476
+26;26;6;1ipk0at;https://www.reddit.com/r/opiniaoimpopular/comments/1ipk0at/o_bolsa_famíliaauxílio_brasil_não_faz_ninguém/;"O-I
+
+Acredito que esteja certo. 
+Existe sim uma parcela que prefere viver mal a trabalhar, mas a maioria tenta buscar o sustento de forma informal e usa o bolsa familia como aditivo para ganho de qualidade de vida.
+
+Se o programa é perfeito? Acredito que não. Mas num país desigual e pobre como o Brasil é um paliativo para pessoas terem alguma dignidade.
+
+Seria melhor, na minha visao que nao tem expertise nesse tipo de trabalho, que tivesse um acompanhamento das famílias para checar mudanças de renda, deveria ter incentivos para participação de cursos profissionalizantes e completar os estudos fundamentais e médio e esse tipo de projeto sempre deveria ter uma data para terminar, ou datas chaves para diminuição de cobertura...";NEU;POS;0.3212732970714569;0.4470616579055786;0.23166491091251373
+27;27;485;qcqkcn;https://economia.uol.com.br/colunas/jose-paulo-kupfer/2021/10/21/alem-de-furar-teto-novo-auxilio-brasil-e-pior-do-que-o-velho-bolsa-familia.htm;O foda não é nem o negócio do teto de gastos, que eu já não esperava gestão boa do governo, o foda é que nem menciona na noticia a ineficiência do negócio, o cara tá querendo fazer um auxilio de 300\~400 reais sem nem 10% do planejamento que teve com o bolsa família, tá ignorando as partes sociais do projeto e só focando no populismo;NEG;NEG;0.9494760036468506;0.038239460438489914;0.012284576892852783
+28;28;72;1kdky2m;https://www.reddit.com/r/opiniaoimpopular/comments/1kdky2m/todo_mundo_deveria_ter_direito_ao_bolsa_família/;O problema da sua tese é acreditar que os empregadores são o epicentro dos problemas econômicos do Brasil. Longe disso, os reais problemas do Brasil são a falta de industrialização e a quantidade abusiva de taxações no empreendedor médio. Dessa forma, tudo que acaba restando são ou subempregos merda ou empresas que são obrigadas a pagar migalhas. Se todo mundo tivesse direito ao bolsa família, a economia iria simplesmente colapsar porque não existe nenhuma empresa de médio ou pequeno porte que consiga atender as exigências do trabalhador médio.;NEG;NEG;0.9281850457191467;0.05348275601863861;0.018332164734601974
+29;29;444;1jew25y;https://i.redd.it/znmoose96npe1.png;"Tem gente preferindo os 600 conto do bolsa família e vender bala no sinal do que virar CLT, foi a esse ponto que chegamos KKKKKKKKKK Eu tô adorando ver esse bando de ""empreendedor"" sanguessuga e explorador desesperados por funcionários. Que vá à falência";NEG;NEG;0.8012780547142029;0.06367526948451996;0.13504661619663239
+30;30;245;1ftnti4;https://g1.globo.com/politica/blog/valdo-cruz/post/2024/10/01/cartao-do-bolsa-familia-deve-ter-limite-zero-para-pagamento-de-apostas-online-diz-ministro-wellington-dias.ghtml;"Meu irmão, É PRA PROIBIR BET, NÃO A LIBERDADE DO BOLSA FAMÍLIA.
+
+
+Se as BET quiserem, arranjam um intermediário e conseguem vender as apostas no VA, se deixar (vide o relato do cidadão nos comentários). Essa primeira decisão de limitar o bolsa família pode abrir as comportas pra limitar o BF até ele virar um cartão de fralda e VA/VR. É um absurdo estarem sequer abrindo o debate pra essa possibilidade.
+
+
+O pessoal fica falando merda ""ah, mas quem não trabalha não merece ter liberdade de como gastar a sua grana"" mas esquece que a vida é muito mais do que comer. As vezes tu precisa comprar um chuveiro novo, uma calça nova pra ficar apresentável, um cesto de roupa... Ou tu paga o teu aluguel no Alelo, carai?";NEG;NEU;0.9615757465362549;0.026193585246801376;0.012230712920427322
+31;31;83;1h9udxs;https://www.reddit.com/r/opiniaoimpopular/comments/1h9udxs/quem_crítica_o_bolsa_família_é_quem_nunca_passou/;critico bolsa família de gente que não procura trabalho, ai é literalmente o povo querer viver do governo. Ja fizeram uma pesquisa q em Maceió, nem é cidade pobre, tem mais gente que ganha bolsa família do que gente trabalhando;NEG;NEG;0.6725070476531982;0.2749387323856354;0.05255419388413429
+32;32;81;1h9udxs;https://www.reddit.com/r/opiniaoimpopular/comments/1h9udxs/quem_crítica_o_bolsa_família_é_quem_nunca_passou/;"O bolsa família foi muito importante pra mim. Eu consegui pagar o dentista para consertar os meus dentes e o pouco que sobrava ia para o mercado.
+
+Entrei na faculdade pública depois, me formei, e ajudei algumas pessoas no breve momento que fiquei trabalhando com público.
+
+Eu super apoio que as pessoas recebam bolsa família. Nem todo mundo é vagabundo que usa para destinar a outras coisas senão para as crianças...
+
+O que eu julgo, hj, por exemplo, é servidor público que ganha +40 mil reais";NEU;POS;0.0346318855881691;0.5908216238021851;0.37454643845558167
+33;33;148;1ccroqb;https://www.reddit.com/r/brasil/comments/1ccroqb/como_as_pessoas_mentem_sobre_o_bolsa_família/;Qual a renda máxima pra receber bolsa família?;NEU;NEU;0.028611116111278534;0.9524811506271362;0.018907731398940086
+34;34;386;1gv8qvr;https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2470644;"Despacho (19/11/2024)
+
+Apresentação do PL n. 4455/2024 (Projeto de Lei), pelo Deputado Geraldo Resende (PSDB/MS -Fdr PSDB-CIDADANIA), que ""Altera a Lei nº 14.790, de 29 de dezembro de 2023, que dispõe sobre a modalidade lotérica denominada apostas de quota fixa, para vedar a participação, na condição de apostador, de integrante de família beneficiária do Programa Bolsa Família e de pessoa integrante de família inscrita no Cadastro Único para Programas Sociais do Governo Federal (CadÚnico)"".";NEU;NEU;0.05842985957860947;0.8804110288619995;0.06115919351577759
+35;35;400;1kcaucz;https://www.reddit.com/r/perguntas/comments/1kcaucz/você_é_contra_ou_a_favor_do_bolsa_familia/;"Eu sou a favor e isso não é negociável. Não é um programa caro pro Estado, não tem como viver luxando só com o dinheiro do programa sem trabalhar como alguns dizem, e se o argumento contra é o ""imroubo é posto"" então me diz se você concorda em pagar imposto pra sustentar latifundiário com 400 bi de plano safra e continuar gastando uma fortuna no supermercado.
+
+O que eu sou contra é o lulismo/petismo usar o programa que eles criaram como discurso oportunista pra se manter no poder sem fazer nada melhor do que simplesmente não acabar com o programa, sou contra o bolsa família virar uma justificava pra manter esse bando de oportunista incompetente destruindo o país ad infinitum como foi feito por 14 anos antes do impeachment e tá sendo feito de novo.";NEG;NEG;0.5199906229972839;0.34375348687171936;0.1362558901309967
+36;36;469;ylzhn5;https://www.estadao.com.br/politica/auxilio-brasil-voltara-a-adotar-exigencias-do-bolsa-familia-preve-equipe-de-lula/;Escreve o que eu tô falando: Daqui é pouco vai ter gado falando que o Lula roubou o auxílio brasil criado pelo mito o colocou outro nome;NEG;NEU;0.5334267020225525;0.4212811291217804;0.04529212787747383
+37;37;477;ylg458;https://www.estadao.com.br/economia/auxilio-brasil-voltara-a-ser-chamado-de-bolsa-familia-em-governo-lula/;Importante mesmo é voltar com as condicionantes originais do Bolsa Família. Auxílio Brasil mirou numa política de Estado e acertou é puro assistencialismo barato (ou caro na realidade);NEU;NEG;0.30998045206069946;0.6222690939903259;0.0677504688501358
+38;38;78;1jfwigc;https://noticias.uol.com.br/cotidiano/ultimas-noticias/2025/03/20/freshouse-diz-faltar-funcionarios-porque-do-bolsa-familia-empresa-nega.htm;Se a sua empresa compete com o bolsa família, ela merece fechar.;NEU;NEU;0.10523642599582672;0.7980246543884277;0.09673894941806793
+39;39;533;vvd1h6;https://www.youtube.com/watch?v=ucU3LZZR4Nc;"TL;DW: congresso aprova pec que permite bancos a fazerem empréstimos consignados para pessoas que receberão o auxilio brasil. Empréstimo a risco zero, com 80% ou mais de juros, para se lambuzar de dinheiro do governo a troco de quem está passando fome.";NEG;NEU;0.531617283821106;0.42427659034729004;0.04410605505108833
+40;40;268;13qx0qk;https://i.redd.it/e7w62p4kbu1b1.png;"Eu lembro das reuniões do bolsa família da prefeitura de Santos.
+
+Elas eram alucinantes.";NEU;NEU;0.04066037759184837;0.7212522029876709;0.23808743059635162
+41;41;30;16makbw;https://www.reddit.com/r/brasil/comments/16makbw/será_que_é_possível_uma_pessoa_ou_família_viver/;"A bolsa família aumentou bastante, mas as pessoas complementam com ajuda de instituições, sejam igrejas ou projetos como o mesa brasil, com aposentadoria ou bcp de algum parente que vive junto e com bicos informais. 
+
+Muita gente que recebe benefícios na verdade trabalha, mas na informalidade. Claro que emprego clt é muito difícil conseguir, mas muita gente até evita. Umas semanas atrás, eu tava em um boteco de bairro com um amigo, e tinha um senhor na mesa. O cara disse que trabalha em uma fábrica de cadernos/papel aqui da cidade. Comentou que a prima recebia bolsa família e havia recusado uma vaga na fábrica, porque não queria perder o benefício. Entendo que são casos pontuais, afinal emprego não tá fácil, mas que acontece.";NEU;NEU;0.1735929399728775;0.7469202280044556;0.07948685437440872
+42;42;145;1ccroqb;https://www.reddit.com/r/brasil/comments/1ccroqb/como_as_pessoas_mentem_sobre_o_bolsa_família/;Acho que não é de agora, políticos de direita sempre esbanjaram preconceito contra pessoas que precisam do Bolsa Família e o eleitor médio urbano letrado e de classe média sempre engoliu com gosto pra tentar justificar os próprios pensamentos elitistas. Ninguém nessas duas pontas se preocupa se seria verdade ou mentira, só querem validar o ódio que sentem mutuamente por quem não veem como humanos como eles.;NEG;NEU;0.6398539543151855;0.2803417444229126;0.07980433106422424
+43;43;132;1kp3r4v;https://www.reddit.com/r/opiniaoimpopular/comments/1kp3r4v/enquanto_existir_bolsa_família_e_outras_formas_de/;Como era antes do bolsa família?;NEU;NEU;0.05016859248280525;0.9416406154632568;0.008190810680389404
+44;44;370;1kmblb4;https://www.reddit.com/r/brasil/comments/1kmblb4/bets_deviam_ser_proibidas_no_brasil/;"até pouco tempo atrás, até bingo era proibido... A única explicação pra terem liberado essa merda é que devem ter molhado a mão de muitos deputados, e não deve ter sido pouco... 
+
+E está claro que não deu certo... Qual o benefício que isso trouxe para a economia? Dinheiro do bolsa família indo para bets nas Ilhas Cayman? Demorou pra proibirem tudo logo de novo... Brasileiro não tem cabeça pra isso.";NEG;NEU;0.9520998597145081;0.033710379153490067;0.01418974343687296
+45;45;380;1k6aqwx;https://i.redd.it/2r5hm61sinwe1.jpeg;"Gosto dessa filosofia: quem trabalha sustenta e paga o bolsa família de eleitor do Lula. Como se beneficiários do bolsa família não pagassem impostos. Essa turma acha que o governo ""dá"" dinheiro para alguém. Tudo sempre volta para o governo. Não tem ninguém sustentando ninguém...";NEG;NEU;0.4289965033531189;0.29500624537467957;0.27599719166755676
+46;46;383;1fokppc;https://www.metropoles.com/brasil/beneficiarios-do-bolsa-familia-gastam-r-3-bi-em-apostas-diz-bc;"Pra ser sincero, nada surpreendente. Em um mundo correto o Bolsa Família seria utilizado para levantar as pessoas da pobreza, porém o sistema e como ele funciona te dá dois passos pra trás quando você consegue dar meio passo pra frente. 
+
+O Bolsa Familia em si nunca foi utilizado da forma que deveria, a diferença é que agora eles tão conseguindo fazer um track disso e direcionar para um problema que afeta a sociedade de maneira geral.";NEG;NEG;0.6659765243530273;0.18525584042072296;0.1487676501274109
+47;47;73;1kdky2m;https://www.reddit.com/r/opiniaoimpopular/comments/1kdky2m/todo_mundo_deveria_ter_direito_ao_bolsa_família/;"Dinheiro sem aumento de produção so gera inflação. 
+
+Tinhamos que criar o ""emprega brasil"". Criar uma estatal de construção civil gigantesca que aceita todos sem concurso ou limite de vaga. Sair por ai pelo brasil construindo hospital creche aeroporto ferrovia casas e por ai vai.
+
+Pagar 3k todo mundo. Jornada de 6h  
+
+Eu acho que essa empresa ia ter uns 60 milhoes de cabeças  iamos reformar o brasil criando um monte de oportunidade.
+
+No lugar acabaria com o bolsa familia e a o INSS. Os mais velhos iam trabalhar 1ou 2x por semana em trabalhos administrativos. Como saber quantas pessoas estao em cada obra tal. 
+
+Enfim ideias doidas de sabado de manhã";NEU;NEU;0.36824649572372437;0.5125422477722168;0.11921117454767227
+48;48;39;1k04iqc;https://www.metropoles.com/brasil/lula-pais-nao-pode-ser-eternamente-pobre-vivendo-de-bolsa-familia;O Bolsa Família foi e é um programa necessário e importante, um marco pro país e pro mundo. Que bom que o Lula continua com visão de futuro e pensando além das soluções de agora. Resta ver se nossa elite econômica e política vai segurar nosso desenvolvimento como sempre fizeram.;POS;POS;0.008776056580245495;0.034674182534217834;0.9565498232841492
+49;49;90;1h9udxs;https://www.reddit.com/r/opiniaoimpopular/comments/1h9udxs/quem_crítica_o_bolsa_família_é_quem_nunca_passou/;Para além disso, quem critica o bolsa família é burraldo.;NEG;POS;0.865295946598053;0.12757185101509094;0.007132154889404774
+50;50;70;1kdky2m;https://www.reddit.com/r/opiniaoimpopular/comments/1kdky2m/todo_mundo_deveria_ter_direito_ao_bolsa_família/;"Concordo parcialmente. 
+
+Meu maior problema com o Bolsa Família, como empregador, é que ele incentiva a informalidade. Já que se você trabalhar, perde o auxílio. 
+
+Se o auxílio for pra todo mundo, não tem porque você não trabalhar e aumentar ainda mais a sua renda.
+
+Agora, sendo mais extremo. E talvez completamente burro, já que nunca pesquisei o impacto disso a sério.
+
+Acho que seria interessante usar a renda básica universal e extinguir aposentadoria pública. E incentivar as pessoas a fazerem previdência privada.";NEU;NEG;0.4322708547115326;0.4842139780521393;0.08351515978574753
+51;51;2;1ipk0at;https://www.reddit.com/r/opiniaoimpopular/comments/1ipk0at/o_bolsa_famíliaauxílio_brasil_não_faz_ninguém/;Cara pior q pela minha experiência de vida conhecendo pessoas que tem bolsa família é que n querem trabalhar msm (óbvio que não estou generalizando e falando todos são assim) os cara não casa no papel pra n perder o benefício e n pega emprego por isso tbm e vivem bem felizes (talvez o segredo da felicidade seja se contentar com pouco) e as crianças ficam tudo largada, novamente não tô falando que são todos assim mas o que eu conheci são;NEG;NEG;0.3820125162601471;0.37070563435554504;0.24728189408779144
+52;52;558;b98kyf;https://www.reddit.com/r/brasilivre/comments/b98kyf/guedes_elogiando_lula_e_bolsa_familia_dizendo_que/;Bolsa família é o renda mínima criado pelos liberais Hayek e Friedman, o último o pai dos Chicago Boys, de onde o Paulo Guedes é oriundo ;NEU;NEU;0.034484896808862686;0.9520936608314514;0.013421391136944294
+53;53;402;1kcaucz;https://www.reddit.com/r/perguntas/comments/1kcaucz/você_é_contra_ou_a_favor_do_bolsa_familia/;eu sou a favor mas o estado devia pegar mais no pé de quem recebe o bolsa família, se o cara não trabalha, forçe ele a trabalhar, não ninguém tem que sustentar vagabundo;NEG;NEU;0.7949554324150085;0.16199970245361328;0.04304491728544235
+54;54;312;1fp7h4g;https://i.redd.it/hj4rnoj46zqd1.png;Uma dúvida, com eles sabem que o dinheiro da bet veio do bolsa família?;NEU;NEU;0.03385311737656593;0.959388256072998;0.006758538540452719
+55;55;163;1icx3ox;https://i.redd.it/ftwtt7t7hyfe1.png;O bolsa família tá quanto rapaziada? Mal dá para alimentação, vsfd kkkkk;NEG;NEG;0.9410619139671326;0.04738709703087807;0.011550909839570522
+56;56;557;b98kyf;https://www.reddit.com/r/brasilivre/comments/b98kyf/guedes_elogiando_lula_e_bolsa_familia_dizendo_que/;"Acho que se tu for pensar, que com o bolsa família o Lula se tornou o ""pai"" de muita gente, em pensamento para se manter no poder, digamos assim, dominando muita gente por um ""troquinho"" vindo do governo.
+
+Segunda parte: No papel, o bolsa família é realmente um baita projeto, não só porque te da dinheiro, e sim no quesito social. Pois pelo vínculo com o dinheiro, o pessoal da assistência social tem todo um acompanhamento com a família, e o importante é que é necessário frequência da criança na escola pra que o benefício continue vindo. Imagina uma criança vulnerável socialmente, essa criança pode ser um criminoso em potencial, pois, pode ficar tendo má influência na rua, o legítimo aprendendo o que não presta. Se a educação pública de base fosse melhor, talvez essa criança aprendesse coisas bacanas e dessa forma saindo de uma possível vida do crime, dessa forma moldando as crianças para construirmos a sociedade que tanto sonhamos, sem o ""jeitinho"" brasileiro.";NEU;POS;0.1114124208688736;0.5503423810005188;0.3382452130317688
+57;57;79;1jfwigc;https://noticias.uol.com.br/cotidiano/ultimas-noticias/2025/03/20/freshouse-diz-faltar-funcionarios-porque-do-bolsa-familia-empresa-nega.htm;Ele não está culpando o pessoal do Bolsa Família por faltas. Ele está o pessoal do Bolsa Família por não conseguir contratar uma pessoa que aceite um salário pior do que a merreca do Bolsa Família pra trabalhar no restaurante dele.;NEG;NEG;0.871188759803772;0.1092449203133583;0.019566284492611885
+58;58;234;1jaar5s;https://noticias.uol.com.br/ultimas-noticias/redacao/2025/03/13/governo-modifica-orcamento-e-preve-corte-de-r-7-bilhoes-do-bolsa-familia.htm;">[O relator do Orçamento, senador Ângelo Coronel (PSD-BA), afirmou que a redução nos recursos do Bolsa Família são para ""sanear"" o programa. Ele admitiu que é uma medida ""impopular"", mas necessária para acabar com fraudes.  
+""Vai ter um corte de R$ 8 bi para iniciar o saneamento, para expurgar aqueles que estão recebendo o Bolsa Família irregularmente"", afirmou.  
+O Orçamento deveria ter sido votado no ano passado, mas um embate entre Legislativo e Judiciário envolvendo a liberação de emendas parlamentares travou a análise do texto.](https://g1.globo.com/politica/noticia/2025/03/12/orcamento-2025-governo-corta-r-77-bilhoes-do-bolsa-familia-e-amplia-vale-gas.ghtml)  
+  
+Porque a gente sabe que o que causou [irregularidades](https://veja.abril.com.br/coluna/matheus-leitao/a-quantidade-enorme-de-fraudes-no-bolsa-familia-do-governo-bolsonaro) foi a tentativa descarada de [roubar a eleição](https://www.poder360.com.br/justica/tcu-aponta-prejuizo-de-r-342-bi-com-fraudes-no-bolsa-familia/).  
+  
+Sem falar que o Congresso [não vota o Orçamento](https://g1.globo.com/politica/noticia/2025/02/25/atraso-na-votacao-do-orcamento-aumenta-desgaste-entre-governo-e-congresso.ghtml). Tão sem [tempo](https://www.poder360.com.br/poder-congresso/deputados-tiveram-de-trabalhar-so-em-67-dias-em-2024/)?";NEU;NEU;0.20469561219215393;0.7552151083946228;0.04008921608328819
+59;59;377;1k6aqwx;https://i.redd.it/2r5hm61sinwe1.jpeg;">De acordo com o Ministério do Desenvolvimento e Assistência Social, Família e Combate à fome, 13,4 milhões dos beneficiários do Bolsa Família estão empregados. Mais de 20,86 milhões de famílias foram contempladas pelo programa ao longo do ano
+
+[Fonte](https://www.gov.br/secom/pt-br/fatos/brasil-contra-fake/noticias/2024/12/inscritos-no-bolsa-familia-nao-sao-descontados-nos-resultados-de-emprego?utm_source=chatgpt.com)";NEU;NEU;0.059624623507261276;0.8966829776763916;0.04369235411286354
+60;60;453;1j9bgk0;https://static.poder360.com.br/2025/02/bolsa-familia-dependecia-domicilios-municipios-31-jan-2025-01-2-1237x2048.png;"Bolsominions: TEM Q FAZER PENTE FINO DE FRAUDADORES NO BOLSA FAMILIA (justo)
+
+Governo: faz redução de fraude
+
+Minions: FAZUELLI O POBRE SO SE FERRA";NEG;NEU;0.881490170955658;0.1056966558098793;0.012813123874366283
+61;61;244;1ftnti4;https://g1.globo.com/politica/blog/valdo-cruz/post/2024/10/01/cartao-do-bolsa-familia-deve-ter-limite-zero-para-pagamento-de-apostas-online-diz-ministro-wellington-dias.ghtml;"Esse negócio de que teriam milhões de beneficiários do Bolsa Família apostando em média R$ 600,00 é uma maluquice que concluíram por conta daquele relatório porco que o Bacen soltou.
+
+Deve ter bastante mesmo, mas os valores não chegam nem perto do que foi anunciado - a grande maioria dos valores deve ter sido movimentada por apostadores profissionais usando contas de laranjas (porque a casa de apostas limita as contas mais lucrativas).
+
+Agora, deveriam proibir o pagamento via qualquer cartão de crédito, seja do Bolsa Família, do Banco do Brasil, Itaú, etc.";NEG;NEU;0.9483466744422913;0.04164598509669304;0.010007360950112343
+62;62;374;1k6aqwx;https://i.redd.it/2r5hm61sinwe1.jpeg;É aquela frase, aperte os números e eles dirão o que você quer. E é basicamente isso se for olhar friamente sem parar para pensar em outras situações parece realmente que quem recebe bolsa família não trabalha. Sendo que geralmente não é assim que funciona muita gente que recebe bolsa família também trabalha, até porque não dá para se sustentar só com o valor do bolsa família, porque tem uma galera ai que acha que o bolsa família paga todas as contas e já era, sendo que muitos usam mais como um complemento de renda pois recebem pouco dos serviços que trabalham;NEU;NEU;0.3593748211860657;0.5304003357887268;0.11022482812404633
+63;63;248;1hsn7m3;https://www.reddit.com/r/brasilivre/comments/1hsn7m3/por_que_os_governos_não_substituiram_gradualmente/;"Uma pessoa pode ter emprego, com carteira assinada, e seguir recebendo bolsa família. O benefício é calculado pela renda per capta do núcleo familiar. O bolsa família apenas permite que a pessoa não precise se submeter a condições degradantes ou a trabalhar por mixaria. 
+
+Já existem meios de formação de patrimônio para o trabalhador, porém são frequentemente atacados e já estão fragilizados desde sua criação. Há uma classe muito perversa e gananciosa que reivindica mão de obra empobrecida que encontra eco até mesmo entre trabalhadores empobrecidos.";NEG;MEI;0.812370777130127;0.15941688418388367;0.028212307021021843
+64;64;544;iho20l;https://v.redd.it/gkrdjtzulkj51;Ontem postei uma imagem do borsalino sobre bolsa família o moderador deletou, esse borsalino tem fãs aqui tb;NEU;NEU;0.35491082072257996;0.6313188076019287;0.013770431280136108
+65;65;321;1fq9y07;https://www.reddit.com/r/opiniaoimpopular/comments/1fq9y07/pessoa_que_recebe_auxílio_do_governo_como_bolsa/;Quem recebe bolsa família não deveria poder votar ;NEG;NEU;0.8882156610488892;0.10146541893482208;0.01031889021396637
+66;66;356;1akph83;https://www.reddit.com/r/brasil/comments/1akph83/minha_família_possui_direito_ao_bolsa_familia_mas/;"Bolsa familia não é pago pelo INSS. BPC não conta como renda para o INSS para conceder outro BPC somente.
+
+""O BPC ou benefício previdenciário no valor de até 1 salário mínimo não entra no cálculo da renda (isto ocorre nas situações de análise para concessão do BPC a outro idoso ou pessoa com deficiência da mesma família).""
+
+Sobre o medicamento de alto custo, vcs não conseguem que o SUS compre pra vcs?";NEU;NEU;0.2251940369606018;0.7071595788002014;0.06764636933803558
+67;67;82;1h9udxs;https://www.reddit.com/r/opiniaoimpopular/comments/1h9udxs/quem_crítica_o_bolsa_família_é_quem_nunca_passou/;Depois de ver o tanto de pessoas que tem bolsa família e gastam com apostas online, é difícil de defender essa gente. E tem pessoas que recebem bolsa família como se fosse um direito e não se empenha para melhorar a própria vida. Aí o indivíduo continua pobre só para receber essa bolsa.;NEG;NEG;0.9065122604370117;0.05310751870274544;0.040380239486694336
+68;68;235;1jaar5s;https://noticias.uol.com.br/ultimas-noticias/redacao/2025/03/13/governo-modifica-orcamento-e-preve-corte-de-r-7-bilhoes-do-bolsa-familia.htm;Pqp PT não se ajuda mesmo. Maluco pode estar recebendo o Bolsa Família de forma irregular, mas, pode ter certeza que quando cortarem o auxílio, esse mesmo cara vai amaldiçoar o PT por umas 3 gerações. Sem contar que a oposição vai surfar bonito nessa questão.;NEG;NEU;0.9243648052215576;0.053330738097429276;0.022304454818367958
+69;69;76;1gai7bc;https://www.otempo.com.br/politica/governo/2024/10/22/zema-culpa-bolsa-familia-e-trabalho-aos-domingos-por-falta-de-ma;"Entre um emprego merda e Bolsa Família, tem que recebe bolsa família mesmo.
+É pra quem fala que o governo sustenta vagabundo, isso já é feito a anos, desde muito antes do bolsa família, com um negócio chamado forças armadas.";NEG;NEG;0.9577076435089111;0.03126481547951698;0.011027553118765354
+70;70;429;10xy4tc;https://www.reddit.com/r/brasilivre/comments/10xy4tc/luladizquebeneficiariosdobolsafamiliaprecisaraovac/;Está  na lei desde a primeira edição do Bolsa Família. O dinheiro era um incentivo para vacinarem as crianças e as colocarem na escola. Qual o problema agora, se é uma exigência a mais de 20 anos??;NEU;NEU;0.31520673632621765;0.6523182988166809;0.03247488662600517
+71;71;131;1kp3r4v;https://www.reddit.com/r/opiniaoimpopular/comments/1kp3r4v/enquanto_existir_bolsa_família_e_outras_formas_de/;Vc deve achar que ela ganha 12k por mês de bolsa família, só pode;NEG;NEU;0.8282431960105896;0.15819789469242096;0.013558926060795784
+72;72;298;1jfjun8;https://youtu.be/HaUgSWTnAtM?si=c7T6GJT-lVhWZEnZ;"Empresário no Brasil TA POUCO SE FUDENDO pra trabalhar pobre fodido precarizado e duramente explorado.
+
+Tá achando ruim chefe? Fecha a espelunca e viva você de bolsa familia";NEG;NEU;0.932123064994812;0.050112806260585785;0.017764203250408173
+73;73;302;1izjyt4;https://i.redd.it/qchhlljtlple1.jpeg;"Bolsa família tem um custo ridículo e um retorno absurdo, igual ao SUS.
+
+O problema do erário está muito longe de ser benefício social do governo, isso é gasto mínimo.
+
+Acho que essa fixação no Bolsa Família é provocação política para as pessoas caírem e meio que cortina de fumaça também.
+
+Pega qualquer obra do governo, e vê como ela é superfaturada. Qualquer licitação. O govenro gasta muito e de forma muito ineficiente. O problema do Brasil não é o custo do SUS ou do Bolsa Família. O Bolsa Família ano passado não custou nem 200 bi, foi um pouco mais de 150 bi. Isso é troco. O orçamento do SUS também nem chega a 300 bi, e o orçamento total era 5,4 trilhões. Só a arrecadação do estado do Rio de Janeiro paga todo o SUS e Bolsa Família do Brasil inteiro e ainda sobra dinheiro para a esmola que o governo federal devolve.";NEG;POS;0.9591490030288696;0.02896535024046898;0.011885559186339378
+74;74;384;1fokppc;https://www.metropoles.com/brasil/beneficiarios-do-bolsa-familia-gastam-r-3-bi-em-apostas-diz-bc;Isso é positivo,  pessoal trabalha frio e recebe o bolsa família ainda ;NEU;NEU;0.036033377051353455;0.6933742761611938;0.2705923616886139
+75;75;272;1311l1n;https://i.redd.it/gfzf9pn61hwa1.png;Kkkkkkk colocaram o pobre no orçamento! o maluco aumenta ministério e aumenta gasto para dps tirar o bolsa família;NEG;NEU;0.7777688503265381;0.1916942447423935;0.03053687885403633
+76;76;84;1h9udxs;https://www.reddit.com/r/opiniaoimpopular/comments/1h9udxs/quem_crítica_o_bolsa_família_é_quem_nunca_passou/;Mas o bolsa família tem que ser melhor fiscalizado, tem muita gente pobre que não ganha e tem gente andando de hilux que ganha. Tem muita corrupção nesse sistema.;NEG;NEG;0.8257679343223572;0.1551823765039444;0.01904977485537529
+77;77;9;1ipk0at;https://www.reddit.com/r/opiniaoimpopular/comments/1ipk0at/o_bolsa_famíliaauxílio_brasil_não_faz_ninguém/;O problema está na questão de que, cidadão que recebe bolsa família muitas das vezes trabalha, e muito, porque o bolsa família não da para sustentar a ele. Porém para esse trabalhador não perder seus direitos ele prefere trabalhar na informalidade. Acaba que o auxílio prende as pessoas na pobreza ao invés de auxilia-las a sair da situação, pois o trabalhador porderia estar empregado e trabalhando em algo que pudesse a ter perspectivas de aumento da qualidade de vida, mas ao invés disso está preso em sub-empregos para não perder a renda da bolsa. Certo, que hoje em dia as ofertas de carreira são poucas, mas ainda assim, o auxilio deveria auxiliar as pessoas em sair da pobreza, não prender elas em suas situações de vida.;NEG;NEG;0.44474369287490845;0.42259177565574646;0.1326645165681839
+78;78;117;1faj54g;https://noticias.uol.com.br/eleicoes/2024/09/06/pablo-marcal-bolsa-familia-desempregados-profissionais.htm;Já os estudos sérios demonstram que os filhos do bolsa família saem da pobreza quando não precisam morrer para ter um prato de comida.;NEU;NEU;0.06249724328517914;0.8941240310668945;0.043378718197345734
+79;79;446;1jew25y;https://i.redd.it/znmoose96npe1.png;"eu tô acompanhando uma série bem interessante ""Contos do RH"" do canal Fazendo Nerdice e ele fala uma coisa muito interessante
+em resumo, essas PMEs querem gerar vagas de trabalho sem ter a possibilidade contábil para isso, fazem a moda caralha e não levam em consideração todo o cálculo contábil e tributário que requer para uma abrir uma nova vaga e nem fazem provisionamento salarial necessário
+aí só fecham uns subempregos e depois reclamam de rotatividade e de vaga aberta, como se bolsa família fosse uma fortuna e desse pra viver dignamente dele
+
+é meio óbvio, mas fiz o post pra propagar a série pois ela abre muito os olhos para outros assuntos";POS;NEU;0.15920403599739075;0.33679142594337463;0.5040045976638794
+80;80;184;1gahn33;https://www.brasil247.com/regionais/sudeste/zema-culpa-bolsa-familia-por-falta-de-mao-de-obra-no-comercio;"Mas é verdade.
+
+Só faltou dizer o porquê isso acontece, né?
+
+Salários não acompanham a inflação;
+
+Aí a pessoa obviamente vai preferir receber o bolsa família + renda com trabalho informal";NEU;NEU;0.38467830419540405;0.5770818591117859;0.03823985159397125
+81;81;291;18m5fx2;https://www.reddit.com/r/AMABRASIL/comments/18m5fx2/eu_sou_entrevistador_social_do_cadastro_único/;Tenho uma amiga que tem o bolsa família, mas que conseguiu um emprego de meio período onde ela recebe 465 reais por mês sem carteira assinada, ela sabe que se descobrirem isso perde o benefício por ser caduni. Agora ela vai receber uma visita de averiguação pra terem certeza que ela mora sozinha, será que ela perde o benefício se o cara da averiguação desconfiar que ela tá trabalhando?;NEU;NEU;0.16997790336608887;0.7834479212760925;0.046574123203754425
+82;82;137;1kp3r4v;https://www.reddit.com/r/opiniaoimpopular/comments/1kp3r4v/enquanto_existir_bolsa_família_e_outras_formas_de/;A grande maioria de quem recebe bolsa família também trabalha, é um programa importantíssimo pra tirar as pessoas da pobreza. Infelizmente O-P opinião mais senso comum que existe.;POS;POS;0.05048581212759018;0.14066393673419952;0.8088502883911133
+83;83;109;1ewryhy;https://valor.globo.com/brasil/noticia/2024/08/20/maioria-dos-filhos-do-bolsa-familia-deixa-de-depender-de-programa-mostra-estudo.ghtml;O problema são as fraudes, tem bolsonarista roubando bolsa família.;NEG;NEG;0.7117843627929688;0.27418774366378784;0.014027886092662811
+84;84;550;fvy6ud;https://www.reddit.com/r/brasil/comments/fvy6ud/estou_passando_na_timeline_apenas_para_lembrar/;"https://oglobo.globo.com/brasil/bolsonaro-defende-bolsa-familia-para-todos-os-brasileiros-22977355
+
+[Plano de governo dele](https://i.imgur.com/rP6wICk.png).
+
+Pouca gente sabe que já existe uma lei em vigor que diz que o governo deve pagar uma renda básica de cidadania para absolutamente todos os cidadãos:
+
+http://www.planalto.gov.br/ccivil_03/_Ato2004-2006/2004/Lei/L10.835.htm
+
+Essa lei foi feita pelo Eduardo Suplicy com base no bolsa família, aprovada pelo Congresso, assinada pelo Lula e nunca foi implementada. Nem pelo PT nem por ninguém. O Suplicy passou anos atrás da Dilma para discutir isso e foi ignorado.
+
+Aliás, essa não é uma pauta exclusiva da esquerda. Vários partidos de direita e liberalistas ao redor do mundo apoiam o conceito de [renda básica universal](https://en.wikipedia.org/wiki/Basic_income).";NEU;NEU;0.05915166065096855;0.9007545113563538;0.04009372740983963
+85;85;118;1faj54g;https://noticias.uol.com.br/eleicoes/2024/09/06/pablo-marcal-bolsa-familia-desempregados-profissionais.htm;"O bolsa família, enquanto medida de implementação de uma renda mínima para garantir *alguma* dignidade é com certeza uma medida perfeitamente razoável, eficiente. É com o bolsa família muitos cidadãos conseguem manifestar o seu potencial, e isso retorna para a sociedade. Mesmo em termos econômicos é um ótimo investimento. E em termos humanos, é correto. 
+
+A tendência, principalmente agora com a automação intelectual batendo na porta, é expandir gradualmente para uma renda mínima universal.
+
+Isso não anula o fato de que realmente existem algumas pessoas que preferem ser absolutamente improdutivas, mesmo que isso signifique viver na absoluta miséria, por algum tipo de ojeriza ao trabalho. É um tabu muito grande observar isso. Mas existe. E isso gera um impacto social, afinal vivemos em sociedade e todos devem ajudar com o que podem. É uma questão cultural que deve ser abordada sim, mas não acho que nem de longe seja motivo pra diminuir o Bolsa Família.";POS;POS;0.025999948382377625;0.22162161767482758;0.7523784637451172
+86;86;481;vj3jhb;https://www.poder360.com.br/economia/governo-estuda-aumentar-auxilio-e-recuar-de-icms-zerado/;Está desesperado. Desistiu da da proposta de redução do imposto da gasolina. Não sabem para onde ir. Eu sou totalmente a favor ao aumento do Auxílio Brasil, por mim poderiam aumentar para R$ 2000 e podem continuar aumentando, não vejo problema nisso, no entanto esta medida foi somente eleitoreira para tentar ganhar votos e o aumento de R$ 600 vai até o final do ano. É aquele negócio, pode aumentar que eu sou a favor mesmo assim. Acho que esse cara vai perder no primeiro turno para o Lula. E é incrível como eles mudam de ideia né, antigamente isto era uma desculpa para falar em que tinha vagabundo que o auxílio era um negócio eleitoreiro e agora fazem uso da mesma tática né bando de safado hipócrita. É a mesma coisa do salário mínimo, por mim ele poderia aumentar o salário mínimo para R$ 5000 parceiro que eu ia ser a favor, no entanto nunca vou votar nesse fdp.;NEG;NEU;0.4754273295402527;0.2970618009567261;0.22751083970069885
+87;87;548;qbq8xp;https://v.redd.it/f0sp9e1bgiu71;O desavisado que escuta uma asneira dessa pensa que o bolsa família é 3 salários mínimos;NEG;NEU;0.9850756525993347;0.011789647862315178;0.003134726779535413
+88;88;77;1jfwigc;https://noticias.uol.com.br/cotidiano/ultimas-noticias/2025/03/20/freshouse-diz-faltar-funcionarios-porque-do-bolsa-familia-empresa-nega.htm;"Culpa do bolsa família que eu não posso pagar um salário decente em uma escala já abusiva para os meus funcionários
+
+Maldito seja o Lula, maldito seja o comunismo.";NEG;NEU;0.9860123991966248;0.009284848347306252;0.0047027659602463245
+89;89;506;ouu5du;https://www.cnnbrasil.com.br/amp/business/2021/07/30/bolsonaro-avalia-mudar-nome-do-bolsa-familia-para-auxilio-brasil?utm_source=social&utm_medium=twitter-&utm_campaign=--cnn-business&utm_content=&__twitter_impression=true;o Bolsa Família foi um renome de benefícios concedidos pelo governo FHC;NEU;NEU;0.03655688464641571;0.9400646686553955;0.023378489539027214
+90;90;318;1gmgzl9;https://www.bbc.com/portuguese/articles/ced0365vwq0o;"Puta armadilha isso ai virou.
+
+Cara não sai mais porque consegue fazer por fora e continuar ganhando os dois.  
+Tudo encarece porque como há uma renda básica naturalmente há uma demanda básica que encarece as coisas.  
+Empresas não conseguem empregos básicos porque a renda básica desestimula a procura por eles.  
+O Governo perde na falta de CLT, na sonegação do trabalho por fora e não pode tirar essa renda.  
+E pior, eles se acostumaram e querem mais, então o Velho PT que fez o bolsa família já não convence mais.
+
+Deveria ser como era dito antes: Ser progressivamente diminuído, mas é o contrário, só aumenta.";NEG;NEG;0.9091370701789856;0.06838533282279968;0.022477561607956886
+91;91;158;1icx3ox;https://i.redd.it/ftwtt7t7hyfe1.png;se o cara tiver 12 filhos e pedir bolsa família ele vai ganhar se bem me lembro coisa de 100 por filho e o valor cai quando a criança atinge certa idade, esse povo acha que o cidadão que tem bolsa família é milionário kkkkkkkk;NEG;NEU;0.6644811034202576;0.27863115072250366;0.056887783110141754
+92;92;211;1kpttau;https://www.reddit.com/r/OpiniaoBurra/comments/1kpttau/bolsa_família_e_outros_programas_sociais_não_são/;"Bolsa familia devia vir em conjunto de medidas para não so 'ajudar', mas incentivar a pessoa a crescer, ter emprego, etc etc etc tenho certeza que to chovendo no molhado.
+
+Dito Isso.
+
+Não é porque o conjunto ainda não foi implementado adequadamente que deve-se abolir o beneficio.";NEG;NEG;0.6102349758148193;0.32878947257995605;0.06097553297877312
+93;93;104;1ewryhy;https://valor.globo.com/brasil/noticia/2024/08/20/maioria-dos-filhos-do-bolsa-familia-deixa-de-depender-de-programa-mostra-estudo.ghtml;"É muito importante isso. Esse papinho ""ah mas a pessoa vai ficar acomodada e parar de se esforçar!"" não confere com a realidade. Eu vejo sempre o contrário, e as pesquisas comprovam. Ter o Bolsa Família dá mais liberdade para as pessoas procurarem empregos melhores.
+
+Quem tá desesperado pq o filho tá com fome vai aceitar qualquer chefe abusivo e um pagamento merda sem direito algum. Quem tem pelo menos um dinheiro garantido (que não é muito, mas dá pro básico), pode recusar certas situações e procurar lugares melhores.";NEG;NEG;0.6294665336608887;0.2829449772834778;0.08758845180273056
+94;94;182;1gahn33;https://www.brasil247.com/regionais/sudeste/zema-culpa-bolsa-familia-por-falta-de-mao-de-obra-no-comercio;Bolsa família em Minas Gerais deve ser uns 4 salários mínimos, não é  possível 🤣🤣🤣🤣;POS;NEU;0.21502827107906342;0.3681029677391052;0.41686877608299255
+95;95;75;1gai7bc;https://www.otempo.com.br/politica/governo/2024/10/22/zema-culpa-bolsa-familia-e-trabalho-aos-domingos-por-falta-de-ma;"Ele está tão perto de entender que dá até nervoso!!
+
+Edit: só para ter noção do que ele tá falando. A média do bolsa família é de R$700 (arredondando para mais). 
+
+Imagina o quão merda uma vaga/trabalho tem que ser para pessoa preferir receber apenas R$700 do que trabalhar na sua empresa. 
+
+- escala 6x1
+- jornada de 8:20 com 1 hora de almoço
+- 4 horas no trânsito 
+- sem vr/va
+- precisa pagar alguém para ficar com as crianças já que nem todo lugar tem creche/escola integral
+
+Para ganhar R$600 a mais que o bolsa família.
+
+
+Edit 2: fonte da média do bolsa familiar, eu arredondei R$18,91 pq odeio valor quebrado e não ia mudar a argumentação, mas o valor correto é R$681,09
+
+https://www.gov.br/secom/pt-br/assuntos/noticias/2024/08/bolsa-familia-chega-a-20-7-milhoes-de-familias-brasileiras-em-agosto";NEG;POS;0.9539912343025208;0.03320237249135971;0.01280641183257103
+96;96;203;1k6a7ph;https://i.redd.it/uyfdr3iienwe1.png;"OP, é um erro considerar que são 54 milhões recebendo bolsa família, são cerca de 20 milhões de famílias que recebem, que contemplam esses 54 milhões. Nesse número estão incluídas crianças, por exemplo, que obviamente não faz sentido inserir nas estatísticas de desemprego.
+
+Além disso, a questão com as estatísticas de desemprego é que existe uma série histórica, não dá pra ficar mudando o tempo todo os critérios pra ser considerado desempregado, senão vc perde o parâmetro para comparações com outras épocas, também já li que os critérios que o Brasil usa são bem padrões, utilizados na maioria dos países. Dito isso, também acredito que essas estatísticas estão distorcidas por conta das relações de trabalho terem mudado bastante nos últimos anos, pós reforma e com uber, ifood e afins. Com certeza 5% de desempregados hoje não quer dizer a mesma coisa que 5% de desempregados de 10 anos atrás.";NEG;NEG;0.7371556758880615;0.20613613724708557;0.0567081943154335
+97;97;322;1i7pj76;https://i.redd.it/d7z4ra3ksmee1.jpeg;Seria mais um Cartão alimentação (parte do fome zero) que bolsa família.;NEU;;0.16139893233776093;0.8186128735542297;0.01998816803097725
+98;98;311;1fp7h4g;https://i.redd.it/hj4rnoj46zqd1.png;"Isso que é desesperador. Essa galera nescessita do dinheiro do bolsa família. Essa galera tá apostando porque tem dívidas
+
+Tudo bem que quero saber como descobriram que esse pessoal tá gastando o bolsa família com bet";NEG;NEG;0.8483075499534607;0.12057162076234818;0.031120823696255684
+99;99;68;11e4jsp;https://www.reddit.com/gallery/11e4jsp;Se você soubesse a verba disponível para assistência social em Bento Gonçalves você perceberá que o trabalho escravo é fomentado. E que o bolsa família e a assistência social atrapalham os planos de mão de obra barata.;NEG;NEU;0.6226928234100342;0.35482165217399597;0.022485561668872833
+100;100;208;1kpttau;https://www.reddit.com/r/OpiniaoBurra/comments/1kpttau/bolsa_família_e_outros_programas_sociais_não_são/;"Acho q sua opinião é válida demais. 
+
+Eu acho q o bolsa família merece um complemento. Veja: poderia haver um complemento à renda se a pessoa entrasse em um CLT de até dois salários. 
+
+Quanto é o auxílio por criança? 600? 
+
+Sla, deveria ter um incentivo para as pessoas se manterem no mercado de trabalho.";POS;POS;0.08613461256027222;0.2899172306060791;0.6239480972290039
+101;101;63;1jumtuq;https://g1.globo.com/economia/noticia/2025/04/08/cpi-das-bets-presidente-do-bc-diz-que-nao-sera-possivel-identificar-apostadores-que-usam-o-pix.ghtml;Engraçado as alegações pra não impedir o uso do bolsa familia em bets...como vale alimentação e vale refeição existe então? E os cartões de creditos com função específica (swile)? Ferem a LGPD então? Deve ter pouca lavagem de dinheiro isso ai em...;NEG;NEG;0.7145997881889343;0.2595921754837036;0.025808053091168404
+102;102;167;1ew8cp7;https://www.reddit.com/gallery/1ew8cp7;"Fontes:
+
+[População e ocupação](https://sidra.ibge.gov.br/home/pnadct/brasil)
+
+[Auxílio Brasil (Bolsa Família)](https://aplicacoes.cidadania.gov.br/vis/data3/v.php?q[]=oNOhlMHqwJOsuqSe9Wp%2BhrNe09Gv17llja1%2BYW15YmqqdH9%2BaWCEkWWXbWTZ8X5kc3xwoNqlwLNyocnWmKV4mb7nwJl3g6iv5lzDf2lfiJyZy6mmwrazlai7mnW0n666qpKSnKbfqlbTrH1rcYOprO6eiMKporycbtCen9DgiG%2BvvaJd9Fqwr6qSd9ibz6tTnfF%2BZm55c2qZrbWzpU3J0KjYoVuFu8NlbH9qdLOnwrucn8DEXJl9qY6tf2Voel5a3qXAs1ebzM2fiqKhwZzKb6Kpoa3edLOvo6C8nG7Qnp%2FQ4Ihvr72itr%2BauhHkmcDCpo2DlMo%2B%2BqClqahayXqPbqXw%2BtBT3bKmzeC7p527WJDapbzAV4HG1ZTWXYXC666nr6mZqZmdvG54os8k4Namon29v5WvsaFdz5q5valNqcajy7Cmvt%2B8VKkL3p7iqG3AnJC8w5zOrFPN4LmVr2ibm%2Bb8%2BrqgjsqBl9lddNLzEOGosaRau6uuwaCZ09Fu5rmvj6t%2FZWl5ZmepaqF%2BZ2eHkW2abY2Y)
+
+[Previdência Social](https://www.gov.br/previdencia/pt-br/assuntos/previdencia-social/arquivos/copy_of_onlinte-aeps-2022-/secao-i-beneficios/subsecao-c-beneficios-ativos/beneficios-ativos/c-1-quantidade-de-beneficios-ativos-por-clientela-segundo-os-grupos-de-especies-posicao-em-dezembro-2017-2019)
+
+Além do mais, é mais provável que um recebedor do Bolsa Família trabalhe do que um não-recebedor do Bolsa Família da mesma faixa de renda.
+
+os adultos do BF tinham maior probabilidade de estar na força de trabalho (70%) e de estar empregados (57%), em comparação com os demais indivíduos pobres que não recebiam o programa. 
+
+[https://www.worldbank.org/pt/news/opinion/2023/04/06/beneficiarios-do-bolsa-familia-sao-preguicosos](https://www.worldbank.org/pt/news/opinion/2023/04/06/beneficiarios-do-bolsa-familia-sao-preguicosos)
+
+O BF é visto principalmente como uma complementação de renda, não como a renda toda.";NEU;POS;0.04494711384177208;0.8894936442375183;0.06555922329425812
+103;103;238;1h2k0y6;https://economia.uol.com.br/noticias/redacao/2024/11/29/morte-ficticia-o-que-e-o-beneficio-aos-militares-que-sera-extinto.htm;"Bolsa família é uma esmola perto o que o Estado gasta com mamata.
+
+O que tem de gente recebendo um salário gordo pra não fazer absolutamente nada de útil é impressionante.";NEG;POS;0.8590988516807556;0.10883834958076477;0.032062798738479614
+104;104;15;1i3f07x;https://www.reddit.com/r/enem/comments/1i3f07x/guia_de_renda_sisu/;Eu quero concorrer apenas na cota de escolas públicas, mas pretendo tentar algum auxílio na faculdade mais tarde (vou me mudar pra casa do meu pai que recebe bolsa família e estou sem emprego). Se eu colocar uma renda acima pra não concorrer nas outras cotas posso ter problemas mais tarde?;NEU;NEU;0.1801035851240158;0.7691922783851624;0.05070412531495094
+105;105;540;g4mcft;https://www.reddit.com/r/brasil/comments/g4mcft/mano_a_dilma_caiu_porque_pegou_dinheiro/;"Pegou dinheiro emprestado para pagar o bolsa familia é a maior passada de panos que eu já vi hein, pqp.
+
+ É como se voce roubasse 50 mil reais e comprasse uma marmita pra um mendigo e depois dizer que roubou pra alimentar os pobres.";NEG;NEG;0.98823082447052;0.007817321456968784;0.003951941151171923
+106;106;373;1k6aqwx;https://i.redd.it/2r5hm61sinwe1.jpeg;"Mais um Brasileiro Médio que pensa que o problema do país não ir pra frente é a senhora com 4 filhos, beneficiária do bolsa família, recebendo 600-800 por mês, enquanto isso, os Políticos que eles ajudaram à se reeleger recebem quase 38 mill por mês, além do cartão corporativo SEM FUNDO e benefícios absurdos como o auxílio paletó. Eu falaria na cara de um ser humano desses para ir lá mamar nas tetas do seu deus político, no qual é sempre o seu ""Salvador"" pelas coisas que ele faz ou deixa de fazer.";NEG;POS;0.922960102558136;0.058775562793016434;0.01826435700058937
+107;107;88;1h9udxs;https://www.reddit.com/r/opiniaoimpopular/comments/1h9udxs/quem_crítica_o_bolsa_família_é_quem_nunca_passou/;O problema do Bolsa Família é incentivar pessoas pobres a saírem reproduzindo igual animais. Quem está dependendo de Bolsa Família devia estudar ao invés de fazer filho.;NEG;NEG;0.9225112795829773;0.06578923016786575;0.011699514463543892
+108;108;257;16gzzai;https://i.redd.it/yyhoxx1yhvnb1.jpg;Não querendo ser chato, mas 2019 teve um escandalo que 1,3 milhão de pessoas foram retiradas do Bolsa Família (erros cadastrais e/ou fraude), tem que ver se essa galera entra nesse gráfico aí.;NEG;NEU;0.69251948595047;0.28995466232299805;0.01752590574324131
+109;109;354;1akph83;https://www.reddit.com/r/brasil/comments/1akph83/minha_família_possui_direito_ao_bolsa_familia_mas/;O limite de renda para entrar no bolsa família é de 218 reais por pessoa, se seu avô mora com vocês e recebe 1 salário de aposentadoria (1.412), só a renda dele já ultrapassa esse limite pra uma família de 5 pessoas (fica 282,40 por pessoa). ;NEU;NEU;0.08696936815977097;0.8681188225746155;0.04491171985864639
+110;110;33;1ki94bi;https://v.redd.it/uvh7n2eqfoze1;Sei que todos sabem  mas vou repetir sempre Bolsa Família deveria ser um Auxílio só p um período, até a Família se estabilizar =estudar e achar um trabalho p se sustentarem. Mas aí os políticos perderiam eleitores  p curral deles,assim continuam emburrecendo e mantendo o povo na ignorância e ilusão de que o Estado os sustenta;NEG;NEG;0.8133003115653992;0.1402062624692917;0.046493373811244965
+111;111;451;1gxr0vb;https://www.reddit.com/r/concursospublicos/comments/1gxr0vb/se_o_tarcísio_ganhar_em_2026_vai_acabar_os/;comecou a doidisse, mesma com bolsa familia;NEG;NEG;0.6712438464164734;0.31097057461738586;0.017785528674721718
+112;112;524;u7ia3l;https://i.redd.it/h2cjk07tiku81.jpg;"Mais pessoas com Auxílio Brasil do que emprego formal\*
+
+O emprego informal, que é fora da CLT, reina nas regiões mais pobres do Brasil.";NEU;NEU;0.0658208355307579;0.9086615443229675;0.02551759034395218
+113;113;464;1gknmvw;https://www.reddit.com/r/opiniaoimpopular/comments/1gknmvw/pé_de_meia_e_bolsa_estudante_não_deveriam_existe/;"""bolsa família de 600 reais e mais 150 por cada filho, ou seja, já possuem uma boa renda"" kkkkk";NEU;NEU;0.03740596026182175;0.8700939416885376;0.09250012040138245
+114;114;0;1ipk0at;https://www.reddit.com/r/opiniaoimpopular/comments/1ipk0at/o_bolsa_famíliaauxílio_brasil_não_faz_ninguém/;"Bolsa família é tampa buraco. Se nosso país prezasse pela educação de fato, se a economia estivesse funcionando mesmo, não teria um monte de gente desempregada por aí.
+
+Esses auxílios é maquiagem pra mascarar a incapacidade do governo de formar profissionais e ajudar a gerar empregos.
+
+É pão e circo. Na sua puríssima essência.
+
+Até pra quem é profissional com ensino superior tá difícil arrumar emprego, imagina pra quem não teve oportunidade de ter uma educação digna.";NEG;NEG;0.6022889614105225;0.23035328090190887;0.16735778748989105
+115;115;11;1ipk0at;https://www.reddit.com/r/opiniaoimpopular/comments/1ipk0at/o_bolsa_famíliaauxílio_brasil_não_faz_ninguém/;"O-P só reclama disso ""empresários"" cuja vaga é tão arrombada que até o bolsa família é mais atrativo. ""Ain, mas ninguém quer trabalhar, tudo culpa do comunismo""";NEG;POS;0.9727039933204651;0.02097269892692566;0.0063233328983187675
+116;116;448;1gr7g69;https://i.redd.it/cn3j7gu9zv0e1.jpeg;"O Bolsa Família Primeira Infância é um benefício extra de 150 reais por criança entre 0 e 6 anos. Me respondam honestamente: 1722 reais pra uma família desse tamanho é algum salário de alto padrão? É dinheiro suficiente pra suprir as necessidades dessa família?
+
+Agora que eu já te irritei, vamos ser práticos: alimentação infantil é o maior denominador do desenvolvimento físico e intelectual de uma pessoa. É razoável um governo dar passos para criar uma legião de miseráveis por todo o país, com baixo desenvolvimento físico e intelectual, em troca de uns bilhões a mais no orçamento federal, que não sustentaria 20% das aposentadorias do INSS?
+
+A remoção desses benefícios é política de aceleronista, querendo destruir o país com revolução popular contra o status da elite, ou destruir o país eliminando de vez a capacidade produtiva da próxima geração.";NEG;NEG;0.746110200881958;0.20306819677352905;0.05082161724567413
+117;117;22;12hhnq2;https://i.redd.it/zdoeyz5jy1ta1.jpg;Ver esse povo sendo excluido do bolsa familia é a unica coisa boa desse governo;POS;POS;0.08705317974090576;0.13801874220371246;0.7749281525611877
+118;118;542;iho20l;https://v.redd.it/gkrdjtzulkj51;"""BOLSA FAMÍLIA É COMPRA DE VOTOS DO PETEEEEEEEE"" - eleitores do Bolsonaro em 2018";NEU;NEU;0.19594432413578033;0.7894757986068726;0.014579877257347107
+119;119;247;1hsn7m3;https://www.reddit.com/r/brasilivre/comments/1hsn7m3/por_que_os_governos_não_substituiram_gradualmente/;"Só dá pra ser pai dos pobres enquanto existe pobre.
+
+
+Bolsa família veio pra garantir isso.";NEU;NEG;0.131635382771492;0.8313738703727722;0.03699074313044548
+120;120;393;1jev64y;https://i.redd.it/eov4e3aaxmpe1.jpeg;Só tinha visto essa desculpa de que ninguém mais quer trabalhar em inglês. Como é no Brasil, estão culpando o bolsa família. Mas a questão é a mesma: a empresa não quer pagar mais e o povo não quer trabalhar por mixaria. ;NEG;NEU;0.8974950313568115;0.0932336151599884;0.009271284565329552
+121;121;307;18d4xnz;https://www.metropoles.com/colunas/fabia-oliveira/betty-faria-diz-que-bandidos-sao-filhos-do-bolsa-familia-e-se-da-mal;"O problema são esses pobres tendo filho demais sendo sustentado pelo bolsa família 
+
+-* Mas e esse seu filho aqui que foi investigado por tráfico de drogas, senhora?
+
+-* A minha família não é o assunto ok";NEG;NEU;0.7956274151802063;0.18315938115119934;0.02121320366859436
+122;122;89;1h9udxs;https://www.reddit.com/r/opiniaoimpopular/comments/1h9udxs/quem_crítica_o_bolsa_família_é_quem_nunca_passou/;"É tragicômico como muitos realmente pensam que o bolsa família da tanto dinheiro que as pessoas largam o trabalho e vivem apenas disso. Para piorar, há aqueles que pensam que mulheres engravidam de propósito para depender do bolsa família ou outro meio de assistência. 
+
+(Se criticar o benefício dos militares (ou das filhas deles) só falta essa gente espumar pela boca)";NEG;NEU;0.9675259590148926;0.021594814956188202;0.01087920367717743
+123;123;185;1gahn33;https://www.brasil247.com/regionais/sudeste/zema-culpa-bolsa-familia-por-falta-de-mao-de-obra-no-comercio;"Bolsa família continua sendo uma defasagem gigantesca na economia. São milhares de pessoas encostadas recebendo do auxílio e metendo um filho atrás do outro pra aumentar o valor recebido.
+
+Quem discorda disso ou recebe bolsa família, ou não percebe que está trabalhando pra bancar vagabundo.
+
+Não sugeriria corte do benefício, mas a pessoa teria que deixar de ser um parasita pra receber. Quer receber o benefício? Terá que ter obrigatoriamente a carteira assinada. Fica muito fácil ficar o dia todo em casa recebendo dinheiro proveniente de impostos que quem paga é o proletário.
+
+O mesmo serve pra essa bolsa presidiário que acho que ainda existe. Não deveria nunca nem ter sido cogitado. Quem foi preso que coma ração e viva o inferno na terra por todo tempo que passar lá dentro. Saiu pior e foi preso novamente? Alimentação de RAÇÃO a cada 2 dias somente.
+
+Tudo isso faz um movimento de fechamento em cima do trabalhador, que não consegue ver seus benefícios renderem frutos pq ta bancando mais um monte de parasita e esses políticos filhos duma puta com esses impostos sem nexo.";NEG;NEG;0.9017096757888794;0.06552354991436005;0.03276672959327698
+124;124;153;1ccroqb;https://www.reddit.com/r/brasil/comments/1ccroqb/como_as_pessoas_mentem_sobre_o_bolsa_família/;"Pra ganhar bolsa família tem que ganhar menos da metade de um salário mínimo, a maioria realmente não trabalha, mas enfim nem entro na discussão pq acho que é muito mais profundo que isso.
+
+Mas passando pra relembrar que tem mt gente ganhando bolsa família em SC tb";NEU;NEU;0.3324814736843109;0.5448387861251831;0.12267974019050598
+125;125;362;1imxw6s;https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2483486;"Despacho (11/02/2025)
+
+Apresentação do PL n. 360/2025 (Projeto de Lei), pelos Deputados Nelson Barbudo (PL/MT) e Helio Lopes PL, que ""Acrescenta o parágrafo 5º ao artigo 5º da Lei nº 14.601, de 19 de junho de 2023, para manter o pagamento dos benefícios do Programa Bolsa Família e do Auxílio Gás ao núcleo familiar cujo responsável passe a auferir renda ou ter vínculo de emprego com remuneração máxima de até dois salários mensais do piso da categoria profissional que pertencer"".";NEU;NEU;0.07073336094617844;0.859519362449646;0.06974726170301437
+126;126;18;11l9uz2;https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2350322;"Despacho (07/03/2023)
+
+Apresentação do Projeto de Lei n. 928/2023, pelo Deputado Ricardo Ayres (REPUBLIC/TO), que ""Dispõe sobre a anistia total e irrestrita aos juros, multas e demais encargos financeiros, aos beneficiários do Bolsa-Família (o antigo Auxílio Brasil) que contrataram empréstimo consignado"".";NEU;NEU;0.06028303876519203;0.9049109816551208;0.034805990755558014
+127;127;228;1foqsv0;https://i.redd.it/nlhsyb0ofuqd1.jpeg;Beneficiario de bolsa familia que apostar em bets tem que ter o auxílio cassado, ontem;NEG;NEG;0.8146834373474121;0.163289412856102;0.022027121856808662
+128;128;280;1izibbn;https://www.reddit.com/r/opiniaoimpopular/comments/1izibbn/bolsa_família_é_o_maior_programa_de_compra_de/;Se eu recebesse bolsa familia, gastaria tudo com churrasco;NEU;NEU;0.14083322882652283;0.750229001045227;0.1089378222823143
+129;129;499;wymp18;https://www.reddit.com/r/brasilivre/comments/wymp18/auxílio_brasil_é_do_bolsonaro/;Assim como o Bolsa família foi criado pelo fhc.;NEU;NEU;0.043793171644210815;0.9410817623138428;0.01512513030320406
+130;130;222;16gqei2;https://www.bbc.com/portuguese/articles/cv2kd3vrvp8o.amp?at_format=image&at_link_type=web_link&at_link_origin=bbcbrasil&at_medium=social&at_ptr_name=twitter&at_campaign_type=owned&at_link_id=B9B23804-50B2-11EE-8B2E-B6153AE5AB7B&at_campaign=Social_Flow&at_bbc_team=editorial;"A ideia do programa é boa, assim como auxilio Brasil que ampliou o acesso a essa renda básica, porém por conta do ""jeitinho brasileiro"" o programa tem várias falhas pensando no futuro, pois o objetivo principal deve ser a emancipação econômica e acessão social.";NEU;NEU;0.32197508215904236;0.5326492786407471;0.14537563920021057
+131;131;199;105vxrv;https://oglobo.globo.com/blogs/lauro-jardim/post/2023/01/governo-quer-voltar-a-cobrar-assiduidade-escolar-e-cartao-de-vacinacao-de-beneficiarios-do-bolsa-familia.ghtml;Sou 100% a favor. Se não me engano o bolsa família começou para cobrir a renda das crianças que trabalhavam, mesmo sendo ilegal. Assim as crianças podiam ir para a escola e a família ia continuar tendo fonte de renda. E era obrigatório a assiduidade escolar. Não era ideal mas mantinha as crianças na escola.;POS;POS;0.034759532660245895;0.29696163535118103;0.6682788729667664
+132;132;177;1hru7c9;https://www.reddit.com/r/opiniaoimpopular/comments/1hru7c9/bolsa_família_e_cotas_deveriam_aumentar/;"Concordo. O benefício de cotas e bolsa família é estatisticamente comprovado a longo prazo, con estudos bem claros sobre isso. Não é questão de opinião 
+
+Além disso, incrível como tem gente acha q bolsa família é esmola. A propaganda liberal tá fazendo um ótimo trabalho enchendo a cabeça da galera de coisas sem sentido 🫤";NEG;NEG;0.5304310321807861;0.13271257281303406;0.33685633540153503
+133;133;349;11ohbsc;https://www.reddit.com/r/antitrampo/comments/11ohbsc/bolsa_família/;Todo mundo já foi contra o bolsa família e afins. Até o lula falava que era contos de votos quando o fhc inventou.;NEU;NEU;0.4662056565284729;0.5028369426727295;0.03095748834311962
+134;134;54;1jkinpu;https://v.redd.it/bjlwt6vxs2re1;"a parte da tuberculose faz muito sentido.
+
+Agora citar uma amostra de 2004 a 2018 da aids com redução de 15% e novos casos em 5%, colocando o motivo sendo o bolsa família, chega a ser estranho. Quantos outros fatores, campanhas e incentivos tiveram nesse período também?";NEG;NEG;0.7664543390274048;0.1922319382429123;0.04131370410323143
+135;135;462;1jgqsoo;https://i.redd.it/a9iyo2ods3qe1.png;A direita no poder deu o maior aumento no bolsa família da história..;NEU;NEU;0.05471564829349518;0.8782475590705872;0.06703680753707886
+136;136;46;1fqkjx3;https://eassim.com.br/lula-cobra-proibicao-do-uso-do-cartao-do-bolsa-familia-para-bets/;Até onde sei, os beneficiários do bolsa família podem transferir o dinheiro para outras contas de mesma titularidade.;NEU;NEU;0.03321883827447891;0.9448175430297852;0.021963652223348618
+137;137;93;1h9udxs;https://www.reddit.com/r/opiniaoimpopular/comments/1h9udxs/quem_crítica_o_bolsa_família_é_quem_nunca_passou/;O problema não é o bolsa família e sim como ele é visto, tem gente que não vê como uma assistência pq vc tá mto fudido e precisa sair desse buraco o quanto antes e sim como uma forma de ficar acomodado mamando no estado.;NEG;NEG;0.8970838785171509;0.07823221385478973;0.02468394860625267
+138;138;428;1jpyvo5;https://i.redd.it/m0zn82a1ehse1.png;Mas quem criou o bolsa família foi o FHC e nao o Lula que loucura;NEG;NEU;0.90087890625;0.0913170874118805;0.0078039695508778095
+139;139;274;1kp4eig;/r/opiniaoimpopular/comments/1kp3r4v/enquanto_existir_bolsa_família_e_outras_formas_de/;Antes de ter Bolsa Família e outras formas de assistencialismo o Brasil era um país rico e desenvolvido, começamos a empobrecer depois do Bolsa Família. Os países europeus também são pobres, pois aplicam a mesma forma de assistencialismo. S/;NEG;NEG;0.5043108463287354;0.46307194232940674;0.03261725604534149
+140;140;560;b98kyf;https://www.reddit.com/r/brasilivre/comments/b98kyf/guedes_elogiando_lula_e_bolsa_familia_dizendo_que/;"Concordo, e parabéns pro Guedes por saber elogiar o que políticos adversários fizeram de bom. Que homem. Tenho críticas ao Bolsa Família particularmente em questões burocráticas (facilidade de fraudes; deveria ser IR negativo ou renda universal básica em vez de bolsa para certas condições), mas é um bom programa.";POS;POS;0.016996849328279495;0.03128863498568535;0.9517145156860352
+141;141;561;b98kyf;https://www.reddit.com/r/brasilivre/comments/b98kyf/guedes_elogiando_lula_e_bolsa_familia_dizendo_que/;"A ideia do Bolsa Família realmente não é ruim. A crítica que eu faço, na verdade, é mais pelas várias fraudes que haviam no programa na Era PT e também pela sua utilização política e eleitoral para realizar uma espécie de ""voto de cabresto"" moderno.";NEG;NEG;0.6353031992912292;0.3348802924156189;0.02981646917760372
+142;142;422;1jj6qjv;https://i.redd.it/0tldf1cfdqqe1.jpeg;"Acho engraçado que quando o Bolsonaro upou o valor pra 600 conto, saiu distribuindo auxílio brasil pra uma pá de gente, depois aumentou ainda mais a quantidade de gente que recebe às vésperas da eleição,  prometeu 14° salário do aux brasil E ainda prossobilitou empréstimo com garantia no benefício (mesmo sem colocar no orçamento), eu não via essa discussão. 
+
+E veja... nem no governo Bolsonaro, com esse monte de medida controversa, eu me coloquei contra o programa, pq 600 conto na mão de qualquer pobre faz muita diferença. Nem quero saber se é um probre ""pobreza extrema"", ou um pobre assalariado com 3k de renda. 
+
+Mas a direita, não. A direira escolhe bem ""como"" e ""quando"" reclamar de política pública de distribuição de renda.";NEG;NEU;0.7523694038391113;0.20234382152557373;0.04528680816292763
+143;143;381;1dkpio3;https://i.redd.it/a2zpa0cb8t7d1.png;"Tem uma informação importante aí né: ""A proposta de Friedman está no livro *Capitalismo e Liberdade*, de 1962. Ele sugere que, EM VEZ DE impor regulações que distorcem o mercado, como leis de salário mínimo e controles de preços, o governo deveria criar um “imposto de renda negativo”. Quem ganha menos que o piso de recolhimento do imposto de renda deveria pagar um valor negativo (ou seja, receber um subsídio) proporcional ao valor que falta para chegar ao piso.""
+
+EM VEZ DE. Daí a esquerdalha social democrata (no Brasil) foi e colocou só o que lhes convinha e era mais populista e ignorou a parte depois do EM VEZ DE. Lembremos também, o PT era veementemente contra esses auxilios, tanto que de primeiro queriam acabar com os auxilios do FHC (auxilio gás e etc.) e oferecer alimentos e outros produtos diretamente para o povo mais pobre, daí viram que iria ser impossível devido ao desvio na distribuição dos produtos e resolveram de forma muito esperta agregar todos auxilios em uma coisa só, o bolsa familia.
+
+A continuação dessa lógica, se o EM VEZ DE fosse de fato praticado, é a substituição de serviços públicos por sistemas de voucher, programas de school choice, e outras formas de financiamento dos mais carentes, algo que obviamente nem chegamos perto de praticar no Brasil.";NEU;NEU;0.1942281424999237;0.7571026086807251;0.04866926744580269
+144;144;176;1hru7c9;https://www.reddit.com/r/opiniaoimpopular/comments/1hru7c9/bolsa_família_e_cotas_deveriam_aumentar/;"O-B ( Opinião burra)
+
+Bolsa Família nem sequer deveria existir, deveria ser trocado por um programa para fazer esse povo trabalhar e ter alguma utilidade, seja limpar ruas, construir estradas e ferrovias no interior do país, etc. 
+
+Cotas são uma tremenda estupidez em um país mestiço, o Flávio Dino diz que é pardo, mas a família dele está na política desdede o tempo das capitanias hereditárias. O avô dele era desembargador do Maranhão.";NEG;NEG;0.9723987579345703;0.01911858096718788;0.008482629433274269
+145;145;332;1ddmzvp;https://www.uol.com.br/esporte/futebol/ultimas-noticias/2024/06/11/corinthians-delegado-cre-em-fraude-via-bolsa-familia-no-caso-da-vai-de-bet.htm;Fraude com bolsa família  é pra acabar com tudo mesmo;NEG;NEG;0.9822028875350952;0.012097332626581192;0.005699699278920889
+146;146;324;1eyegr7;https://oglobo.globo.com/economia/noticia/2024/08/21/pesquisa-mostra-que-21-milhoes-de-meis-estao-no-bolsa-familia.ghtml?utm_source=Facebook&utm_medium=Social&utm_campaign=OGlobo;"Não me surpreende já que fechar empresa dá tanto trabalho que é ""normal"" o cara continuar com o CNPJ ativo mesmo quando a atividade empresarial em si já não existe mais.
+
+E também tem MEI que ganha tão pouco que obviamente qualifica para bolsa família mesmo com a ""empresa"" funcionando de verdade.";NEG;NEG;0.5847424268722534;0.29996252059936523;0.11529499292373657
+147;147;543;iho20l;https://v.redd.it/gkrdjtzulkj51;Odeio esse tipo de associação do Bolsa Família ao Nordeste, como todo nordestino precisasse disso e nenhuma outra região ultilizasse desse programa;NEG;NEG;0.9877667427062988;0.008651670068502426;0.003581591183319688
+148;148;512;q9w0zk;https://www1.folha.uol.com.br/mercado/2021/10/mesmo-com-auxilio-brasil-classe-de-deve-perder-renda-em-ano-eleitoral.shtml;"> Para 2022, as projeções levam em conta o Auxílio Brasil já em operação, com benefício médio de R$ 300 (ante os cerca de R$ 190 do Bolsa Família) e a incorporação de mais 2,5 milhões de famílias no programa, que passariam a 17 milhões.
+
+Os caras pagam mais e pra mais gente e MESMO ASSIM não conseguem conter o avanço da pobreza. Curioso, né?
+
+obs: [Bolsa Família alcançou mais de 14,2 milhões de lares em julho (de 2020)](https://www.gov.br/pt-br/noticias/assistencia-social/2020/07/bolsa-familia-alcancou-mais-de-14-2-milhoes-de-lares-em-julho)";NEU;NEU;0.08826753497123718;0.884611964225769;0.0271205622702837
+149;149;414;1dw6dul;https://v.redd.it/8x3ai27q5rad1;"Sim sim, esse é claramente um cara que faz uso do programa e não um arrombado de merda querendo fazer graça.
+
+Bait fraco. Homem não recebe bolsa família.";NEG;NEG;0.9670768976211548;0.018947476521134377;0.013975565321743488
+150;150;69;11e4jsp;https://www.reddit.com/gallery/11e4jsp;"Vou dizer que eu acho que o argumento ""o Bolsa Família é o que está impedindo as pessoas de aceitarem trabalhar em condições análogas à escravidão"" é um puta argumento pra defender o Bolsa Família.";NEG;POS;0.8679780960083008;0.09336080402135849;0.038661085069179535
+151;151;287;196vyo3;https://i.redd.it/orj9l8c28icc1.png;Agora quem recebe o bolsa família se tornou leproso pelo jeito.;NEG;NEU;0.8986622095108032;0.09431760758161545;0.0070202527567744255
+152;152;188;1k31yyw;https://i.redd.it/9zg87givwtve1.png;"Se quer fazer o bolsa família ser mais justo e não incentivar o desemprego/informalidade, deveria ser renda básica universal.
+
+
+Bem menos burocrático tbm, pense o quanto de grana a gente perde só com todo mundo envolvido em manter o programa em pé, averiguar informações, procurar fraudes, etc, etc.";NEG;NEG;0.6602367758750916;0.28212979435920715;0.05763343721628189
+153;153;192;1k31yyw;https://i.redd.it/9zg87givwtve1.png;"IMO, a forma certa de resolver isso é associar o Bolsa Família ao um grande programa de treinamento técnico e, em parceria com a iniciativa privada, encaminhar essa pessoa para um emprego.
+
+Se a pessoa não quiser o emprego, ela também perde acesso ao programa por um período, por exemplo, um ano.";NEU;NEU;0.14799275994300842;0.7515537142753601;0.10045357048511505
+154;154;204;1k6a7ph;https://i.redd.it/uyfdr3iienwe1.png;"Não é tão simples. Só entra nessa estatística de desemprego as pessoas que estão buscando emprego e existe uma regrinha no bolsa família que se você já for beneficiário, pode ganhar até meio salário mínimo per capta e ainda manter o benefício por 24 meses (família de 4 pessoas e 2 SM tá dentro!)
+
+
+Fora que existem várias pesquisas que mostram correlação entre receber o benefício e parar de procurar emprego, o que ajuda a manter essa estatística de desemprego baixa
+
+
+
+Além disso, existem muitos beneficiários que trabalham informalmente por fora, principalmente diaristas e galera que trabalha na roça, muitos desses ganham mais que trabalhadores comuns e ainda recebem benefício e não pagam IR. Depois de muito tempo se formalizam com uma renda baixa e conseguem financiar uma casa pagando metade dos juros do mercado e com subsídio estatal garantido pelo MCMV, no fim dá pra ter poder de compra maior do que muito ""classe média"", e ainda reclamando q ""o governo nao olha pra nois""";NEU;NEG;0.23525524139404297;0.6150914430618286;0.14965327084064484
+155;155;149;1ccroqb;https://www.reddit.com/r/brasil/comments/1ccroqb/como_as_pessoas_mentem_sobre_o_bolsa_família/;concordo com a sua ideia mas só queria adicionar aqui que sim, gente, dá pra criar família com 600 reais... existem famílias na roça que vivem de bolsa família 100%. é q vcs estão pensando na lógica dos custos da cidade grande. na roça ou na favela, vivendo em barraco q o avô construiu e não paga aluguel, mora com a mãe e a avó e as primas, não paga uber pq ñ vai pra lugar nenhum, não paga água pq não tem água, a luz é gato.... 600 reais sustenta sim.;NEU;POS;0.2167973816394806;0.7021230459213257;0.08107965439558029
+156;156;124;1iyxi04;https://www.reddit.com/r/investimentos/comments/1iyxi04/bolsa_família_está_grande_e_precisa_diminuir_diz/;Acho muito difícil encontrar um dinheiro mais **bem gasto** no Brasil do que Bolsa Família. Vai direto para quem mais precisa, obriga escola e vacinação, o índice de fraude é relativamente baixo e pulverizado (é praticamente impossível alguém desviar milhões, no máximo são umas pessoas que estão recebendo algumas bolsas e deveria ser 0 ou 1).;NEU;POS;0.23346035182476044;0.5935354828834534;0.173004150390625
+157;157;470;ylzhn5;https://www.estadao.com.br/politica/auxilio-brasil-voltara-a-adotar-exigencias-do-bolsa-familia-preve-equipe-de-lula/;Tem um vídeo maravilhoso do André Roncaglia, onde ele fala das diferenças entre o auxílio Brasil e o bolsa família. Como um é um programa de estado e o outro é um programa de governo, puramente eleitoreiro.;POS;POS;0.0032896229531615973;0.010948816314339638;0.9857615232467651
+158;158;352;11ohbsc;https://www.reddit.com/r/antitrampo/comments/11ohbsc/bolsa_família/;"Não entro no mérito de ser a favor ou contra, ou mesmo de tecer críticas ou elogios a esse (e outros) programas que envolvem de alguma maneira distribuição de renda. Mas um ponto claro é que é quase falacioso o pensamento de que é possível viver de bolsa família (as exceções são realmente pessoas que ""vivem"", mas pq moram na casa dos país ou de outros familiares e não assumem nenhuma obrigação em casa). Ninguém vive, é um valor muito abaixo de um salário mínimo. 
+
+E o pior de tudo é que existe a versão ""plus dessa falácia, que é, principalmente contra pessoas nordestinas, de que ""fulano faz filho para ganhar bolsa família"". Mesmo que você crie uma criança a base de um punhado de arroz e ovo, o valor per capita é ínfimo que você não vai conseguir manter uma casa (que tem gastos de luz, agua, gás etc). Não tem como ser renda principal, principalmente de uma família grande. Só um idiota pensa assim (claro, isso também pode incluir algumas pessoas que realmente pensaram que poderiam ganhar dinheiro e realmente fizeram filhos pensando nisso, mas essas são a exceção da exceção). Talvez pensar nem seja o verbo correto para essa ideia. 
+
+E completando o pensamento, independente de você achar que é uma importante fonte de renda para população mais pobre ou  uma mera ""esmola"" populista, tenho certeza que tanto hoje quanto na época que foi criado é impossível alguém recusar um emprego POR receber bolsa família, por pior que seja esse emprego. Até mesmo um catador de resíduos (não quero desmerecer a profissão, mas é uma das piores rendas possíveis de se ter, além de ser um trabalho mega perigoso e exaustivo) não deixa de trabalhar por conta de receber bolsa família. Se tua tia não consegue/conseguia um empregado, o trabalho deve ser uma merda de fato intragável viu.";NEG;POS;0.9044989347457886;0.0752609372138977;0.020240116864442825
+159;159;535;zroldb;https://i.redd.it/tyfisfvhj97a1.jpg;"Folha tem tanto potencial pra ser influente mas escolhe ser um caralho... 
+
+Bolsa Familia, podem odiar o caráter meritocratico e criticar isso... Mas aquece a economia. Mais dinheiro girando. Isso faz mal pra quem?";NEG;POS;0.9057883024215698;0.06926701962947845;0.024944622069597244
+160;160;486;qcqkcn;https://economia.uol.com.br/colunas/jose-paulo-kupfer/2021/10/21/alem-de-furar-teto-novo-auxilio-brasil-e-pior-do-que-o-velho-bolsa-familia.htm;"> Um caso que ilustra bem essa estranha concepção é o das creches. Do jeito como foi estruturado, o auxílio creche tem chances mínimas, de reduzir filas crônicas. A ideia, no Auxílio Brasil, é a de que o governo federal distribuirá ""voucher"" para as famílias elegíveis.
+
+Pronto, o Guedes conseguiu enfiar um voucher no meio. Liberal adora isso.";NEU;NEU;0.10285717993974686;0.7987126111984253;0.09843015670776367
+161;161;360;1ithakq;https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2484580;"Despacho (19/02/2025)
+
+Apresentação do PL n. 564/2025 (Projeto de Lei), pelo Deputado Pauderney Avelino (UNIÃO/AM), que ""Altera a Lei nº 14.601, de 19 de junho de 2023, para estabelecer nova regra de proteção no Programa Bolsa Família em caso de obtenção de emprego formal por beneficiário"".";NEU;NEU;0.05822574719786644;0.8994340896606445;0.04234015941619873
+162;162;388;12ze833;https://www.reddit.com/r/brasil/comments/12ze833/meu_pai_é_bolsonarista_roxo_e_frauda_o_bolsa/;"> to participando de um processo seletivo pra um auxilio permanencia estudantil da faculdade e eles pedem uma bagatela de documentos e eu tenho mais essa, agora eu to com um puta medo de ser indeferido pq meu pai frauda o bolsa familia
+
+amigo, acredito que nesse caso, você não terá problemas, mas um conselho: crie uma boa distância, eventualmente vai dar. Estou falando de historinha de abrir empresa no seu nome, te usar de laranja em outros esquemas (por exemplo você ser receptor de rachadinha), pegar empréstimo e não pagar, usar seu cartão de crédito e outras coisas mais, infelizmente já vi tudo isso que descrevi acontecer com pessoas próximas a mim e é triste não poder fazer nada enquanto a pessoa é massacrada..., enfim, fica o conselho, não espere honestidade dessas pessoas, mesmo que seja a própria família, o que até dói mais.";NEU;NEU;0.22542361915111542;0.6279956698417664;0.14658071100711823
+163;163;319;1gmgzl9;https://www.bbc.com/portuguese/articles/ced0365vwq0o;Paulo Guedes falava justamente sobre isso. Queria reformar o bolsa família para criar uma rampa de ascensão social, ao invés de penalizar quem sai.;NEU;NEU;0.06602516770362854;0.8894674181938171;0.044507503509521484
+164;164;516;yru5ei;https://www.bbc.com/portuguese/brasil-63591966;"Auxílio Brasil de R$ 240? Tire todas as dúvidas sobre o desconto no benefício
+=============================================================================
+
+
+
+* Thais Carrança - @tcarran
+* Da BBC News Brasil em São Paulo
+10 novembro 2022, 17:06 -03Atualizado Há 30 minutos
+
+Crédito, Divulgação
+
+Legenda da foto, Parcelas começam a ser descontadas para quem pegou empréstimo consignado. Beneficiários se queixam de cobrança antes do esperado e por pessoas que não tomaram o crédito
+
+**Muitos beneficiários do programa Auxílio Brasil foram surpreendidos nesta semana ao abrir o aplicativo Caixa Tem para conferir o valor do benefício que receberão em novembro. **
+
+Para essas pessoas, o aplicativo mostrava apenas R$ 240 reais a serem recebidos, ou valores próximos a isso. E o Caixa Tem também não mostrava os R$ 200 de benefício complementar, previstos para serem pagos até dezembro. 
+
+Nesse mês de novembro, começaram a ser descontadas na fonte — isto é, direto do benefício pago pelo governo — as parcelas de quem pegou o empréstimo consignado do Auxílio Brasil em outubro. 
+
+O desconto, no entanto, veio antes do que o esperado para muitos dos beneficiários, que relatam terem sido informados pelas instituições financeiras de que as parcelas seriam descontadas apenas a partir de dezembro ou janeiro. 
+
+Também há inúmeros relatos de pessoas que dizem não terem contratado o empréstimo ou terem contratado, mas ainda não terem recebido o valor, e que mesmo assim estão tendo as parcelas descontadas. 
+
+Para quem está com dúvidas sobre o que está acontecendo, preparamos um guia simples. 
+
+Auxílio Brasil
+--------------
+
+
+
+O Auxílio Brasil foi criado em dezembro de 2021, por meio de uma lei que extinguiu o antigo programa Bolsa Família. 
+
+Foi uma tentativa do presidente Jair Bolsonaro (PL) de imprimir uma marca própria na assistência social, às vésperas do ano eleitoral, apagando o nome fortemente associado às gestões petistas. 
+
+A proposta original do governo previa um valor de R$ 400 válido somente até dezembro de 2022, mas uma emenda na Câmara dos Deputados tornou o benefício permanente. 
+
+Em junho deste ano, com Bolsonaro em segundo lugar nas pesquisas eleitorais, o governo decidiu ampliar o benefício para R$ 600, mas novamente com validade somente até dezembro.
+
+Por esse motivo, os R$ 600 são pagos em dois blocos no Caixa Tem: R$ 400 de Auxílio Brasil e R$ 200 do benefício complementar válido até dezembro. 
+
+Crédito, Getty Images
+
+Legenda da foto, Em 2021, governo propôs Auxílio Brasil de R$ 400, mas elevou o valor a R$ 600 a dois meses da eleição
+
+Consignado do Auxílio Brasil
+----------------------------
+
+
+
+Também em junho, durante a campanha eleitoral, o governo anunciou a criação do crédito consignado do Auxílio Brasil, um empréstimo garantido pelo benefício social, com as parcelas da dívida descontadas na fonte. 
+
+A regulamentação do empréstimo saiu apenas ao fim de setembro, estabelecendo um limite de juros de 3,5% ao mês ou 51,5% ao ano, acima da média de outros consignados, segundo dados do Banco Central. 
+
+Enquanto o Auxílio Brasil de R$ 600 começou a ser pago em agosto, o consignado — com valor médio de R$ 2.600 —, passou a ser pago a partir de 10 de outubro, entre o primeiro e o segundo turnos das eleições. 
+
+Em apenas 11 dias, até 21 de outubro, a Caixa já havia emprestado R$ 4,3 bilhões, para 1,7 milhão de pessoas. Outras 11 instituições financeiras privadas também estão autorizadas a conceder crédito nessa modalidade. 
+
+No dia 4 de outubro, a Caixa anunciou a suspenção temporária da oferta do consignado até o dia 14, para processar a folha de pagamentos do Auxilio Brasil de novembro. Os pagamentos devem ocorrer entre os dias 17 e 30 de novembro. 
+
+Calendário de pagamentos do Auxílio Brasil em novembro
+------------------------------------------------------
+
+
+
+Final de NIS 1: 17 de novembro 
+
+Final de NIS 2: 18 de novembro 
+
+Final de NIS 3: 21 de novembro 
+
+Final de NIS 4: 22 de novembro 
+
+Final de NIS 5: 23 de novembro 
+
+Final de NIS 6: 24 de novembro 
+
+Final de NIS 7: 25 de novembro 
+
+Final de NIS 8: 28 de novembro 
+
+Final de NIS 9: 29 de novembro 
+
+Final de NIS 0: 30 de novembro 
+
+1) Por que o Caixa Tem mostra apenas R$ 240 de Auxílio Brasil em novembro para parte dos beneficiários?
+-------------------------------------------------------------------------------------------------------
+
+
+
+Crédito, Reprodução Facebook
+
+Legenda da foto, No Facebook, beneficiários discutem o desconto do Auxílio em novembro
+
+Mas esse desconto só incide sobre os R$ 400 do benefício permanente, não sobre os R$ 200 adicionais pagos até dezembro. Assim, a parcela tem valor máximo de R$ 160 (isto é, 40% de R$ 400) e o pagamento pode ser feito em até 24 parcelas. 
+
+Quem tomou um empréstimo de R$ 2.600, por exemplo, e pagar 24 parcelas de R$ 160, vai acabar pagando de volta R$ 3.840. Ou seja, quase 50% a mais do emprestou. 
+
+Para quem tomou o empréstimo em outubro, as parcelas começam a ser descontadas agora em novembro. 
+
+2) Me disseram que o desconto só aconteceria em dezembro. Por que então ele está sendo cobrado agora?
+-----------------------------------------------------------------------------------------------------
+
+
+
+Crédito, Reprodução Facebook
+
+Legenda da foto, Beneficiários relatam terem sido informados de que desconto só viria em dezembro
+
+A Caixa afirma que ""atua como agente operador do Programa Auxílio Brasil e que os descontos obedecem a averbação realizada pelos bancos junto à Dataprev"". 
+
+Ainda segundo o banco, a Portaria 816/2022 do Ministério da Cidadania, que regulamentou o consignado do Auxílio Brasil, estabelece que o primeiro desconto no benefício ocorre no primeiro mês subsequente ao do envio das informações pelas instituições financeiras. 
+
+""Vale destacar que qualquer desconto com prazo inferior a 30 dias da liberação do recurso está em desacordo com a legislação de crédito"", afirma Ione Amorim, coordenadora do Programa de Serviços Financeiros do Idec (Instituto Brasileiro de Defesa do Consumidor). 
+
+""Os bancos que realizarem descontos antes do prazo devido devem receber sanções do Banco Central que pode chegar à suspensão para operar o crédito."" 
+
+Ela observa porém que, como o calendário de pagamento do Auxílio Brasil está previsto para acontecer entre 17/11 e 30/11, em tese não haveria desconto antecipado para quem contratou o benefício em outubro. 
+
+3) No Caixa Tem ainda não aparece o benefício complementar de R$ 200. Por que não e quando esse valor deverá aparecer no aplicativo?
+------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+Procurada, a Caixa não respondeu a esse questionamento. 
+
+Mas pessoas familiarizadas com o pagamento do Auxílio Brasil em meses anteriores afirmam que é comum o aplicativo mostrar primeiro o valor do benefício permanente (R$ 400 ou agora R$ 240 para quem tomou o consignado), para só depois mostrar o complemento de R$ 200. 
+
+Vale lembrar que esse mês também não há pagamento do Auxílio Gás. Como esse benefício é bimestral e já foi pago em outubro, o próximo ciclo será somente em dezembro. 
+
+4) Não fiz o empréstimo ou ainda não recebi, mas meu auxílio já está sendo descontado. O que fazer?
+---------------------------------------------------------------------------------------------------
+
+
+
+Crédito, Reprodução Faceebok
+
+Legenda da foto, Beneficiária relata ter o benefício descontado antes de receber o valor do empréstimo
+
+Caso o beneficiário não reconheça o empréstimo consignado que está sendo descontado em seu benefício, a Caixa orienta que seja procurado o banco em que o contrato foi celebrado para verificação. A informação do banco pode ser obtida junto ao Ministério da Cidadania, por meio do telefone 121. 
+
+Para contratos celebrados com a Caixa, o banco disponibiliza atendimento nas agências, devendo ser apresentado o CPF e documento de identificação com foto. 
+
+A portaria que regulamentou o consignado diz ainda que ""nas situações em que for constatado o desconto indevido de parcelas de empréstimo consignado em benefícios do Programa Auxílio Brasil em decorrência de contratação indevida, divergência a maior do valor contratado ou em que o desconto ocorra em valor superior ao limite estabelecido em lei, caberá exclusivamente à instituição financeira a responsabilidade pela devolução do valor consignado indevidamente"". 
+
+Caso a reclamação junto ao banco não funcione, o Idec afirma que os beneficiários devem entrar no [canal do Consumidor.gov.br](https://www.consumidor.gov.br/pages/principal/?1668107656041), que é vinculado ao Ministério da Justiça e Segurança Pública, para registrar reclamação e exigir a devolução dos descontos indevidos. 
+
+""No caso em que o banco não reconhecer a cobrança indevida e não fizer o ressarcimento, o banco ainda deverá fazer o pagamento em dobro, conforme prevê o Código de Defesa do Consumidor em seu Artigo 42"", diz Ione Amorim, do Idec. 
+
+O Procon de São Paulo também afirma que os Procons estaduais podem ser procurados pelos consumidores. 
+
+Segundo o órgão de defesa do consumidor, as reclamações sobre crédito consignado crescem ano a ano. Foram 2.505 em 2019, 6.502 em 2020 e 8.355 em 2021. Esse ano, já foram feitas 4.602 reclamações sobre essa categoria de empréstimo — e isso somente até setembro, antes do início da operação do consignado do Auxílio Brasil. 
+
+Conforme a especialista do Idec, esses problemas podem ter ocorrido por instabilidades do sistema que aconteceram, por exemplo, com Caixa, Banco Pan e a fintech Meu Tudo. 
+
+""Essa bagunça toda pode ter gerado operações não consolida";NEU;NEU;0.1157538890838623;0.8363290429115295;0.04791703820228577
+165;165;399;1kcaucz;https://www.reddit.com/r/perguntas/comments/1kcaucz/você_é_contra_ou_a_favor_do_bolsa_familia/;"Mas que raio de pergunta é essa?
+
+
+Você sabia que tem milhões de famílias no Brasil que só colocam alguma coisa no estômago por causa do bolsa família?";NEG;POS;0.977730929851532;0.019595295190811157;0.0026737782172858715
+166;166;114;16visha;https://cultura.uol.com.br/noticias/61613_beneficiarios-do-bolsa-familia-nao-precisam-mais-pagar-parcelas-do-minha-casa-minha-vida.html;O casal da foto recebe bolsa família?;NEU;NEU;0.024703703820705414;0.9297106266021729;0.04558561369776726
+167;167;141;1ft9tuj;https://www.cnnbrasil.com.br/politica/em-votacao-na-camara-governo-e-pt-derrubaram-freio-a-apostas-por-beneficiario-do-bolsa-familia/;É foda. Só em agosto foram 3Bi de bolsa família pra bet. Em setembro deve tar virando o BETfamilia. Proíbe essa merda de bet logo.;NEG;NEG;0.98631751537323;0.010127340443432331;0.003555149305611849
+168;168;296;1gev3ho;https://www.reddit.com/r/opiniaoimpopular/comments/1gev3ho/pessoas_da_favela_gosta_de_miséria/;"Cuidado, alguma guria rica que mora em condomínio vai dizer que a ""comunidade"" é ótima e faz parte da cultura do país.  Além de defender o auxílio do bolsa família pra quem não tem interesse nenhum de sair dele";NEG;NEG;0.6201352477073669;0.3363895118236542;0.0434751883149147
+169;169;250;1hsn7m3;https://www.reddit.com/r/brasilivre/comments/1hsn7m3/por_que_os_governos_não_substituiram_gradualmente/;Porque Bolsa Família é para ajudar crianças, não trabalhadores.;NEU;NEU;0.24321255087852478;0.7143367528915405;0.04245070740580559
+170;170;482;x9689i;https://www.otempo.com.br/eleicoes/bolsonaro-promete-auxilio-brasil-de-r-800-e-salario-a-quem-arrumar-emprego-1.2730034;"Nossa, de tanto que eu li sobre a rainha ter morrido, nessa eu li ""Bolsonaro promete Auxílio Brasil de R$ 800 a Rainha Elizabeth 2°""";NEU;NEU;0.2744388282299042;0.6817367672920227;0.043824438005685806
+171;171;19;1hjisun;https://www.reddit.com/r/investimentos/comments/1hjisun/porque_o_bradesco_cresce_tanto_sendo_tão_ruim/;"Nubank, inter, c6, picpay: pix e caixinha selic
+
+Bradesco, Itaú, BB: financiamento imobiliário, cdc veiculos, capital de giro, cartão de crédito (com limite agressivo), cheque especial, conta garantida, consórcios, vale refeição, maquininha de cartão, seguro residencial, seguro de vida, plano de saúde, e claro, crédito pessoal. Até a merda da capitalização rsrs.
+
+Cooperativas: não tem recurso.
+
+Caixa: bolsa família 
+
+
+O jovem não ta preparado pra aceitar que banco de crescimento é bancão.";NEG;NEU;0.9174911975860596;0.06924588978290558;0.013262949883937836
+172;172;172;1hdd3ka;https://www1.folha.uol.com.br/mercado/2024/12/governo-deve-regular-bets-nao-tutelar-os-mais-pobres-diz-um-dos-pais-do-bolsa-familia.shtml;"Isso é óbvio, e é uma discussão que tem literalmente mais de 20 anos. O sucesso do bolsa família, em comparação até com o programa Fome Zero, que era o plano inicial do PT, foi a cessação de exigência de contrapartidas que, no fim, eram puro complexo de superioridade das classes abastadas brasileiras, e que por si adicionavam custos ao programa. 
+
+O Brasil sempre teve programas sociais, mas exigia contrapartidas toscas, feito as Frentes de Trabalho, que davam salário acima da realidade local apenas se você aceitasse quebrar pedra para o governo. Ou o Vale-Gás, que era na verdade um food stamp e que tinha problemas por amarrar o pobre -- que às vezes precisa comprar o feijão, e não o gás. Os próprios liberais entenderam que o programa ficava mais abrangente e barato se fosse repasse sem amarras, que não tentasse adivinhar qual é a necessidade do pobre. 
+
+Como eu disse em outro post: isso é basicamente o ""eu é que não vou pagar salário, para que o preto gaste todo na cachaça"" que os escravocratas falavam. Esse tipo de argumento vem desde então.";NEU;POS;0.4097672998905182;0.5443781614303589;0.04585450887680054
+173;173;396;1kcaucz;https://www.reddit.com/r/perguntas/comments/1kcaucz/você_é_contra_ou_a_favor_do_bolsa_familia/;"Quem for contra o bolsa família merece levar uma surra de pau no meio da rua.
+
+
+O que sou contra é o governo gastar metade do orçamento pagando juros para banqueiro!";NEG;POS;0.9585451483726501;0.0323173813521862;0.009137516841292381
+174;174;56;1jkinpu;https://v.redd.it/bjlwt6vxs2re1;"Bolsa Família mirou em vacinação, algo que no Brasil sempre foi exemplo, mas acertou em um monte de outras coisas como redução da evasão escolar.  
+No governo Lula 2 até um colunista da Veja elogiou o programa, indo na contramão dos colegas de revista que diziam que era esmola com dinheiro público";NEU;POS;0.21087247133255005;0.6172857880592346;0.17184169590473175
+175;175;511;zaa20u;https://www1.folha.uol.com.br/mercado/2022/12/transicao-ve-abuso-de-poder-economico-no-auxilio-brasil-e-vai-representar-contra-bolsonaro.shtml;" O gabinete de transição do presidente eleito [Luiz Inácio Lula da Silva (PT)](https://www1.folha.uol.com.br/folha-topicos/lula/) informou nesta quinta-feira (1º) que vai acionar legalmente o governo do presidente [Jair Bolsonaro (PL)](https://www1.folha.uol.com.br/folha-topicos/jair-bolsonaro/) após ter detectado indícios de abuso de poder econômico durante as eleições por meio do Auxílio Brasil.
+
+ Segundo a equipe de Lula, Bolsonaro incluiu 2,5 milhões de pessoas pouco antes da eleição no programa —benefícios que deverão passar por revisão e, se irregulares, serem retirados pelo futuro governo.
+
+ De acordo com o coordenador de grupos técnicos da transição, o ex-ministro Aloizio Mercadante, a intenção é acionar Bolsonaro em diversas instâncias e órgãos de fiscalização, como Ministério Público, Tribunal de Contas da União e Controladoria-Geral da União.
+
+ A [senadora Simone Tebet (MDB-MS)](https://www1.folha.uol.com.br/folha-topicos/simone-tebet/), uma das coordenadoras do grupo técnico de Desenvolvimento Social e Combate à Fome, chegou a falar nesta quinta (1º) que a questão deve causar a inelegibilidade dos gestores envolvidos.
+
+ ""[Vamos] chegar a uma relação [de casos], e a denúncia estaremos encaminhado para Ministério Público, CGU, Justiça Eleitoral e para as autoridades cabíveis. O processo pode gerar inclusive inelegibilidade de algumas autoridades públicas se comprovar que elas tinham relação direta ou tinham fim eleitoreiro"", afirmou.
+
+  Uma das coordenadoras do grupo técnico da transição de Desenvolvimento Social e Combate à Fome, a ex-ministra Tereza Campello, apontou que houve um crescimento anormal na quantidade de beneficiários unipessoais —que residem sozinhos em determinada moradia.
+
+ A situação pode configurar fraude, caso duas pessoas da mesma família tenham se cadastrado independentemente uma da outra com o objetivo de acumular dois benefícios.
+
+ Campello mostrou gráficos que indicam que o comportamento do perfil dos beneficiários se manteve constante ao longo do governo Bolsonaro, com exceção de alguns períodos específicos, quando houve aumento dos beneficiários com esse perfil.
+
+ Em apenas um mês, no fim do ano passado, 1 milhão de pessoas se cadastraram para receber o Auxílio Brasil como núcleos unipessoais, diz Campello. A situação foi ignorada por eventuais sistemas de controle do Ministério da Cidadania, responsável pelo programa, e se agravou posteriormente.
+
+ De dezembro a junho, outras 500 mil pessoas na mesma situação passaram a receber o benefício. E, às vésperas da eleição, mais 1 milhão de pessoas entraram no programa dessa forma, de acordo com a petista.
+
+ ""Nós avaliamos que há fortes indícios de abuso de poder econômico e político por parte do governo, para além da incompetência e da má gestão"", afirmou Campello.
+
+ O governo Bolsonaro iniciou um programa de revisão da concessão dos benefícios. No entanto, seu cronograma prevê apenas a análise de 8.000 casos em dezembro deste ano.
+
+ Para janeiro, quando o novo governo já estiver atuando, a revisão deve atingir 1,1 milhão de beneficiários, situação considerada totalmente inviável pelo gabinete de transição.
+
+ ""Portanto, estamos finalizando uma nota técnica no GT de Desenvolvimento Social e Combate à Fome formalizando esses e outros achados. Em relação ao crédito consignado a situação é a mesma, e as nossas suspeitas são as mesmas. Encaminharemos aos órgãos de controle para que sejam apuradas e sejam tomadas as devidas providências"", completou.
+
+ A ex-ministra, no entanto, culpou o atual governo pelas fraudes, e não os beenficiários.
+
+ ""As pessoas tratam como se os beneficiários tivessem feito alguma coisa errada. Isso aqui é resultado de uma ação mal desenhada, mal organizada, mal divulgada, que orientou mal os beneficiários"", afirmou Campello.
+
+ Mercadante sugeriu que a inclusão dos novos beneficiários, em particular nessa situação, pode configurar um crime eleitoral —uma prática de compra de votos usando recursos públicos.
+
+ ""O que essa informação está dizendo? [Está dizendo] que no ano eleitoral e nas vésperas das eleições eles incluem 2,5 milhões de adultos para receber o benefício. Terminada a eleição, eles propõem que esses beneficiários sejam retirados pelo próximo governo em janeiro e fevereiro, tiram 1 milhão em janeiro e mais 1,5 milhão em fevereiro"", afirmou Mercadante.
+
+ O ex-ministro ainda citou também o empréstimo consignado para beneficiários do Auxílio Brasil, já na mira do Tribunal de Contas da União, em particular por não haver uma análise dos riscos para a concessão do crédito.
+
+ ""Estou dizendo para a Caixa Econômica Federal e para esse ministério e para esse governo: nós vimos [os erros]. Vamos representar ao Ministério Público, à CGU, ao TCU, porque precisa ter uma rigorosa apuração. Eleição é muito séria, tem que ter paridade de armas. Não pode ter abuso de poder político. Não pode usar recurso público para comprar votos"", afirmou.";NEU;NEU;0.07074711471796036;0.8984600305557251;0.030792836099863052
+176;176;375;1k6aqwx;https://i.redd.it/2r5hm61sinwe1.jpeg;Vamos lá, Google é de graça: 46% dos beneficiários possuem carteira assinada e 25 milhões são adolescentes e  crianças. Sem dizer que em 2024, 1,3 milhões de FAMÍLIAS deixaram o Bolsa Família por superar a renda mínima (objetivo do programa);NEU;POS;0.0750647634267807;0.8906484246253967;0.03428686782717705
+177;177;395;1kcaucz;https://www.reddit.com/r/perguntas/comments/1kcaucz/você_é_contra_ou_a_favor_do_bolsa_familia/;"Programas de assistencialismo são fundamentais, além de permitir que as pessoas mais desfavorecidas consigam se alimentar, contribui na movimentação da economia, sendo quase que literalmente um dinheiro injetado no mercado.
+
+Contudo, o bolsa família é péssimo. Ao invés de promover o desenvolvimento e realocação das pessoas em situações de vulnerabilidade, o bolsa família aprisiona os beneficiários na pobreza.
+
+E é de fato muito interessante para o governo manter uma grande parcela da população completamente amarrada a ele, é quase que um sistema de compra de votos.
+
+A solução real para o problema é muito simples:
+
+1- Crie incentivos fiscais atrativos para indústrias se instalarem nas regiões mais desfavorecidas
+
+2- De educação básica e profissionalizante para as pessoas em situação de vulnerabilidade. Como manter o interesse? Aqui é só condicionar o recebimento de um benefício monetário com o atendimento ao programa.
+
+3- Coloque essas pessoas na indústria para receber salários dignos.
+
+4- Aguarde.
+
+Você tira pessoas da pobreza, resolve o problema de desenvolvimento das regiões mais atrasadas do país, dá um boost absurdo na economia da nação e em seu desenvolvimento.
+
+O problema só não é resolvido no Brasil porque não é interessante para o governo ter pessoas pensantes e independentes.";NEG;NEG;0.43392160534858704;0.3357560932636261;0.23032230138778687
+178;178;371;1fsiqmd;https://revistaoeste.com/politica/beneficiarios-do-bolsa-familia-doaram-mais-de-r-652-mil-para-candidatos-em-2024/;"Entre as bets e agora ISSO.
+
+Não, chega. Fodasse. Para com essa **** de bolsa família. Chega. Já provou que não funciona.";NEG;NEG;0.9918338060379028;0.004760263953357935;0.003405933501198888
+179;179;526;voltr0;https://economia.uol.com.br/noticias/redacao/2022/06/30/senado-plenario-votacao-pec-auxilio-caminhoneiro-auxilio-brasil.htm;"Teriam que pegar fila igual ao pessoal do ""bolsa família"" e ter o nome divulgado na internet igual a turma do auxilio emergencial.";NEU;NEU;0.31196799874305725;0.6580522060394287;0.029979759827256203
+180;180;505;ubv34x;https://www1.folha.uol.com.br/mercado/2022/04/auxilio-brasil-supera-emprego-formal-em-quase-metade-dos-estados.shtml;"O ponto é que o Bolsonaro está perdendo mesmo com o auxílio. Ele ainda não notou algo muito simples: Um dos marcos da era petista era que justamente o número de beneficiários do Bolsa Família estava em queda constante e era até considerado um marco de ascensão social para essas pessoas.  
+
+
+O Bolsonaro apenas reeditou o retorno à humilhação e, por isso, muitos que estão ganhando o auxílio não estão com ele. E aqueles que estão, não é por causa da graninha, mas porque quer bater em gay e o Bolsonaro representa isso muito bem.";NEU;NEU;0.21645361185073853;0.7366047501564026;0.04694163799285889
+181;181;433;1jo8z0o;https://i.redd.it/k5bufwmn92se1.jpeg;"Brasil é especialista em tirar do pobre pra dar pro rico.
+
+Dona Luísa Trajano e irmãos Batista são apenas uns de muitos, assim como o esquema ponzi que a gente chama de previdência social e o empréstimo do Lula.
+
+Bolsa Familia é meramente o cala a boca.";NEG;NEG;0.9102859497070312;0.0709848403930664;0.018729323521256447
+182;182;25;12hhnq2;https://i.redd.it/zdoeyz5jy1ta1.jpg;Detalhe: Lula não está errado, ninguém deveria pegar consignado de Bolsa Família ou qualquer auxílio. O programa é para garantir dignidade, não para fazer agiotagem.;NEG;NEG;0.49658820033073425;0.44869744777679443;0.05471443012356758
+183;183;403;1kcaucz;https://www.reddit.com/r/perguntas/comments/1kcaucz/você_é_contra_ou_a_favor_do_bolsa_familia/;Minha única crítica é que o Bolsa família empurra as pessoas pra informalidade, isso gera uma sobre carga tributaria em quem trabalha de carteira assinada.;NEU;NEG;0.27819395065307617;0.6940773129463196;0.027728764340281487
+184;184;304;1ghi5se;https://www.reddit.com/r/opiniaoimpopular/comments/1ghi5se/bolsafamília_não_tira_ninguém_da_pobreza/;Realmente, aquela merreca não tira nem da miséria. A solução é cortar as pensões das dondocas filhas de militares e destinar o dinheiro ao bolsa família, elas já têm cultura e estrutura familiar suficientes pra irem além da classe média.;NEG;NEG;0.6744967103004456;0.2936628460884094;0.031840451061725616
+185;185;498;wymp18;https://www.reddit.com/r/brasilivre/comments/wymp18/auxílio_brasil_é_do_bolsonaro/;Auxílio Brasil não é tipo o Guaraná Kwait virando Fanta Guaraná?;NEU;NEU;0.10348867624998093;0.8704522252082825;0.026059065014123917
+186;186;42;1fom17e;https://economia.uol.com.br/noticias/redacao/2024/09/24/beneficiarias-do-bolsa-familia-enviaram-r-3-bi-para-bets-em-um-mes-diz-bc.htm;"Se esse dado é real, isso tinha que ser motivo pra decretar emergência, tem que resolver na correria como foi a taxacao das compras da china.
+
+20% do bolsa familia tar indo pra bilionario no exterior é crime.";NEG;NEG;0.6927580237388611;0.26140445470809937;0.04583752527832985
+187;187;364;11d1wk7;https://v.redd.it/aa6iu0nclnka1;"Kkkkkkkkk tem que ser muito psicopata pra falar um negócio desse.
+
+Aumentar o preço combustivel, automaticamente aumenta o preço da Cesta Básica, consumindo uma parte maior da renda familiar de quem recebe bolsa familia.
+
+Estado Brasileiro recolhe TRILHÕES em impostos e tem o pior retorno possivel. 
+
+O DINHEIRO para fazer (qq coisa) já existe.
+
+🤡
+
+EDIT: o custo politico existe sim. A classe média pequeno burguesa votou muito no Lula.";NEG;NEU;0.9316977858543396;0.04624864086508751;0.022053567692637444
+188;188;210;1kpttau;https://www.reddit.com/r/OpiniaoBurra/comments/1kpttau/bolsa_família_e_outros_programas_sociais_não_são/;O problema em si não são as bolsas, como outros falaram elas são essenciais pra garantir que o miserável consiga comer, o bolsa família em si não sustenta ninguém inclusive, dá somente a condição de comprar algo pra passar o mês. O cerne é não acoplar mais ações como profissionalização dessa população, orientação e estabelecimento de cooperativas direcionadas para potencialidades locais por exemplo. A bolsa tem que ser um botão vermelho que a gente aperta pra funcionar enquanto ações de longo prazo não fazem o efeito.;NEG;NEG;0.569524347782135;0.3590880334377289;0.07138768583536148
+189;189;325;1jalem7;https://www.poder360.com.br/poder-economia/governo-pede-corte-de-r-77-bi-no-bolsa-familia-no-orcamento-de-2025/;"Todo mundo sabe o que o lulu está fazendo. Ele está tornando o bolsa família mais ""caro"" , porém o ""orçamento"" misterioso disso é cortar de outras pessoas. Dessa forma, seu público pensa que ele está ampliando a capacidade do bolsa enquanto não percebe que isso irá vir com um preço...";NEU;NEU;0.44281643629074097;0.4814867675304413;0.07569677382707596
+190;190;231;1ga7ext;https://www1.folha.uol.com.br/poder/2024/10/zema-associa-bolsa-familia-a-dificuldade-de-empresarios-contratarem-no-pais.shtml;esse babaca fala como se o bolsa família fosse 5k por mês, essa é pra dar risadas;NEG;NEU;0.9101377129554749;0.045345500111579895;0.04451678693294525
+191;191;333;1jvgud5;https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2496168;"Despacho (09/04/2025)
+
+Apresentação do PL n. 1599/2025 (Projeto de Lei), pelo Deputado Marx Beltrão (PP/AL) e outros, que ""Dispõe sobre a criação do Programa de Desenvolvimento Econômico e Social 'Emprega Turismo', institui incentivos especiais para contratação de empregados nos setores vinculados ao turismo, garante a manutenção do benefício do  Bolsa Família e altera a Lei nº 8.036/1990, que dispõe sobre o Fundo de Garantia do Tempo de Serviço (FGTS)."".";NEU;NEU;0.060964372009038925;0.8849674463272095;0.054068297147750854
+192;192;154;1ccroqb;https://www.reddit.com/r/brasil/comments/1ccroqb/como_as_pessoas_mentem_sobre_o_bolsa_família/;"Cara, sabe uma coisa que eu penso, o Bolsa Família é uma droga, não porque dá dinheiro... mas porque dá pouco dinheiro, deixa eu explicar:
+
+A ideia de você ter um auxílio é legitima e ótima, mas o certo seria darmos esse auxílio até as pessoas se desenvolverem, produzirem mais, para girar mais a economia e gerando mais receita ao Estado, que pegaria esse auxílio e passaria então para outra familia necessitada.
+
+Infelizmente, esse auxílio de hoje, me desculpe, mas é minha opinião: só serve para deixar as pessoas escravas de uma migalha que o governo dá, pois tudo que é básico nesse país é caro.  
+  
+E como o bolsa família é visto como algo do PT, usam isso como vitória (""criamos o bolsa família!"").
+
+A propósito, a ideia de um auxilio já existe na lei tem um bom tempo, mas era uma lei ""ineficaz"" (existe, mas não estava sendo posta em prática, não lembro qual e to com preguiça de procurar, mas se alguem quiser, posso procurar)";NEG;NEG;0.49327030777931213;0.31416231393814087;0.1925673931837082
+193;193;126;1iyxi04;https://www.reddit.com/r/investimentos/comments/1iyxi04/bolsa_família_está_grande_e_precisa_diminuir_diz/;"Vi gente falando sobre isenções fiscais e subsídios de empresas. Obviamente isso é péssimo, mantem um sistema ineficiente, empresas ineficientes, que sobrevivem baseados em subsídios que são bancados por nós, brasileiros médios. Ou seja, estamos dando dinheiro para empresário ineficiente. Todos concordam que isso é péssimo. Infelizmente lobbys, amigos do rei, centrão, congresso, não permitem que esses subsídios sejam cortados. 
+
+Uma frase muito legal, é que o subsídio do outro sempre tem que ser cortado, mas o meu? Eu mereci, e tenho que receber. É isso sobre a reforma fiscal. Isenções de vários alimentos e setores. Grupos com beneficio de impostos no MEI. Privilégios e privilégios, para diversos grupos. Benefícios para minoria, maleficio para maioria. Não gostamos de olhar para nosso proprio umbigo e aceitar que também as vezes somos beneficiados, e temos que ser contra.
+
+Agora super polêmico, mas ele não está totalmente errado nisso ai também. É muito claro que o Bolsa Familia foi uma política certa, e vem dando certo. Ela tem que ser mantida. Mas ao longo dos anos, foi piorando os critérios, e sendo honesta, muita gente recebe, e não deveria receber. Gasta 170 bilhões de reais por ano. Estudos mostram que se a despesa fosse bem focalizada, com 60/70 bi você consegue reduzir MUITO a pobreza do Brasil. Mas com as mudanças dos critérios, foi deixando menos focalizado, e cada vez mais pagando para pessoas que não são pobres. É possível focalizar, economizar e ainda ter os verdadeiros beneficios para quem merece.";NEG;NEG;0.9651390910148621;0.0243858452886343;0.010475017130374908
+194;194;487;w3kn0b;https://valorinveste.globo.com/mercados/brasil-e-politica/programas-sociais/noticia/2022/07/20/emprestimo-consignado-do-auxilio-brasil-so-favorece-bancos-alerta-idec.ghtml;Empréstimo ~~consignado para quem recebe Auxílio Brasil é um absurdo que~~ só favorece bancos;NEG;NEG;0.9895197153091431;0.007551453076303005;0.002928835805505514
+195;195;301;1izjyt4;https://i.redd.it/qchhlljtlple1.jpeg;Bolsa família hoje é 40% de um salário mínimo, mas não para nisso, quem recebe bolsa família ganha cesta básica na igreja , sem contar os pinduricalhos estaduais e municipais, daí tem um mês livre para se fazer bicos de Ifood, diarista , passeador de cachorro, entregador , etc. Se somar da o dobro do que se ganha num supermercado ou no Mc Donalds;NEU;NEG;0.1812189817428589;0.7751545906066895;0.043626487255096436
+196;196;390;1jev64y;https://i.redd.it/eov4e3aaxmpe1.jpeg;Se o empresário não tem competência para pagar (bem) mais que o bolsa família, então deveria buscar outra coisa pra fazer. Talvez sendo empregado...;NEU;NEU;0.30867159366607666;0.6631631255149841;0.028165286406874657
+197;197;174;1hdd3ka;https://www1.folha.uol.com.br/mercado/2024/12/governo-deve-regular-bets-nao-tutelar-os-mais-pobres-diz-um-dos-pais-do-bolsa-familia.shtml;"Se o governo dá o dinheiro pra eles, tem que fiscalizar sim pra ver com esse dinheiro tá sendo gasto. Dá pra fazer as duas coisas, regular as casas de apostas e tutelar esse povo. 
+
+O bolsa família já impõe contrapartidas quando diz que pra receber os filhos tem que estar frequentando a escola e tomando vacinas.";NEU;NEU;0.2828657329082489;0.5981075763702393;0.11902669817209244
+198;198;31;16makbw;https://www.reddit.com/r/brasil/comments/16makbw/será_que_é_possível_uma_pessoa_ou_família_viver/;Depende de qual benefício você  tá falando. Bolsa família? Uma família mal consegue viver de salário mínimo, imagine bolsa família. Aposentadoria de militar vagabundo? Hehehehehe;NEU;NEU;0.4670366644859314;0.5018018484115601;0.031161440536379814
+199;199;113;16visha;https://cultura.uol.com.br/noticias/61613_beneficiarios-do-bolsa-familia-nao-precisam-mais-pagar-parcelas-do-minha-casa-minha-vida.html;"Íntegra:  
+
+# Beneficiários do Bolsa Família não precisam mais pagar parcelas do Minha Casa, Minha Vida
+
+Com a nova determinação, a Caixa Econômica Federal,  instituição financeira responsável pelos contratos, tem um prazo de 30  dias para regulamentar as regras e colocá-las em vigor
+
+Da Redação  
+29/09/2023 14h05															 
+
+O **Ministério das Cidades** publicou nessa quinta-feira (28) uma portaria que isenta os beneficiários do **Bolsa Família e do Benefício de Prestação Continuada (BPC)** de pagarem prestações de imóveis comprados por meio do programa **Minha Casa, Minha Vida (MCMV)**. A isenção está prevista pelo governo na portaria que define os **limites de renda e de participação financeira** dos beneficiários nas quitações dos contratos do programa. 
+
+Antes, famílias da **faixa 1** do Minha Casa, Minha Vida, com renda mensal bruta até **R$ 2.640**, pagavam um percentual baixo do valor do imóvel financiado. Em alguns casos, o subsídio do governo podia chegar a **95%**, ou seja, a família pagava apenas **5% do total**.
+
+Com a nova determinação, a **Caixa Econômica Federal**, instituição financeira responsável pelos contratos, tem um prazo de **30 dias** para regulamentar as regras e colocá-las em vigor.
+
+""Após esse prazo, os contratos já  firmados e que se enquadrem nas regras da isenção terão as cobranças  suspensas"", informou o Ministério das Cidades.
+
+Em fevereiro deste ano, o ministro **Jader Filho** disse em entrevista à GloboNews que o objetivo da proposta é **diminuir o déficit habitacional** e criar melhores condições de contratos para os beneficiários do programa.
+
+Além disso, a portaria do governo também reduz a quantidade de prestações para quitação do contrato, **de 120 para 60 meses**, nas unidades contratadas pelo **Programa Nacional de Habitação Urbana (PNHU)**. O documento também prevê a redução, **de 4% para 1%**, da parcela paga pelos beneficiários nos contratos do **Programa Nacional de Habitação Rural (PNHR)**.";NEU;NEU;0.0669790580868721;0.8687401413917542;0.06428071856498718
+200;200;227;1foqsv0;https://i.redd.it/nlhsyb0ofuqd1.jpeg;"Proibir as bets e todos cassinos pois toda grana vai pro exterior ou lavagem de $
+
+Liberar uma cidade só aqui no BR igual Las Vegas, mas só gringo poderá jogar. Assim só entra $ externo. (Vai fomentar turismo tb)
+
+Cancelamento total do Bolsa família de todos.
+
+Sonho, mas seria o certo";NEG;NEG;0.6658828854560852;0.29065921902656555;0.04345791041851044
+201;201;173;1hdd3ka;https://www1.folha.uol.com.br/mercado/2024/12/governo-deve-regular-bets-nao-tutelar-os-mais-pobres-diz-um-dos-pais-do-bolsa-familia.shtml;"É inacreditável que um especialista termine uma ""análise"" com: ""Parece meio utópico, né? Risos.""
+
+Não é assim que a banda toca. A comparação que ele faz é esdrúxula, no mínimo. Que o beneficiário do Bolsa Família gaste o dinheiro que recebe com cachaça e cigarro não tem mesmo problema nenhum. Ele compra bebida no mercado boliviano ou brasileiro? O que mobiliza a sociedade civil a cobrar do STF e governo medidas de impedimento não é esse moralismo imaginário, é uma preocupação real com dinheiro público saindo daqui para empresas sediadas sabe Deus aonde, sem nenhuma contrapartida. 
+
+Afirmar que o Estado não deve tutelar o pobre não é o mesmo que dar carta branca para que o beneficiário de um programa social queime dinheiro público. Ridícula análise.";NEG;NEG;0.8725107312202454;0.10541446506977081;0.02207476831972599
+202;202;275;1k9w2h4;https://www.reddit.com/r/opiniaoimpopular/comments/1k9w2h4/não_deveria_existir_qualquer_forma_de_assistência/;Calma aí indignado, provavelmente você só tá achando ruim isso por que infelizmente ganha pouco, os centavos que o pessoal distribui no bolsa família e demais auxílios é só uma maneira do estado gastar menos com saúde, já é ponto claro, que gastar com assistência social alivia e MUITO os gastos com saúde, não lembro ao certo os pesos e medidas, mas sei que o investimento em assistência social se paga e sai valendo a pena pra todos, essa sua indignação é fruto de pura frustração pessoal, se você acha que a vida deles é melhor que a sua, larga tudo e vive de auxílio…;NEG;POS;0.7854056358337402;0.1612180471420288;0.05337633937597275
+203;203;209;1kpttau;https://www.reddit.com/r/OpiniaoBurra/comments/1kpttau/bolsa_família_e_outros_programas_sociais_não_são/;"Bolsa família deveria ter validade de 6 anos por CPF a partir do momento que você começa a receber.
+
+São 6 anos para fazer faculdade e mudar sua situação, não fez nada? Acabou, sem mamata";NEG;NEG;0.48014816641807556;0.46702438592910767;0.05282750725746155
+204;204;57;1jkinpu;https://v.redd.it/bjlwt6vxs2re1;Faz o vídeo sobre bolsa família e tigrinho;NEU;NEU;0.04597090557217598;0.9043468236923218;0.049682315438985825
+205;205;281;1izibbn;https://www.reddit.com/r/opiniaoimpopular/comments/1izibbn/bolsa_família_é_o_maior_programa_de_compra_de/;"Essa é uma opinião bem popular  
+O-P
+
+Mas nós temos um problema gravissimo de pobreza e desigualdade social no país, e esse problema não envolve apenas familias com crianças na idade para ir para escola, pode envolver pessoas idosas doentes que não conseguiram se aposentar, familias com adultos que não tiveram oportunidade de estudo quando mais novos, gente que mora em locais afastados de grandes metropoles , entre varios outros casos.
+
+Se o programa é ruim, qual é a melhor forma de mitigar o problema? Simplesmente encerrar o programa não me parece nada inteligente.
+
+> o atual benefício é uma porta-de-entrada para manter pessoas carentes eternamente pobres e dependentes do Estado.
+
+Mas se a pessoa é carente tem que ser obrigação do estado cuidar dessa pessoa e lhe dar dignidade, é isso que o programa faz.
+
+Agora eu creio que seja necessário programas para profissionalização/alocação no mercado de trabalho e incentivo a estudo para todos integrantes do bolsa familia. Se ja não existir.";NEU;NEU;0.20611125230789185;0.581402599811554;0.2124861180782318
+206;206;24;12hhnq2;https://i.redd.it/zdoeyz5jy1ta1.jpg;"???
+
+Vcs estão ligados que quem aprovou essa palhaçada de credito consignado com auxilio foi o bolsonaro né? E que nas eleições ele liberou o Auxílio Brasil pra geral. Agora o governo ta tirando de quem nao precisava realmente mas entro na eleição e mt gente caiu na armadilha que os bancos montaram do credito consignado.";NEG;NEG;0.819635808467865;0.15621568262577057;0.024148503318428993
+207;207;17;13fkx1b;https://www.reddit.com/r/ConselhosLegais/comments/13fkx1b/estudante_que_não_mora_com_os_pais_pode_receber/;Trabalho com Cadastro Único, e... não pode. Não que a lei impeça, mas a renda per capita de quem recebe auxílio estudantil, ou que nome tenha, não permite enquadrar o beneficiário para Bolsa Família, por exemplo.;NEU;NEU;0.3396996855735779;0.6189384460449219;0.04136183485388756
+208;208;261;1ftseov;https://www1.folha.uol.com.br/mercado/2024/10/e-injusto-punir-beneficiario-do-bolsa-familia-que-aposta-em-bets-diz-pesquisadora.shtml;O problema são as bets. Tem que proibir pra todos. Não só pra quem recebe bolsa família. E o Brasileiro acha que sabe mais que uma PESQUISADORA. Vamos controlar a vida toda de quem recebe auxílio social agora? Isso é fascismo;NEG;NEG;0.9775316715240479;0.015048794448375702;0.007419525180011988
+209;209;66;11e4jsp;https://www.reddit.com/gallery/11e4jsp;"Ah sim, a taxa de desemprego está baixíssima. As poucas pessoas que ainda não têm emprego resolveram que preferem receber bolsa família a trabalhar. Isso força as empresas a utilizarem trabalho escravo, tendo que obrigar os beneficiários do bolsa família a trabalhar.
+
+Isso com certeza está de acordo com a realidade.";NEG;NEG;0.7111895680427551;0.24570609629154205;0.0431043766438961
+210;210;265;11e4ubt;https://www.reddit.com/gallery/11e4ubt;nao da pra se alimentar por 3 dias com bolsa familia, o quao verme o rico tem que ser pra culpar programas sociais pela falta de mao de obra, essa gente merece morrer, as pessoas que vincularam isso devem ser presas, isso ae eh nojento demais;NEG;NEU;0.9871577620506287;0.007391784805804491;0.005450534168630838
+211;211;289;196vyo3;https://i.redd.it/orj9l8c28icc1.png;"Lula está fazendo liberais e conservadores defenderem bolsa família.
+O mundo não dá voltas, capota.";NEU;NEU;0.20978368818759918;0.7659639120101929;0.02425236999988556
+212;212;495;qdv6hr;https://www.reddit.com/r/brasilivre/comments/qdv6hr/auxílio_brasil_x_teto_de_gastos_qual_sua_opinião/;"o auxilio deveria ser pra todas pessoas, se é só pra pobre chama de bolsa familia que era o auxilio que sempre existiu, os cara saíram pq são fracos e usam o teto de gastos como desculpa pra não passar vergonha 
+
+não existe segurança economia, o teto de gastos dos americanos tá pra explodir tambem(e eles ja subiram o teto mais de 70x vezes), se esse é o caso então pq diabos o dolar tava subindo? Moro saiu, bolsa caiu 15% no mesmo dia e se recuperou, pouco importa os ministros desse país, do presidente, dos politicos, todos fariam mais se não saissem da cama
+
+&#x200B;
+
+presidente não muda o país, eleições se mudassem alguma coisa seriam ilegais, inflação pela  expansão monetária não é culpa só do nosso banco central, é tambem do banco central americano, mas tambem querer ter uma moeda com lastro em dollar(plano real) é pedir pra se fuder toda vez que eles expandem a base monetária deles, o real nunca vai ser estavel, ele tinha a percepção de ser estavel pq n tinha nem 15 anos de idade, agr os trouxas tão inflando a taxa de juros pra convencer ingles a investir no risco brasil
+
+&#x200B;
+
+""salvar vidas"" nunca foi a intenção do governo, a intenção de todos atores politicos no brasil é se reeleger em grupinhos(que nojo), país lixo de lixos para gente lixo são incapazes de fazer um planejamento de longo prazo(um investimento de verdade), como eu falei, não deveriam nem ter saído da cama";NEG;NEG;0.7977198958396912;0.17034339904785156;0.03193671256303787
+213;213;278;1izibbn;https://www.reddit.com/r/opiniaoimpopular/comments/1izibbn/bolsa_família_é_o_maior_programa_de_compra_de/;"Sou totalmente a favor do Bolsa Família, mas com um pequeno detalhe: quem recebe Bolsa Família não deveria poder votar.
+
+Pessoas em situação de vulnerabilidade DEPENDEM de ajuda do Estado. O problema é que, no Brasil, o Estado também depende de pessoas em situação de vulnerabilidades para arrecadar votos.
+
+Pago imposto por ano suficiente pra sustentar 4 ou 5 famílias. Mas o meu voto é único, contra 15 a 20 votos que eu sustento.
+
+Esse país não tem literalmente NENHUMA chance de dar certo. Estamos fadados ao fracasso.";NEU;NEU;0.44841495156288147;0.5027979612350464;0.04878711327910423
+214;214;467;1k5w6bi;https://i.redd.it/uobtha4vekwe1.jpeg;É o melô do bolsa familia;NEU;NEU;0.05542764067649841;0.9099265336990356;0.03464585915207863
+215;215;336;1kk8lfe;https://www.reddit.com/r/opiniaoimpopular/comments/1kk8lfe/trabalhar_home_office_no_brasil_ganhando_em/;Só errou na parte do bolsa família, eu recebo direto do Adsense e a troca cambial quem faz é o próprio Banco Central, a única foda é pagar imposto de 27% se você recebe altos valores em dólar recomendo abrir um CNPJ que essa porcentagem vai cair e muito;NEG;NEU;0.7580836415290833;0.18958593904972076;0.052330322563648224
+216;216;94;1h9udxs;https://www.reddit.com/r/opiniaoimpopular/comments/1h9udxs/quem_crítica_o_bolsa_família_é_quem_nunca_passou/;Depois que a gente vê a realidade do outro de perto, Bolsa Família é o mínimo.;NEU;POS;0.1486508995294571;0.826087474822998;0.025261634960770607
+217;217;180;1gahn33;https://www.brasil247.com/regionais/sudeste/zema-culpa-bolsa-familia-por-falta-de-mao-de-obra-no-comercio;"Mas ele está certo. O salário mínimo que o comércio deseja pagar está super defasado e a carga horário continua um absurdo.
+
+É muito melhor ganhar bolsa família e completar a renda com bico que trabalhar em muitos desses empregos de besta.
+
+Aí o comércio ao invés de melhorar o salário e a condição de trabalho prefere procurar formas alternativas de contratação.";NEG;NEU;0.9282205104827881;0.03130161017179489;0.04047790542244911
+218;218;523;zt15mi;https://www.reddit.com/r/brasil/comments/zt15mi/a_mídia_parece_discordar_da_democracia_da_mesma/;"Acho que a midia tá exagerando também, mas a PEC não é apenas sobre Auxilio Brasil. Para manter Auxilio Brasil em 600 é preciso 52bi. Para dar 150 extra para cada filho, sobe para 70bi. Enquanto isso a PEC abre espaço fiscal na média de 200 bilhões.
+
+Edit: Para deixar mais claro o que 200bi significa: Você faz pelo menos 3 trem balas, ou 4 se o valor não mudou desde 2016~.";NEU;NEU;0.4072166681289673;0.5391545295715332;0.05362888053059578
+219;219;92;1h9udxs;https://www.reddit.com/r/opiniaoimpopular/comments/1h9udxs/quem_crítica_o_bolsa_família_é_quem_nunca_passou/;"Não critico a existência do programa, entendo que ele é essencial pra muitas pessoas, oq eu critico são as mazelas dos usuários do Bolsa família. 
+Por exemplo: Já presenciei o fato de uma atendente que na época tinha um salário em torno de 1.000 reais ter que assinar o contracheque de um vereador ganhando bem mais que ela pelo Bolsa família. O problema do programa é que tem margem pra muita gente fazer safadeza, tipo usar o dinheiro pra jogar no tigrinho.";NEG;NEG;0.8450474739074707;0.09332936257123947;0.06162317469716072
+220;220;23;12hhnq2;https://i.redd.it/zdoeyz5jy1ta1.jpg;Consignado com desconto no benefício do Bolsa Família é uma das coisas mais bizarras que já vi;NEG;NEG;0.9828431010246277;0.013599888421595097;0.0035569509491324425
+221;221;290;196vyo3;https://i.redd.it/orj9l8c28icc1.png;"Em apostas?antes fosse só  isso.
+
+Têm uma amiga da minha avó, que tem 2 filhas, dentre elas uma tem 2 Filhos e um marido noia. ela pega o bolsa família dos filhos e paga as drogas pro marido ficar muito louco, não bastando ele gastar todo o salário em drogas, quando os filhos fizeram 3 anos, ela deixou eles com a avó e foi trabalhar para o marido poder usar mais drogas.
+
+Ela já chegou a vender o cabelo dela para pagar dívidas de drogas do marido, algumas vezes suspeitaram de que ela também estaria usando.
+
+Só que isso nunca importou antes né, antes não tinha a menor importância, o que  realmente às pessoas fazem com esse dinheiro.";NEU;NEU;0.21282465755939484;0.7226203680038452;0.06455492228269577
+222;222;537;p0z555;https://eassim.com.br/bolsonaro-gastara-mais-de-r-60-bilhoes-para-tentar-melhorar-sua-aprovacao/;Ué, Bolsa Família eh coisa de comunista...;NEG;NEU;0.9129942655563354;0.08074759691953659;0.006258184090256691
+223;223;271;1h9wsue;https://www.reddit.com/r/opiniaoimpopular/comments/1h9wsue/beneficiário_do_bolsa_família_deveria_estudar_ao/;O bolsa família deveria, no mínimo, além do auxílio financeiro disponibilizar cursos profissionalizante e encaminhar pro mercado de trabalho. Aí seria um programa social bem avaliado pelo número q sai do programa e não pela santidade de pessoas q recebe o auxílio;NEG;NEG;0.4293084740638733;0.4202715754508972;0.1504199206829071
+224;224;5;1ipk0at;https://www.reddit.com/r/opiniaoimpopular/comments/1ipk0at/o_bolsa_famíliaauxílio_brasil_não_faz_ninguém/;"Uma pessoa que recebe bolsa família , mulher por exemplo . Se fizer 4 faxinas no mes a 150 reais , já soma 600 reais a mais , com os 600 do auxílio , já dá um salário mínimo quase . Para 4 dias de trabalho .
+
+Se pegar um emprego CLT 6x1 , para ganhar praticamente a mesma coisa , saindo de manhã e voltando à noite ... 
+
+Assim, fica meio óbvio porque a pessoa que recebe auxílio não aceita qualquer emprego .";NEU;NEU;0.2920140326023102;0.6232749819755554;0.08471105992794037
+225;225;116;1faj54g;https://noticias.uol.com.br/eleicoes/2024/09/06/pablo-marcal-bolsa-familia-desempregados-profissionais.htm;"> O candidato chegou a prometer que acabaria com o Bolsa Família em 2026 — ano das próximas eleições presidenciais.  
+  
+Ufa! Uma esperança no fim do tunel! Espero que o Marçal continue firme neste discurso, porque a gente sabe que todo candidato que ataca o Bolsa Família (ou mesmo que é alvo de boatos dizendo que ele irá acabar com o programa) se fode bonito.  
+  
+Você sabe que a pessoa não vai no mercado quando vê ela críticando o Bolsa Família. Os caras tem que estar muito fora da realidade para achar que dá pra viver um mês com 600 reais hoje em dia.";NEG;NEG;0.8631669878959656;0.10513319820165634;0.03169983997941017
+226;226;45;1fqkjx3;https://eassim.com.br/lula-cobra-proibicao-do-uso-do-cartao-do-bolsa-familia-para-bets/;Eu não posso comprar cerveja no vale alimentação, mas o cara pode apostar o bolsa família! Loucura, loucura, loucura.;NEU;NEG;0.1284347027540207;0.7678195238113403;0.10374583303928375
+227;227;220;16gqei2;https://www.bbc.com/portuguese/articles/cv2kd3vrvp8o.amp?at_format=image&at_link_type=web_link&at_link_origin=bbcbrasil&at_medium=social&at_ptr_name=twitter&at_campaign_type=owned&at_link_id=B9B23804-50B2-11EE-8B2E-B6153AE5AB7B&at_campaign=Social_Flow&at_bbc_team=editorial;"Maria da Conceição Tavares [sobre](https://www1.folha.uol.com.br/fsp/brasil/fc2104200312.htm) a agenda que criou o Bolsa Família: ""Dentro do programa há gente  infiltrada que escreveu uma porcaria chamada Agenda Perdida, feita por um grupo de débeis mentais do Rio de Janeiro. Não são tão débeis mentais  porque, além de fazer a Agenda,  montaram um instituto, que é  uma ONG, que recebe em torno  de US$ 250 mil do Banco Mundial  para fazer o tal estudo especial para focalizar \[...\]É um espanto que esse grupo de  garotos espertos faça com dinheiro público e do Banco Mundial  uma nova Agenda que proponha  para o Brasil a focalização dos programas sociais.""";NEG;NEG;0.9434290528297424;0.047606755048036575;0.008964198641479015
+228;228;423;1jj6qjv;https://i.redd.it/0tldf1cfdqqe1.jpeg;A casos e casos, há pessoas que entre trabalhar com carteira assinada e receber bolsa família, preferem o bolsa família;NEU;NEU;0.09281478822231293;0.8794757127761841;0.027709530666470528

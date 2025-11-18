@@ -1,0 +1,675 @@
+;Unnamed: 0.1;Unnamed: 0;id Post;Link;Contexto;Classe Sentimento;rotulo;prob_NEG;prob_NEU;prob_POS
+0;0;395;pxbwf4;https://economia.uol.com.br/noticias/reuters/2021/09/28/bolsonaro-diz-que-brasil-e-rico-e-indica-possivel-extensao-do-auxilio-emergencial.htm;Bolsonaro diz que Brasil é rico e indica possível extensão do auxílio;NEU;NEU;0.031217247247695923;0.9534417986869812;0.015340962447226048
+1;1;78;1k6a7ph;https://i.redd.it/uyfdr3iienwe1.png;Vocês já pararam para pensar que os 54,3 milhões de pessoas que recebem bolsa família, não entram no calculo oficial de desempregados? oficialmente a taxa de desemprego no Brasil é de 6.2% (6,8 milhões) se beneficiários fossem considerados desempregados a taxa de desemprego ficaria em 55,5%. Ah mas quem recebe bolsa família pode ter um emprego com carteira assinada, pode desde que a renda per capta não ultrapasse 218 reais por pessoa, o que é igual a 6 membros em uma família, apenas 5% da população no Brasil é composta por mais de 6 membros familiares. ;NEU;NEU;0.14445282518863678;0.8205516934394836;0.03499554842710495
+2;2;278;yg78sk;https://i.redd.it/y8fb6ft33pw91.jpg;Bolsonaro no debate se o congresso não tivesse forçado a aprovação do auxílio Brasil:;NEU;NEU;0.36044368147850037;0.6062487363815308;0.033307552337646484
+3;3;305;xn0p1f;https://g1.globo.com/economia/noticia/2022/09/24/datafolha-3-em-cada-4-beneficiarios-do-auxilio-brasil-usam-o-dinheiro-para-comprar-comida.ghtml?utm_source=share-universal&utm_medium=share-bar-app&utm_campaign=materias;Datafolha: 3 em cada 4 beneficiários do Auxílio Brasil usam o dinheiro para comprar comida;NEU;NEU;0.02686566859483719;0.9389961957931519;0.03413808345794678
+4;4;325;um686y;https://www.istoedinheiro.com.br/petrobras-rende-r-447-bi-ao-governo-cinco-vezes-o-orcamento-do-auxilio-brasil/;Petrobrás rende R$ 447 bi, 5 vezes orçamento do Auxílio Brasil ;NEU;NEU;0.027583925053477287;0.9277845025062561;0.044631604105234146
+5;5;289;xvc1qa;https://oglobo.globo.com/economia/noticia/2022/10/um-dia-depois-de-confirmado-o-segundo-turno-governo-decide-antecipar-pagamento-do-auxilio-brasil.ghtml;Um dia depois de confirmado o segundo turno, governo decide antecipar pagamento do Auxílio Brasil ;NEU;NEU;0.055526405572891235;0.922091543674469;0.02238202840089798
+6;6;218;1h1g74y;https://portalrbn.com.br/caixa-paga-bolsa-familia-a-beneficiarios-com-nis-de-final-8/?feed_id=10824&_unique_id=6747969a07986;Caixa paga Bolsa Família a beneficiários com NIS de final 8;NEU;NEU;0.04149923846125603;0.922598123550415;0.035902656614780426
+7;7;82;1ic1zgn;https://v.redd.it/6dakjyx5pqfe1;Pegou o Bolsa Família, e agora? Comida ou Jogo do Tigrinho? ;NEU;NEG;0.06564231216907501;0.9208874702453613;0.013470189645886421
+8;8;432;exfwms;https://brasil.elpais.com/brasil/2020-01-31/governo-bolsonaro-nao-explica-tamanho-real-da-fila-do-bolsa-familia.html;Governo Bolsonaro não explica tamanho real da fila do Bolsa-familia;NEU;NEU;0.12689906358718872;0.8560527563095093;0.017048176378011703
+9;9;402;m1gh1c;https://www.reddit.com/r/coronabr/comments/m1gh1c/como_o_mercado_financeiro_apóia_o_bolsonarismo/;"Como o Mercado Financeiro apóia o Bolsonarismo nas medidas contrárias ao combate da COVID-19, e lucra com isso. O The Intercept Brasil fez uma [reportagem muito interessante sobre o papel do Mercado em reforçar o ataque a medidas de combate como o Lockdown](https://theintercept.com/2021/03/07/xp-empiricus-faria-lima-auxilio-emergencial/), por exemplo, gerando essa imensa catástrofe humanitária que estamos passando. 
+
+Segue, abaixo, uma parte com grifos meus:
+
+>O presidente da República não está só no boicote à saúde pública. Ele  conta com o apoio da frieza do mercado, que transforma brasileiros  mortos em um mero número de uma planilha de Excel.  
+>  
+>**Enquanto empresas quebram** com a pandemia, esses investidores estão lucrando com ela. **O BTG Pactual, fundado por Paulo Guedes,** [**teve um lucro líquido**](https://www.moneytimes.com.br/lucro-do-btg-pactual-cresce-245-no-quarto-trimestre-e-soma-r-1258-bilhao/)  **de mais de 4 bilhões de reais em 2020.** A expectativa para 2021 é que  essa cifra aumente para 5 bilhões de reais. A XP Investimentos teve  lucro líquido em 2020 111% maior que o ano anterior, [chegando a 2,27 bilhões](https://www.infomoney.com.br/mercados/lucro-liquido-ajustado-da-xp-inc-tem-alta-de-111-em-2020-e-vai-a-r-227-bilhoes/) de reais.  
+>  
+>Enquanto nadam em dinheiro como Tio Patinhas, defendem que o “melhor  cenário” é o pagamento de um auxílio emergencial o mais modesto possível  para socorrer os mais pobres. Um bom auxílio emergencial salvaria  muitas vidas e ajudaria as pessoas a ficarem mais em casa, mas isso não  sensibiliza os jogadores do cassino.  
+>  
+>[Para Zeina Latif](https://congressoemfoco.uol.com.br/governo/zeina-latif-reforma-administrativa-nao-pode-vilanizar/),  que foi economista-chefe da XP e já ocupou cargos importantes no  mercado financeiro, o problema da vacinação no Brasil não é fruto do  boicote bolsonarista, mas da “nossa burocracia estatal”. Para ela, “não  se trata de (falta) de dinheiro, não se trata de vontade política, mas  da máquina que não funcionou”.  
+>  
+>Para a economista, trata-se de uma questão de gestão, e não de  vontade política. Estamos falando do país que até a chegada da tragédia  bolsonarista era [referência mundial ](https://portal.fiocruz.br/en/node/74687)em  vacinação. A “burocracia estatal” nunca foi um empecilho nessa seara.  **Nem mesmo o fato do país estar empilhando cadáveres faz com que o  mercado largue a agenda do estado mínimo e responsabilize diretamente  Bolsonaro.** Afinal de contas, o mercado financeiro o elegeu por se sentir  muito bem representado por Paulo Guedes.
+
+Leitura muito interessante, para ter uma compreensão maior de como nós não temos acesso a UTIs ou Vacinas, mas a mamãezinha do Bolsonaro já tomou as duas doses da Coronavac.   
+
+
+Seus avós ou pais tiveram acesso a vacina? 
+
+PS: Obrigado à moderação por apagar o link e me motivar à fazer uma edição melhor e com mais conteúdo.";NEU;NEU;0.053459059447050095;0.5887446403503418;0.3577963709831238
+10;10;290;wtbxqr;https://www.reddit.com/r/brasil/comments/wtbxqr/uma_assistente_social_me_informou_que_o_tempo_de/;Uma assistente social me informou que o tempo de espera para a resposta do Auxílio Brasil é de sete meses Um mês pra documentação chegar ao governo, mais seis meses para a avaliação. Eu entendo que existe uma fila grande, mas essa demora é realmente justificável? O que acontece com as famílias que dependeriam com urgência do auxílio?;NEG;NEU;0.5613701343536377;0.3853784501552582;0.05325143411755562
+11;11;75;1fqod7c;https://v.redd.it/vvo9gwkdycrd1;E o bolsa família tá como ?;NEU;NEU;0.3296932876110077;0.6536107659339905;0.01669597066938877
+12;12;225;12ze833;https://www.reddit.com/r/brasil/comments/12ze833/meu_pai_é_bolsonarista_roxo_e_frauda_o_bolsa/;"MEU PAI É BOLSONARISTA ROXO E FRAUDA O BOLSA FAMILIA! pra tu receber o bolsa familia se precisa de renda per capta de 218 reais por pessoa e no cadastro do cras consta que temos uma renda de 100 reais por pessoa sendo que nós temos uns 600-700 reais por pessoa! E nesse cadastro não consta o meu irmão pq ele é registrado.
+
+Mano, que absurdo um homem que fica puxando saco de bolsonaro que é extremamente avesso a politicas publicas ouse fraudar um programa social de distribuição de renda
+
+&#x200B;
+
+E como eu sei disso? to participando de um processo seletivo pra um auxilio permanencia estudantil da faculdade e eles pedem uma bagatela de documentos e eu tenho mais essa, agora eu to com um puta medo de ser indeferido pq meu pai frauda o bolsa familia
+
+&#x200B;
+
+**Edit:** 
+
+Então, todo mundo dizendo que bolsonarista é corrupto ou q eu deveria denunciar ele mas eu conheço o meu pai e sei que esse dinheiro ia fazer uma puta falta em casa pq ninguém aqui tem carteira assinada.
+
+Esses casos de corrupção dos povos mais pobres n é nada mais nada menos do que um instinto em busca de uma vida mais digna. Claro que abnegar desse dinheiro em prol de uma justiça social mais ampla é mt mais bonito mas e quando as contas chegam e a barriga ronca, tu abre a dispensa e só tem fubá pra comer e na geladeira tem agua gelada e uns ketchup velho, como que faz?
+
+Meu pai tem uma cabeça conservadora de emprego onde da pra se aposentar em uma função mas o mercado dele esta péssimo e ele n se reinventou, profissionalizou e nem migrou. Ta envelhecendo e n existe politicas publicas que combatem o etarismo, politicas publicas COM o povo e não assistencialismos que com uma canetada vc passa fome.
+
+As pessoas do interior são extremamente sectárias e n poderia ser de outro jeito já que o contexto de miséria no dia a dia e a ausência de lazer aproxima ele de uma religião (geralmente cristã, evangélica ou protestante) e deixa eles a mercê desse discurso de terrorismo moral das ideias que não são os dogmas da religião.
+
+No final essas acusações que limitam todo um homem em uma caracteristica que não é de todo modo culpa dele mas é aliado a um contexto social só vai dividindo a gente e nunca debatemos como chegamos nesse ponto.
+
+Não sei se vc vai ler mas agradeço desde ja, fica com deus OP";NEG;NEG;0.9221628308296204;0.06533853709697723;0.012498607859015465
+13;13;394;pblsyt;https://www.reddit.com/r/brasil/comments/pblsyt/desabafo_de_quem_tá_com_medo_do_que_tá_virando_o/;"Desabafo de quem tá com medo do que tá virando o Brasil Venezuela foi para o buraco porque insistiram em planos de auxilio a população,  não, não foi o único motivo. Não foi nem o pricipal. Foi um dos itens apenas. Assim como apenas o Bolsonaro sendo presidente não é o unico motivo do brasil tá como está hoje, (parecidos com o nosso bolsa família), mesmo depois da queda do lucro que eles tinham na exportação do petroleo.
+
+&#x200B;
+
+Atualmente nosso governo quer dar calote nos precatórios, e no lugar de ajustar as contas, o objetivo disso é criar um segundo ""bolsa família"". Aumentando ainda mais os valores, e piorando ainda mais nossa economia (não me entenda errado, acho que é NECESSÁRIO existir esse auxilio, mas não precisava aumentar ele durante a crise economica que estamos). Seguindo assim, a risca as mesmas medidas da venezuela.
+
+&#x200B;
+
+Hoje tenho medo de verdade do nosso governo, do nosso futuro, da ignorancia de mais de 30% dos brasileiros que ainda acreditam a ponto de, ao menos tentar, fazer as coisas que prometem (como às do dia 07/09).
+
+&#x200B;
+
+Ao passar dos dias, da mais medo do Brasil de hoje...";NEG;NEG;0.5050069093704224;0.42327719926834106;0.07171584665775299
+14;14;155;1akph83;https://www.reddit.com/r/brasil/comments/1akph83/minha_família_possui_direito_ao_bolsa_familia_mas/;Minha família possui direito ao bolsa familia, mas o cras da cidade diz que não? Família de 5, recebo bpc o qual segundo inss não conta como renda. Meu avô é aposentado, eu e ele precisamos de medicamento caro, 720 reais o meu, dele não sei. renda familiar de menos de 1/4 do salário mínimo por pessoa. Vieram a mim dizendo que possuímos direito ao bolsa familia, mas o cras local nega isso. Como prosseguir?;NEG;NEU;0.49866053462028503;0.4604078233242035;0.04093170911073685
+15;15;76;105vxrv;https://oglobo.globo.com/blogs/lauro-jardim/post/2023/01/governo-quer-voltar-a-cobrar-assiduidade-escolar-e-cartao-de-vacinacao-de-beneficiarios-do-bolsa-familia.ghtml;Governo quer voltar a cobrar assiduidade escolar e cartão de vacinação de beneficiários do Bolsa Família;NEU;NEU;0.09115861356258392;0.8798274993896484;0.029013825580477715
+16;16;431;s06iow;https://www.reddit.com/r/argentina/comments/s06iow/mi_novia_no_solo_me_dejo_sino_que_me_robo/;"Mi novia no solo me dejo, sino que me robo Bueno, rediturros
+
+Basicamente lo que dice el post. Hoy cortamos con mi novia despues de 7 meses. Paso a describir la situacion
+
+El dia jueves recibi un pago en efectivo de 85 lucas que me dieron en una bolsita de regalo para libros, de tela. Ese dia, a la noche, puse la bolsita en mi armario, a la vista. Dia viernes, sabado y hoy no vino nadie a mi casa, excepto mi novia el viernes por la noche. Ese viernes por la noche, la bolsita con plata estaba ahi. Y saque plata para ir a comer con ella. Ayer estaba ahi
+
+Mi novia me dejo despues de una pelea que no va al caso en el desayuno. Me dijo que no queria seguir mas y se fue. Guardo todas sus cosas en 3 bolsas y se fue. En una bolsa eran solo cosmeticos del baño, en las otras eran zapatos, ninguno de los cuales se guardaban en el armario, sino abajo de la cama
+
+Reviso a la hora no se porque y no estaba la plata. No puedo probar que la robo, y ella no lo va a admitir jamas. Paso a describir a la persona en cuestion. Tipica cheta de Belgrano con los papas y familia con guita, nariz parada y demas. Para que no digan que solo roban los pobres
+
+Y tengo un odioooooo... porque no puedo probarlo, ella no lo va a admitir, no tengo pruebas, dijo que ""No se de que me hablas"" cuando le dije ""eso que hiciste antes de irme no se hace, esta mal"" y demas
+
+La plata estaba el viernes cuando la vi por ultima vez, nadie vino a esta casa y la unica llave la tengo yo, o el dueño en su defecto, ni mis viejos ni nadie mas. Me siento un idiota y muy traicionado
+
+Ni hubo insultos ni nada. Solo le dije que aceptaba que no quiera verme mas. No hubo llantos ni nada, solo caras de tristeza
+
+Nada... a alguien le paso? Puede explicarme esto? Que me perdi? Porque hasta quiero creer que no se, me la gaste entre el sabado y el domingo sin darme cuenta, o algo, se que la plata no se volo por el viento....
+
+Gracias";NEU;NEU;0.05773591995239258;0.8473309874534607;0.09493307024240494
+17;17;192;1hwz8hq;https://www.reddit.com/r/ItsPauloLeeg/comments/1hwz8hq/nem_o_bolsa_família_tem_tanta_gente/;Nem o bolsa família tem tanta gente. https://youtu.be/5WcyFbaCyTc?si=XBRGizppqWHwvsF7;NEU;NEG;0.03605782240629196;0.9238126873970032;0.04012952744960785
+18;18;73;1jwrt2n;https://gauchazh.clicrbs.com.br/politica/noticia/2025/04/prefeituras-e-entidades-empresariais-do-rs-se-mobilizam-para-reduzir-numero-de-beneficiarios-do-bolsa-familia-cm9bwvhwh00hg013dxjr3xeap.html;Prefeituras e entidades empresariais do RS se mobilizam para reduzir número de beneficiários do Bolsa Família | GZH;NEU;NEU;0.04949149489402771;0.927947461605072;0.022561050951480865
+19;19;153;1ijcxea;https://www.reddit.com/r/enem/comments/1ijcxea/o_prouni_tem_poder_de_tirar_o_bolsa_família_de/;O ProUni tem poder de tirar o Bolsa Família de alguém? Gente, minha mãe e meu padastro são casados, mas minha mãe ainda está recebendo Bolsa Família (e não, ela não deveria estar recebendo de acordo com os critérios do programa, porque mesmo sendo apenas dona de casa, ela casou e consequentemente a renda da família aumentou porque ele trabalha. Mas ela não incluiu meu pai no cadastro do Bolsa Família). E como vou confirmar com a faculdade minhas informações no ProUni, claramente vão saber que ela é casada e pelo CPF dá pra verem que ela recebe o Bolsa Família. Corremos risco de ficar sem o Bolsa Família?;NEU;NEU;0.16155891120433807;0.7513018250465393;0.08713927865028381
+20;20;9;140oxix;https://g1.globo.com/politica/noticia/2023/06/04/auditorias-da-cgu-apontam-bilhoes-em-pagamentos-indevidos-de-programas-como-auxilio-brasil-e-auxilio-gas-em-2022.ghtml;Auditorias da CGU apontam bilhões em pagamentos indevidos de programas como Auxílio Brasil e Auxílio Gás em 2022;NEU;NEU;0.07612040638923645;0.895896315574646;0.02798318676650524
+21;21;175;1ijxy0w;https://portalrbn.com.br/caixa-paga-bolsa-familia-a-beneficiarios-com-nis-de-final-9-3/?feed_id=16269&_unique_id=67a62a76512d8;Caixa paga Bolsa Família a beneficiários com NIS de final 9;NEU;NEU;0.03904767334461212;0.923451840877533;0.03750046342611313
+22;22;30;106gxmb;https://youtube.com/watch?v=VrHlD0QtHnA&feature=share;ADIADO o AUMENTO no SALÁRIO MÍNIMO e R$ 150 por FILHO no AUXÍLIO BRASIL ...;NEU;NEU;0.38412922620773315;0.5994471311569214;0.016423620283603668
+23;23;411;k5xhmj;https://www.reddit.com/r/coronabr/comments/k5xhmj/mesmo_priorizando_a_economia_o_governo_ainda/;"Mesmo priorizando a economia o governo ainda falha em sua gestão da pandemia. Fico pensando, o governo quer a retomada a economia e a normalidade,  mas ao mesmo tempo luta contra tudo que possa nos fazer voltarmos a vida de antes. É contra testagem em massa, deixa testes de covid vencerem, é contra uma vacina só  porque é patrocinada por seu rival político. O governo federal se diz nacionalista e patriota mas isso é engodo, se fosse investiria em vacinas nacionais para o Brasil ter suas próprias e não depender do exterior. Colocou no maior cargo que cuida da saúde,  alguém que não entende nada de saúde,  diz entender logistica mas não é capaz de elaborar um plano estratégico para lidar com a pandemia e agora apresentou um plano de vacinação que claro é fraco. O que esperar mais desse governo? Gastou bilhões em auxilio emergencial, mas poderia ter poupado gasto se tivesse seguido a ciência e lidado melhor com a pandemia. Agora sofremos a conta gotas, era preferível termos sofridos restrições mais severas no inicio e desfrutarmos de mais segurança e liberdade como a China agiu que impôs lockdown, rastreio de contatos e testagem em massa. Agora ke diz qual ganho o governo tem? O que ele ganha sendo incompetente? Se ele fosse competente teríamos retomado a economia, que o governo se diz importar tanto mas ignora que mortos não compram, nem vendem e nem trabalham. 
+Estudos comprovam que países que lidaram com a pandemia de forma correta tiveram menos prejuízos economicos.";NEG;NEG;0.7351400256156921;0.18699553608894348;0.07786445319652557
+24;24;104;1k9w2h4;https://www.reddit.com/r/opiniaoimpopular/comments/1k9w2h4/não_deveria_existir_qualquer_forma_de_assistência/;"Não deveria existir qualquer forma de assistência social. O BPC Loas e o Bolsa Família deveriam ser extintos. Só no Brasil uma pessoa que nunca contribuiu nada a vida inteira consegue se aposentar. Isso  é um tapa na cara de quem  contribuiu a vida inteira e vai se aposentar igual. Não tem lógica nenhuma. Você receber um valor sem fazer nada enquanto quem trabalha chega a ganhar menos que você. Por isso que o Brasil é considerado um dos países menos produtivos do mundo. 
+
+Se não existia assistência seria cada um responsável pelo próprio sustento. Aí eu queria ver. A pessoa iria dar um jeito e correr atrás de um emprego ou atividade lucrativa. ";NEG;NEG;0.6821452975273132;0.17313174903392792;0.14472293853759766
+25;25;132;1fq9y07;https://www.reddit.com/r/opiniaoimpopular/comments/1fq9y07/pessoa_que_recebe_auxílio_do_governo_como_bolsa/;Pessoa que recebe auxílio do governo como bolsa família, INSS e etc, se for provado que usa o dinheiro com Bet, deveria perder o benefício  ;NEG;NEG;0.7155860066413879;0.25816041231155396;0.026253608986735344
+26;26;70;1k31yyw;https://i.redd.it/9zg87givwtve1.png;Bolsa família deveria ter uma duração de no máximo 6 meses! E a pessoa poderia receber somente 6 meses por ano...;NEG;NEG;0.48724931478500366;0.4407253563404083;0.07202527672052383
+27;27;369;ucf6wg;https://ge.globo.com/pi/futebol/copa-do-brasil/noticia/2022/04/26/torcida-faz-fila-mesmo-com-ingresso-ate-r-300-para-ver-flamengo-no-piaui.ghtml;Torcedores fazem longas filas mesmo com ingresso até R$ 300 para ver Flamengo no Piauí;NEU;NEU;0.08283163607120514;0.8928074240684509;0.02436092682182789
+28;28;422;cmvwbt;https://blogs.oglobo.globo.com/ancelmo/post/sistema-do-mec-esta-fora-do-ar-e-nao-ha-quem-o-conserte-weintraub-demitiu-os-tecnicos-de-ti.html;Bolsa Família: sistema do MEC está fora do ar e não há quem o conserte: Weintraub demitiu os técnicos de TI;NEU;NEU;0.3689567744731903;0.6186167597770691;0.012426463887095451
+29;29;55;1faj54g;https://noticias.uol.com.br/eleicoes/2024/09/06/pablo-marcal-bolsa-familia-desempregados-profissionais.htm;Marçal sugere que Bolsa Família produz 'desempregados profissionais' O que você acha a respeito dessa afirmação do Marçal?;NEU;NEU;0.040150001645088196;0.9493826031684875;0.010467362590134144
+30;30;423;v3mxrn;https://www1.folha.uol.com.br/mercado/2022/06/pt-discute-plano-economico-de-lula-com-novo-bolsa-familia-e-taxacao-de-fortunas.shtml?utm_source=twitter&utm_medium=social&utm_campaign=twfolha;PT discute plano econômico de Lula com novo Bolsa Família e taxação de fortunas;NEU;NEU;0.05148094519972801;0.9192331433296204;0.02928593009710312
+31;31;360;yijnx0;https://www.reddit.com/r/brasil/comments/yijnx0/nao_seja_um_babaca_deixa_a_galera_comemorar_em/;"Nao seja um babaca! Deixa a galera comemorar em paz hoje Cheio de post aqui ""ain pq vcs tem que entender que o Lula vai herdar um rombo no orcamento"", ""pq o Lula vai governar com um congresso de direita"", ""pq o Lula nao eh perfeito"" ou coisas do tipo. 
+
+Irmao, **NAO SEJA BABACA**
+
+ Vc nao eh o inteligentao que ta sozinho percebendo essas coisas, ninguem aqui precisa da sua aula. Acho que a imensa maioria sabe de tudo isso. 
+
+Mas a gente acabou de vencer uma eleicao contra um fascista que usou todos meios (democraticos e nao democraticos) pra se reeleger. Despejou dinheiro em orcamento secreto, auxilio, comprou apoio no Brasil todo, meteu a policia pra cima de pobre, impediu transporte gratuito, esbanjou fake news. 
+
+**E MESMO ASSIM PERDEU**
+
+Deixa a gente comemorar hoje, porra! A partir de amanha a gente pensa nos problemas de novo, mas hoje, **SO HOJE** a gente so quer comemorar e rir da cara de bolsonarista.";NEG;NEG;0.8935140371322632;0.07781071215867996;0.028675302863121033
+32;32;181;1icuy7k;https://portalrbn.com.br/caixa-paga-bolsa-familia-a-beneficiarios-com-nis-de-final-4-3/?feed_id=15232&_unique_id=679a3ab30222f;Caixa paga Bolsa Família a beneficiários com NIS de final 4;NEU;NEU;0.04379395395517349;0.9188637137413025;0.03734242543578148
+33;33;307;pxbwq0;https://economia.uol.com.br/noticias/reuters/2021/09/28/bolsonaro-diz-que-brasil-e-rico-e-indica-possivel-extensao-do-auxilio-emergencial.htm;Bolsonaro diz que Brasil é rico e indica possível extensão do auxílio;NEU;NEU;0.031217247247695923;0.9534417986869812;0.015340962447226048
+34;34;375;y6k751;https://www.reddit.com/r/farialimabets/comments/y6k751/tive_uma_ideia_genial_pra_ficar_rico_preciso_de/;Tive uma ideia genial pra ficar rico, preciso de conselhos. Tem muito mosquito da dengue aqui no meu bairro, e se eu criasse mosquito da dengue no balde e vendesse para pessoas que querem atestado médico? Seria o mosquito da dengue de balde, quantos R$ vocês pagariam por um atestado médico?;NEU;NEU;0.08754100650548935;0.8422514796257019;0.07020755857229233
+35;35;72;10vhmau;https://noticias.uol.com.br/politica/ultimas-noticias/2023/02/06/lula-ministerio-da-saude-nisia-trindade-cirurgias-sus.htm?utm_source=twitter&utm_medium=social-media&utm_content=geral&utm_campaign=noticias;Bolsa Família exigirá atestado de vacinação de crianças, diz Lula ;NEU;NEU;0.031026724725961685;0.949266791343689;0.01970655284821987
+36;36;203;1dkpio3;https://i.redd.it/a2zpa0cb8t7d1.png;"Bolsa Família: como uma ideia da direita se tornou a principal bandeira da esquerda brasileira 
+
+https://leiaisso.net/11km/ ";NEU;NEU;0.02697230689227581;0.9346286654472351;0.03839902579784393
+37;37;101;1311l1n;https://i.redd.it/gfzf9pn61hwa1.png;Corte do Bolsa Família provoca filas em Salvador https://www.poder360.com.br/brasil/corte-do-bolsa-familia-provoca-filas-em-salvador/;NEU;NEU;0.06982892006635666;0.9140927195549011;0.016078397631645203
+38;38;39;1jotp5k;https://www.maisgoias.com.br/brasil/meu-sonho-um-projeto-onde-quem-recebe-bolsa-familia-nao-pode-votar-diz-senador-marcos-do-val/;“Meu sonho um projeto onde quem recebe Bolsa Família não pode votar”, diz senador Marcos do Val ;NEU;NEG;0.05697469040751457;0.6422215104103088;0.3008037805557251
+39;39;291;yyx1pn;https://i.redd.it/pos99xl0zt0a1.jpg;"A presidenta do PT, Gleisi Hoffmann, deixou claro que o governo Lula não será controlado pelo ""mercado"", ou seja, pelos bancos. Ela ataca o teto de gastos e deixa claro que haverá o retorno do Bolsa Família, subsitituindo o Auxílio Brasil. https://t.co/MRu3kOsWnr ";NEU;NEU;0.13734714686870575;0.8129684925079346;0.04968443885445595
+40;40;347;yyn86k;https://i.redd.it/gwv609oadq0a1.png;Tenho 448 anos e nunca precisei de auxilio nenhum da burguesia, da população, juízes, exército, nem de ninguém desse Brasil. Já passei guerras, conflitos e revoltas. Já cheguei a funcionar precariamente! Mas fui lá e cedi as margens do Ipiranga pra o Brasil ficar independente de Portugal. ;NEU;NEU;0.38313186168670654;0.5420691967010498;0.07479897886514664
+41;41;131;1kayna4;https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2502239;[Waldemar Oliveira] PL 1948/2025 (1): Altera a Lei nº 14.790, de 29 de dezembro de 2023, para vedar a participação de beneficiários do Programa Bolsa Família e de integrantes de sua família na condição de apostador. ;NEU;NEU;0.055062711238861084;0.9011372327804565;0.04380009323358536
+42;42;234;1f2ny4y;https://www.reddit.com/r/Ajuda/comments/1f2ny4y/poso_perder_meu_fies_e_bolsa_familia/;"Poso perder meu FIES e Bolsa Familia? Algum advogado ou pessoa que conhece das leis sobre o bolsa familia e fies poderia me ajudar?
+
+
+
+Sou estudante, minha família é beneficiária do bolsa família e tenho FIES social, há uma possibilidade de eu me mudar para outro estado sem minha família. Eles perderiam o benefício e eu perderia o fies social só de sair da casa dos meus pais mesmo não tendo um trabalho com carteira assinada? ";NEU;NEU;0.21248437464237213;0.7277985215187073;0.0597170926630497
+43;43;79;1kpttau;https://www.reddit.com/r/OpiniaoBurra/comments/1kpttau/bolsa_família_e_outros_programas_sociais_não_são/;"Bolsa família e outros programas sociais não são nem de longe a melhor forma de acabar com a pobreza no Brasil Antes de tudo: me considero uma pessoa de esquerda e (por mais que tenha minhas críticas no geral) acho o Bolsa Família e outros programas sociais foram um grande avanço na situação do nosso país.
+
+O resultado do Bolsa Família e de outros programas sociais no país é inegável, tirou uma parcela considerável da população da extrema pobreza e (entre outros feitos) tirou o Brasil do Mapa da fome. Mesmo assim, me peguei pensando hoje e cheguei na conclusão de que essa medida não é nem de longe a melhor maneira de acabar com a pobreza no país.
+
+Ao invés de sustentarmos diretamente eles e arriscarmos termos uma população onde 40% das pessoas depende diretamente de um auxílio do governo(o que já adianto, é melhor que passarem fome) pelo fato de não termos dado à elas estrutura boa para melhorarem de vida, devíamos focar em fazer programas que realmente mudassem a fonte do problema (seja investindo nas escolas públicas, programas sociais, etc) geraria MUITO mais resultado à longo prazo (por mais que ainda tivesse obviamente a possibilidade dos políticos usarem isso como desculpa para roubar, por ser bem mais fácil de fazê-lo. Então um programa de combate à corrupção junto de operações para impedir isso também seriam ótimos).
+
+Dito isso, seria possível de fazer no Brasil? A resposta, pelo menos pra mim, é que sim. Ao mesmo tempo tenho que reconhecer que isso dependeria perigosamente da boa vontade dos políticos, e é difícil que eles tenham já que você recebe bem mais votos com a abordagem direta do que com a indireta.
+
+Eu ainda poderia citar pelo menos mais duas maneiras melhores que o atual Bolsa Família, só que aí o post ficaria muito grande .
+
+É uma opinião burra?🫠";NEU;NEG;0.30298230051994324;0.44159209728240967;0.2554256021976471
+44;44;154;1ikz9tb;https://oglobo.globo.com/politica/noticia/2025/02/08/lula-ligou-para-wellington-dias-e-cobrou-explicacoes-apos-anuncio-de-discussao-interna-sobre-aumento-no-bolsa-familia.ghtml?utm_source=aplicativoOGlobo&utm_medium=aplicativo&utm_campaign=compartilhar;Lula ligou para Wellington Dias e cobrou explicações após anúncio de discussão interna sobre aumento no Bolsa Família;NEU;NEU;0.04061924293637276;0.9449811577796936;0.014399714767932892
+45;45;33;16fxl7s;https://www.reddit.com/r/antitrampo/comments/16fxl7s/bolsa_familia_auxilio_brasil_é_melhor_que_clt/;"Bolsa Familia / Auxilio Brasil é melhor que CLT    Algumas semanas atrás, ouvi relatos de pessoas que viajaram para RECIFE, me disseram que foram em lugares que tinham placas dizendo que precisavam de funcionários, essas mesmas pessoas questionaram os donos dos estabelecimentos e os próprios falaram que estava muito dificil achar pessoas para trabalhar de carteira assinada.  
+
+
+   Eu fiquei bem pensativo sobre isso, porém cheguei a conclusões que realmente não vale a pena ter uma CLT se você recebe o bolsa familia e vou te explicar o porque, se você ganha 600 reais do auxilio, e consegue fazer algumas diárias que pagem \~80 reais, trabalhando por 15 dias (\~R$1200), no final do mês você teria simplesmente 1800 reais, o que muitos não chegam nem aos pés de receber.  
+
+
+Se sua diária for maior é melhor ainda, ou seja, você estaria ganhando mais, trabalhando menos, talvez seja por isso o maior impacto no número de pessoas que não trabalham com carteira assinada.  
+
+
+Discutam sobre isso e me falem o que acham  
+";NEU;NEG;0.20161809027194977;0.5330116748809814;0.2653701901435852
+46;46;157;1iua5fx;https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2485055;[Silas Câmara] PL 591/2025 (1): Altera a Lei nº 14.601, de 19 de junho de 2023 (Lei do Bolsa Família), e dá outras providências. ;NEU;NEU;0.04470144212245941;0.9253281950950623;0.029970388859510422
+47;47;302;y9tqzx;https://g1.globo.com/politica/blog/andreia-sadi/post/2022/10/21/tcu-parecer-suspensao-emprestimo-consignado-auxilio-brasil.ghtml?utm_source=share-universal&utm_medium=share-bar-app&utm_campaign=materias;Parecer do TCU recomenda suspensão do empréstimo consignado do Auxílio Brasil;NEU;NEU;0.11110929399728775;0.8623605370521545;0.026530180126428604
+48;48;77;1fw6npf;https://www1.folha.uol.com.br/mercado/2024/10/bets-dizem-que-beneficiarios-do-bolsa-familia-gastaram-r-210-mi-e-nao-r-3-bi-com-apostas.shtml?utm_source=app&utm_medium=push&utm_campaign=pushmultiplo&utm_content=pushfolha+pusheconomia&id=1728050037;Bets dizem que beneficiários do Bolsa Família gastaram R$ 210 mi e não R$ 3 bi com apostas;NEU;NEU;0.06610492616891861;0.9182277321815491;0.015667274594306946
+49;49;250;yw9blt;https://g1.globo.com/politica/noticia/2022/11/15/aras-diz-ao-stf-que-emprestimo-consignado-do-auxilio-brasil-e-inconstitucional.ghtml?utm_source=share-universal&utm_medium=share-bar-app&utm_campaign=materias;Aras diz ao STF que empréstimo consignado do Auxílio Brasil é inconstitucional;NEU;NEU;0.35952287912368774;0.6124885678291321;0.027988599613308907
+50;50;382;zw1wo6;https://www.reddit.com/r/EuSouOBabaca/comments/zw1wo6/confusão_na_véspera_de_natal_estou_errada/;"Confusão na Véspera de Natal. Estou errada? Olá, tenho 19 anos, estou preste a começar a faculdade ano que vem, trabalhei por um ano em um escritório de contabilidade, quando finalmente sai do trabalho fiquei um tempo procurando por outro afinal no Brasil, infelizmente sustentar uma vida universitária é algo difícil de se fazer sem apoio então tenho tentado manter todas as minhas economias para o avançar da minha vida acadêmica.
+  
+Acabei pegando um ""trabalho temporário"" para um final de ano, graças a uma indicação de familiar, em um supermercado e vou ficar nesse supermercado trabalhando 8h nos dias de semana e 6h nos finais de semana com uma hora de almoço.  
+
+Resolveram oferecer esse trabalho pois sabiam que o final de ano era muito pesado para as operadoras de caixa fazerem tudo sozinhas, a começo de tudo, eu tinha sido contratada apenas para embalar os produtos no caixa. Porém ao chegar lá percebi que a situação era completamente diferente, não ajudavamos só na embalagem como também na devolução de produtos e auxilio com as operadoras, sem contar que de vez em quando o gerente pedia para que nós buscassemos alguns carrinhos e cestas pelo supermercado e estacionamento quando estavam em falta.  
+
+Quando cheguei no primeiro dia, descobri que trabalharia com outras seis pessoas, a princípio acabei me dando bem com três garotas (Vamos chamar as mesmas de Eduarda, Júlia e Maria), Eduarda desistiu no primeiro dia porque o movimento era muito pesado, então tínhamos uma pessoa a menos. Tentei fazer amizade com os outros três, duas garotas e uma menino (E esses vão ser Manuel, Rebeca e Ana), mas toda vez que eu se quer falava com eles, simplesmente não me respondiam. Deixei pra lá e mais tarde na hora do almoço, descobri que Manuel, Rebeca e Ana, eram família de uma das conferentes do mercado, sendo Manuel o filho e Ana a namorada, tentei de novo falar com eles mas os três me ignoraram novamente.   
+Um dia depois do ocorrido, Júlia começou a se queixar comigo sobre o comportamento de Ana e não busquei a reparar nisso pois sinceramente não estava muito interessada.  
+
+Até que um dia antes da véspera de natal, com o movimento muito alto, acabei passando mal por uma queda de pressão, não estava me aguentando em pé direito e não importa para onde eu olhasse tudo estava branco, não tinha percebido meu estado até realmente parar para tomar água e notar a fraqueza ao me levantar quando peguei a garrafa no chão. Maria notou meu estado e me disse para ir no banheiro, ficar por lá alguns minutos, nesse momento eu aproveitei pra dizer que estava passando mal e ela falou com o gerente por mim. Quando fui ao banheiro, Rebeca foi também e viu como eu estava então perguntou e depois de eu dar uma curta explicação, ela puxou o celular e sentou-se. Maria apareceu para me trazer alguma bebida, viu a Rebeca e depois saiu.  
+
+Fiquei exatamente meia hora no refeitório pois era o tempo que faltava para a gente sair do trabalho, quando me senti melhor para descer, fui até Júlia para ir junto com ela até a parada por precaução de algo e ela me informou que o gerente tinha dado mais meia hora pra elas por conta do movimento, sem escolha do que fazer quis voltar ao trabalho, mas uma das operadoras não permitiu e nesse momento Maria reclamou sobre o fato de os outros (o filho e uma das sobrinhas da conferente, ela não especificou qual, apenas deu uma característica) já terem ido embora mesmo com o movimento alto e o gerente não ter pedido para eles ficarem e do fato que ambas meninas muitas vezes ""escapuliam"" do trabalho, eles chegavam duas horas mais cedo que nós e saiam duas horas mais cedo, disse a ela que não tinha muito o que fazer e a moça do caixa nesse momento também concordou com Maria e falou que tudo bem ela ficar indignada pois elas (as sobrinhas) falaram horrores da gente. Nesse momento meu sangue subiu, já estava mal e ter que lidar com isso me fez ainda mais mal por conta da ansiedade (sou diagnosticada com TAG).  
+ Na parada, acabei vendo Rebeca e incrivelmente ela acabou conversando comigo para saber se eu estava bem e eu comentei com ela que a garota tinha dito.   
+
+Na véspera de Natal, tinha saído de casa mal pois ainda estava cansada do dia anterior e acabei não recebendo os melhores comentários da minha mãe pela manhã. Por coincidência, encontrei com Manuel, Ana e Rebeca na parada de ônibus moramos no mesmo bairro e eles estavam com mais um garoto (Esse vai ser chamado de Guilherme), dei bom dia a todos, novamente nenhum deles me respondeu, embora tive a impressão que conhecia o rapaz junto a eles, depois descobri que Guilherme veio substituir Eduarda. Me sentei junto de Rebeca com quem conversei no dia anterior e ela manteve uma conversa comigo por mínimos minutos até se afastar e começar conversar com o grupo. Eles começaram a falar de pegar um Uber e quando chamaram Rebeca até me ofereceu uma carona mas recusei pois senti e percebi que estava nítido que não me queriam por perto.  
+
+Acabei iniciando o trabalho mais cedo para compensar o dia anterior já que fiquei sem fazer o serviço afinal não estava em condições e fiz meu trabalho normalmente. Contudo na hora do almoço as coisas começaram a dar errado, não tinha comido nada, Maria ao meu lado também não havia comido e ironicamente o Manuel, Rebeca e Ana atrasaram para voltar e não tinhamos como fazer a rotação então tivemos que seguir trabalhando, até que nos dez minutos de atraso Júlia falou com uma das conferentes e ela disse que podíamos subir para o refeitório e pediu-me para chamar os outros.  
+
+No meio do caminho acabei encontrando eles e dando a informação, Ana me olhou com uma cara não tão amigável, já os outros nem me responderam. Guilherme também iria subir com a gente e ele acabou me pedindo para mostrar onde ficava o refeitório, pra não deixar o garoto sem saber de nada, mostrei a ele onde ficava tudo (desde o refeitório até a gerência) antes de ir realmente comer algo. Quando fomos pro refeitório encontrei Maria lá e ela me perguntou porque demoramos e eu contei a ela o ocorrido e nesse momento ela também deu uma revirada de olhos como se já imaginasse, acabamos descobrindo também que tinham comido o almoço dela e ela só estava sobrevivendo com algumas coxinhas que a padaria deu, então comprei alguns bolinhos para ela.  
+
+Como ela estava em um canto separado presumi que ela nem tivesse conversado com os outros. Guilherme perguntou se já me conhecia e nesse momento nós dois nos demos conta que estudávamos na mesma escola, ao contrário do que imaginei ele foi simpático em todos os momentos e mesmo Maria falando sobre Ana e Rebeca de todas as formas, ele se manteu compreensível.  
+
+Depois disso o dia correu normal, até a hora da saída, como eu era a única que tinha o costume de levar pouca coisa fui a primeira a chegar na parada de ônibus e logo após o grupo chegou, eram 7h da noite, já estava tudo escuro e a parada ficava em um local sem iluminação. Como fiquei encostada em uma parte do muro, o grupinho ficou ao lado, sentados na calçada de uma loja fechada. Até que Ana se levantou, tocou meu ombro pedindo licença, antes mesmo de eu tirar meu fone ela já tinha começado a falar sobre ""Que não sabia o que tinha feito mas que eu devia fazer meu trabalho e não olhar para o dos outros"", nesse momento eu dei um suspiro e expliquei a ela que se fosse pelo que aconteceu no almoço só tinham me pedido para chamar e ela falou que não era por isso e sim pelo que comentei com a Rebeca e respondi a ela que o que eu havia comentado era o que tinha acontecido no trabalho e que se quisesse podiamos resolver no trabalho. Ela retrucou dizendo que havia acontecido na rua e que queria resolver na rua e nesse momento foi onde eu já sabia que ela não queria conversa, pedi desculpas dizendo que podia tentar fazer não voltar acontecar e  nesse momento ela falou que ""eu não deveria fazer fofoca"" e aí eu perdi a cabeça, disse a ela que para início da conversa o que eu tinha comentado com a irmã dela era algo que me falaram e que só tinha dito uma característica (que a irmã dela também tem) e que se realmente fosse o problema isso eu sentia muito e podíamos resolver no trabalho, ela voltou a dizer que tinha ouvido as coisas na rua e eu lhe respondi que então atinhamos um problema pois as coisas que eu ouvi foi no trabalho e que nem o nome dela eu se quer sabia pois todas as vezes que eu falava com ela, ela me ignorava. Nesse momento, ela colocou a mão no peito dizendo que nunca havia escutado uma vez se quer me ouvir falar com ela, apenas respondi ""Sério? Poxa, é uma pena, eu sinto muito que você se sentiu ofendida mas infelizmente essas coisas acontecem no trabalho do mesmo jeito que me disseram que vocês também falavam horrores da gente, que nem havia sido uma das meninas mas a própria caixa do mercado e que se quisesse podiamos resolver no trabalho"" e nessa hora ela ficou irritada, começou a mexer as mãos e falar coisas que eu sinceramente não quis ouvir pois minha ansiedade estava atacando.
+
+No final apenas me levantei dei uma boa noite, falei que não iria ficar ali discutindo no natal. Saí andando, mas antes dei meia volta e gritei ""Um bom Natal!"" e obviamente resmunguei o mais alto possível que ""Nunca vi alguém querer discutir com desconhecidos no Natal"", não sei se escutaram mas sei que não foi a melhor situação, que não agi no bom-senso e que quando sai de lá estava com o peito doendo e com uma tremenda falta de ar.  
+
+Vou voltar a trabalhar novamente nessa quinta e sinceramente estou me perguntando se deveria tentar apaziguar as coisas, mas ao mesmo tempo ainda sinto aquela dor no peito quando lembro e isso me deixa ainda mais chateada.";NEG;NEG;0.5387296080589294;0.3125517666339874;0.1487186998128891
+51;51;15;16pefi3;https://www.infomoney.com.br/minhas-financas/justica-manda-caixa-e-uniao-indenizar-4-milhoes-de-beneficiarios-do-auxilio-brasil/;Justiça manda Caixa e União indenizar 4 milhões de beneficiários do Auxílio Brasil;NEU;NEU;0.10120026767253876;0.8530886173248291;0.045711200684309006
+52;52;404;jb13fi;https://i.redd.it/r0sqdm28f2t51.jpg;Evolução do déficit - Resultado das contas dos Governos do PT, Temer e Bolsonaro ;NEU;NEU;0.04825073480606079;0.9280770421028137;0.023672224953770638
+53;53;126;1ki34ll;https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2506901;[Vermelho] PL 2208/2025 (1): Altera a Lei nº 14.601, de 19 de junho de 2023, que “institui o Programa Bolsa Família”, a fim de facultar aos Municípios e ao Distrito Federal a conveniência e oportunidade de conceder os benefícios do Programa Bolsa Família a estrangeiros. ;NEU;NEU;0.06558690965175629;0.8454829454421997;0.0889301672577858
+54;54;0;13uyoy1;https://i.redd.it/u8lv6i1h3u2b1.jpg;A caixa despejou quase 500 Milhões de reais POR DIA em consignado do Auxílio Brasil ente 10 e 30 de outubro. Reduzindo a ZERO no dia 1 de novembro logo após o 2 turno. https://www.em.com.br/app/noticia/politica/2023/05/29/interna_politica,1499967/bolsonaro-causou-rombo-na-caixa-ao-tentar-vencer-lula-nas-eleicoes-de-2022.shtml;NEU;NEU;0.10935863107442856;0.8608164191246033;0.029824860394001007
+55;55;19;13fkx1b;https://www.reddit.com/r/ConselhosLegais/comments/13fkx1b/estudante_que_não_mora_com_os_pais_pode_receber/;Estudante que não mora com os pais pode receber auxílio Brasil/Bolsa família Sei que tem o auxílio permanência mas não dá nem pro cheiro, principalmente pra quem morar em cidade diferente dos pais;NEU;NEU;0.24978312849998474;0.6849457025527954;0.06527120620012283
+56;56;280;y8d4db;https://www.poder360.com.br/eleicoes/tse-proibe-bolsonaro-de-dizer-que-pt-votou-contra-auxilio-brasil/;TSE proíbe Bolsonaro de dizer que PT votou contra Auxílio Brasil;NEU;NEU;0.25925737619400024;0.7120946049690247;0.02864806167781353
+57;57;387;r55tql;https://www.reddit.com/r/brasil/comments/r55tql/recomendação_de_notebook_entre_2_e_3_mil_reais/;"Recomendação de notebook entre 2 e 3 mil reais para trabalho/lazer leve Boa tarde, r/brasil. Minha querida mamãezinha me pediu auxilio para comprar um notebook, já que ela está há um bom tempo sem e está querendo adquirir um novo.
+
+Ela não precisa de nada muito potente, vai ser para utilização da internet e pacote office.
+
+Minha duvida é que eu realmente não entendo bulhufas de notebook, não faz muito tempo até estava vendo um para mim, para tudo em comparação com desktop high end, que acaba fugindo muito do propósito atual.
+
+Eu pensei nesse valor porque seria provável conseguir com um processador um pouco mais recente, o que certamente daria mais vida útil ao aparelho, entretanto, pesquisando aqui existem mais opções do que eu consigo julgar adequadamente.
+
+Alguém aqui do sub possui alguma sugestão? Não tenho nenhuma preferência por marca nem nada, só gostaria que fosse um hardware que dure sem começar a travar daqui seis meses.
+
+&#x200B;
+
+Edit: Quem tá dando Downvote aqui não deve ter mãe não, né?";NEU;NEU;0.3715236783027649;0.576076865196228;0.05239948630332947
+58;58;56;1iyxi04;https://www.reddit.com/r/investimentos/comments/1iyxi04/bolsa_família_está_grande_e_precisa_diminuir_diz/;"Bolsa Família está grande e precisa diminuir, diz Rubens Menin https://preview.redd.it/95ww5vx4njle1.png?width=1024&format=png&auto=webp&s=858860f34094e784fb6824d6835cb65f07485dcb
+
+[https://www1.folha.uol.com.br/mercado/2025/02/bolsa-familia-esta-grande-e-precisa-diminuir-diz-rubens-menin.shtml](https://www1.folha.uol.com.br/mercado/2025/02/bolsa-familia-esta-grande-e-precisa-diminuir-diz-rubens-menin.shtml)";NEU;NEG;0.06827826052904129;0.8884229063987732;0.04329892247915268
+59;59;220;1h09l68;https://portalrbn.com.br/caixa-paga-bolsa-familia-a-beneficiarios-com-nis-de-final-7/?feed_id=10666&_unique_id=6745af6132db4;Caixa paga Bolsa Família a beneficiários com NIS de final 7;NEU;NEU;0.040282607078552246;0.9229987859725952;0.03671853616833687
+60;60;340;zqrgib;https://www.reddit.com/r/PortalRbn/comments/zqrgib/caixa_paga_auxílio_brasil_a_beneficiários_de_nis/;"Caixa paga Auxílio Brasil a beneficiários de NIS de final 7 A Caixa Econômica Federal paga hoje (20) a parcela de dezembro do Auxílio Brasil aos beneficiários com Número de Inscrição Social (NIS) com final 7. Essa é a quinta parcela com o valor mínimo de R$ 600, que vigorará até dezembro, conforme emenda constitucional promulgada em julho pelo Congresso
+
+https://portalrbn.com.br/caixa-paga-auxilio-brasil-a-beneficiarios-de-nis-de-final-7/";NEU;NEU;0.06542500853538513;0.853320300579071;0.08125462383031845
+61;61;93;1ftseov;https://www1.folha.uol.com.br/mercado/2024/10/e-injusto-punir-beneficiario-do-bolsa-familia-que-aposta-em-bets-diz-pesquisadora.shtml;É injusto punir beneficiário do Bolsa Família que aposta em bets, diz pesquisadora ;NEU;NEU;0.20307573676109314;0.7750694155693054;0.02185489423573017
+62;62;287;z9tdjq;https://www.reddit.com/r/brasilivre/comments/z9tdjq/benefício_de_auxílio_brasilbolsa_família_deveria/;"Benefício de Auxílio Brasil/Bolsa Família deveria sofrer desconto de INSS? 
+
+[View Poll](https://www.reddit.com/poll/z9tdjq)";NEU;NEU;0.08352776616811752;0.8720428943634033;0.04442939534783363
+63;63;284;wymp18;https://www.reddit.com/r/brasilivre/comments/wymp18/auxílio_brasil_é_do_bolsonaro/;Auxílio Brasil é do Bolsonaro 🎶 Durmam com essa;NEU;NEU;0.08300700038671494;0.8031366467475891;0.11385633051395416
+64;64;283;y8b035;https://tab.uol.com.br/noticias/redacao/2022/10/19/eu-vivo-o-hoje-emprestimo-do-auxilio-brasil-e-usado-para-pagar-contas.htm;Eu vivo o hoje: empréstimo do Auxílio Brasil é usado para pagar contas - 19/10/2022;NEU;NEU;0.024765362963080406;0.9440465569496155;0.0311881136149168
+65;65;370;ttbulj;https://www.reddit.com/r/investimentos/comments/ttbulj/alguem_ja_passou_por_uma_desdobramento_de_ações/;"Alguem ja passou por uma desdobramento de ações? (stock split) Boa noite pessoal,
+
+Estou postando este tópico mais pelo fato de querer relatos de pessoas que passaram por desdobramento de ações (stock split), tenho X ações de empresa X em uma corretora, queria saber se preciso fazer algo durante esse processo ou simplesmente a corretora vai convenientemente aumentar a minha quantidade de ações vezes a quantidade multiplicadora que a ação foi dividida, visto que nunca passei por esse fenômeno.
+
+Se serve de auxilio, é uma ação de uma empresa dos EUA e não do Brasil, então as regras podem ser um pouco diferentes talvez.
+
+Desde já estou agradecido pelas respostas.";NEU;NEU;0.10917703062295914;0.8278329968452454;0.06298995763063431
+66;66;25;10ek2te;https://i.redd.it/96q8c3vzgnca1.png;Usou auxílio Brasil para investir em Loteria;NEU;NEG;0.046521998941898346;0.9179033637046814;0.03557455167174339
+67;67;417;lkb9xq;https://www.bbc.com/portuguese/brasil-56049425;Bolsa Família: taxar ricos para financiar política social elevaria PIB em 2,4%, diz estudo da USP ;NEU;NEU;0.03094792552292347;0.9451220035552979;0.023930082097649574
+68;68;342;zqoclk;https://www.reddit.com/r/PortalRbn/comments/zqoclk/caixa_paga_auxílio_brasil_a_beneficiários_de_nis/;"Caixa paga Auxílio Brasil a beneficiários de NIS de final 7 A Caixa Econômica Federal paga hoje (20) a parcela de dezembro do Auxílio Brasil aos beneficiários com Número de Inscrição Social (NIS) com final 7. Essa é a quinta parcela com o valor mínimo de R$ 600, que vigorará até dezembro, conforme emenda constitucional promulgada em julho pelo Congresso
+
+https://portalrbn.com.br/caixa-paga-auxilio-brasil-a-beneficiarios-de-nis-de-final-7/";NEU;NEU;0.06542500853538513;0.853320300579071;0.08125462383031845
+69;69;113;18p8mf4;https://www.reddit.com/r/brasilivre/comments/18p8mf4/haddad_estávamos_com_um_problema_fiscal_herdado/;"Haddad: 'Estávamos com um problema fiscal herdado do governo anterior'. Na matéria falam de 60 BI, depois falam de 130 BI... É daí que falam que herdaram o país 'quebrado'. Reclamam de ter que pagar Bolsa Família, Precatórios, etc... E a solução que dão é gastar mais ainda. &#x200B;
+
+https://preview.redd.it/umswp7oug28c1.png?width=814&format=png&auto=webp&s=158512da73dde215c511766225c19e9c7f249352
+
+[https://www.noticiasaominuto.com.br/economia/2097738/estavamos-com-um-problema-fiscal-herdado-do-governo-anterior-diz-haddad](https://www.noticiasaominuto.com.br/economia/2097738/estavamos-com-um-problema-fiscal-herdado-do-governo-anterior-diz-haddad)";NEU;NEU;0.2502236068248749;0.7233499884605408;0.02642638422548771
+70;70;42;1fqkjx3;https://eassim.com.br/lula-cobra-proibicao-do-uso-do-cartao-do-bolsa-familia-para-bets/;Lula cobra proibição do uso do cartão do Bolsa Família para bets;NEU;NEU;0.13452716171741486;0.8388608694076538;0.026611924171447754
+71;71;165;1iunqo7;https://portalrbn.com.br/caixa-paga-bolsa-familia-a-beneficiarios-com-nis-de-final-5-4/?feed_id=20049&_unique_id=67b8537519da9;Caixa paga Bolsa Família a beneficiários com NIS de final 5;NEU;NEU;0.04417482763528824;0.9173896312713623;0.03843555226922035
+72;72;384;i0bdbi;https://www.reddit.com/r/brasil/comments/i0bdbi/ok_eu_não_sou_um_economista_mas_eu_tenho_algumas/;"Ok eu não sou um economista, mas eu tenho algumas coisas que me fazem contra a nova cédula, se alguém tiver algo para comentar por favor escrevam. Ok, eu sou contra a nova cédula por vários motivos, eles são:
+
+\*A intenção dela deve ser para circular mais dinheiro na economia estagnada do Brasil, tipo, digamos que eu saquei o auxilio emergencial em três notas de 200 e fui ao mercado e paguei com uma nota de 200 eu vou receber 58 reais de troco (por exemplo) eu vou tá carregando mais dinheiro e se eu for pegar um taxi o cara provavelmente não vai ter troco pra mim portanto ele vai ficar com uma nota alta  e assim vai. Iria circular mais notas de cunho alto mas isso literalmente não resolve nada, só porque pessoas estão carregando cedulas de alto cunho não significa que elas estão ""mais ricas"" ou com maior facilidade quando for comprar algo, oque quero dizer aqui resumindo é que notas de menor valor iriam ser menos circular menos.
+
+\*Ela não desvalorizaria o real? Tipo, já que ninguem tem dinheiro nas contas agora quase ninguem conseguiria sacar ela portanto teria dinheiro parado que teria um impacto desvalorizando o real portanto aumentando a inflação que não poderia ser corrigida já que ninguem tem dinheiro para acertar os salários.
+
+\*Não tem o cão caramelo nela, bah isso é só vacilo mesmo hahahaha.
+
+Avisando novamente eu não sou um economista e meus conhecimentos de economia não passam de uma aula de educação financeira na sexta série. Se alguém souber o motivo do por qual ela deveria ou não ser criadas por favôr contribua deixando um comentário :)";NEU;NEU;0.23843388259410858;0.6849483847618103;0.07661768794059753
+73;73;410;lxlqda;https://www.reddit.com/r/desabafos/comments/lxlqda/a_vida_é_uma_vadia/;"A vida é uma vadia. Fala galera,
+
+TL;DR - 6k para passar férias as custas do gov(ou n)s/
+
+Vamo lá, como talvez alguns aqui saibam, trampo a algum tempo como contador (mesmo n tendo ideia de como acabei nisso). Como sempre chega essa época do ano e começam a aparecer as declarações de IR, que são algo até que simples de se fazer, tirando galera que tem um milhão de coisa para justificar. Normalmente não faço essas declarações para evitar trocar ideia com cliente, como durante o ano passado rolou aquele ""auxilio"" para uma galera, era certo que ia rolar de algum cliente ter pego indevidamente, o embaçado seria como lidar com essa situação e convencer o mesmo a pagar o que deve.
+
+ Até então tudo normal, hoje Chego no trampo um desses clientes resolve ""aparecer"", o responsável por essa área vai prestar o serviço e vê que a esposa do então cliente havia recebido indevidamente o auxilio se passando como mãe solteira ou qualquer justificativa que a enquadrasse na época, ao finalizar a declaração aparecem cerca de 6k para o cara devolver para o governo, pois incluindo a ""renda"" da esposa a receita constata que ela requisitou o auxilio indevidamente.
+
+Teoricamente ele deveria devolver esse dinheiro, na pratica, vão retirar a esposa do cara e fingir que não existiu essa renda, isso tudo rolando enquanto o mesmo cliente ta viajando de férias.
+
+PQP, mano se eu trombo policial na rua da minha casa sem conseguir explicar de onde vem uma grana que é minha, os cara me dessem a porrada. Agr esse fdp catou 6k, ta la aproveitando férias e os krl, como se não tivesse fudendo ngm, enquanto eu mal consigo pagar as contas em dia e nem me enquadro na porra do auxilio, é de fuder msm.";NEG;NEG;0.7639943957328796;0.1985073685646057;0.03749818354845047
+74;74;311;wfxnb7;https://politica.estadao.com.br/blogs/coluna-do-estadao/guedes-associa-auxilio-brasil-de-600-a-reforma/;Guedes associa Auxílio Brasil de R$ 600 em caráter permanente à reforma tributária;NEU;NEU;0.02930586412549019;0.9241956472396851;0.04649847373366356
+75;75;124;1kpzuzm;https://assistencialismonoticias.com.br/2025/05/18/quando-o-bolsa-familia-de-junho-sera-pago-veja-o-calendario-completo/;Quando o Bolsa Família de JUNHO será pago? Veja o calendário completo;NEU;NEU;0.029001956805586815;0.9346932172775269;0.036304861307144165
+76;76;304;x35uwg;https://www.estadao.com.br/economia/orcamento-2023-auxilio-brasil-405-reais;Orçamento de 2023 prevê Auxílio Brasil de R$ 405 - Estadão;NEU;NEU;0.028801072388887405;0.9361810088157654;0.03501790016889572
+77;77;22;10gc8x8;https://www.reddit.com/r/ConselhosLegais/comments/10gc8x8/auxílio_brasil/;"Auxílio Brasil Boa tarde, pessoal
+
+Alguém solicitou o auxílio, e apareceu essa mensagem?
+
+“não foi encontrado beneficio auxilio brasil para seu cpf”
+
+Solicitei dia 11 de dezembro, e vi que o prazo é até 45 dias, no CRAS me disseram que era até 90 dias.
+
+Essa mensagem aparece pelo app auxílio Brasil.
+
+Tem algum meio de agilizar/consultar o processo?
+
+Liguei no 121 porém só gravação.
+No áudio pediram para  retornar após dia 18.";NEU;NEU;0.11346869170665741;0.8456273674964905;0.0409039743244648
+78;78;46;1kdky2m;https://www.reddit.com/r/opiniaoimpopular/comments/1kdky2m/todo_mundo_deveria_ter_direito_ao_bolsa_família/;"Todo mundo deveria ter direito ao bolsa família como forma de melhorar os salários É isso.
+
+Dessa forma exigiria que os empregadores melhorassem os salários e as condições dos empregos de modo a atrair os trabalhadores.
+
+Se o empresário não o faz, o trabalhador irá preferir o bolsa família + bicos para se sustentar ao contrário de trabalhar em vagas horríveis.
+
+Isso melhoraria muito a situação dos empregos e a economia do país.";NEG;POS;0.6728602647781372;0.2529733180999756;0.07416638731956482
+79;79;90;13k5izf;https://twitter.com/govbr/status/1658857999799140353;Governo no Twitter: O Governo segue trabalhando para melhorar a vida da população, com programas como o Brasil Sorridente, Mais Médicos, Bolsa Família, entre outras conquistas. Temos convicção de que ainda temos muito trabalho pela frente, é só o começo da união e reconstrução de um Brasil melhor. ;POS;POS;0.01596720889210701;0.19220581650733948;0.7918269634246826
+80;80;245;qcy61a;https://www.google.com.br/amp/s/br.finance.yahoo.com/amphtml/noticias/auxilio-brasil-deve-extrapolar-teto-de-gastos-em-r-511-bilhoes-173110656.html;Auxílio Brasil deve extrapolar teto de gastos em R$ 51,1 bilhões ;NEU;NEU;0.03127944841980934;0.9342208504676819;0.034499797970056534
+81;81;116;1izjyt4;https://i.redd.it/qchhlljtlple1.jpeg;Vocês acham que se como opção ao bolsa família o estado desse cursos profissionalizantes as pessoas iriam querem o Bolsa Família ou os Cursos profissionalizantes? [Origem da notícia](https://revistaoeste.com/economia/rubens-menin-e-mais-um-a-criticar-o-bolsa-familia-precisa-diminuir/#google_vignette);NEU;NEU;0.43427327275276184;0.5378090143203735;0.027917658910155296
+82;82;424;qbq8xp;https://v.redd.it/f0sp9e1bgiu71;Bolsa Familia segundo Bolsonaro;NEU;NEU;0.04847874492406845;0.9161186218261719;0.035402681678533554
+83;83;57;1kp3r4v;https://www.reddit.com/r/opiniaoimpopular/comments/1kp3r4v/enquanto_existir_bolsa_família_e_outras_formas_de/;"Enquanto existir bolsa família e outras formas de assistencialismo o Brasil jamais sairá da pobreza em que se encontra. Tenho uma vizinha que não trabalha. Vive da pensão alimentícia dos pais dos filhos dela e do bolsa família. Ela não produz nada para a sociedade, e recebe dinheiro dos pagadores de impostos. 
+
+
+Enquanto o estado repassar o dinheiro de quem produz tomando através de impostos para quem nada produz através do bolsa família.  Nosso país jamais irá para frente. 
+
+
+Muitas pessoas que recebem o bolsa família tem plenas condições de trabalhar mas preferem ser um peso para o estado. E o próprio estado incentiva isso. Políticos se beneficiam desse sistema de gente que não trabalha. 
+
+
+É só acompanhar as estatísticas, vejam quem não trabalha está votando e quem trabalha está votando. ";NEU;NEG;0.34386810660362244;0.49286705255508423;0.1632649153470993
+84;84;137;1ddmzvp;https://www.uol.com.br/esporte/futebol/ultimas-noticias/2024/06/11/corinthians-delegado-cre-em-fraude-via-bolsa-familia-no-caso-da-vai-de-bet.htm;Corinthians: delegado crê em fraude via Bolsa Família no caso da Vai de Bet;NEU;NEU;0.09170453995466232;0.8950864672660828;0.013209023512899876
+85;85;24;13j57jr;https://www.infomoney.com.br/politica/cgu-identifica-r-38-bilhoes-de-pagamento-indevido-do-auxilio-brasil/;CGU identifica R$ 3,8 bilhões de pagamento indevido do Auxílio Brasil ;NEU;NEU;0.09591693431138992;0.8779968023300171;0.02608628012239933
+86;86;17;16lstq1;https://www.infomoney.com.br/minhas-financas/proposta-de-consignado-do-auxilio-brasil-na-caixa-estimou-concessao-6-vezes-menor-que-demanda-real/;Proposta de consignado do Auxílio Brasil na Caixa estimou concessão 6 vezes menor que demanda real;NEU;NEU;0.04591292142868042;0.9296361207962036;0.02445095404982567
+87;87;66;1hdd3ka;https://www1.folha.uol.com.br/mercado/2024/12/governo-deve-regular-bets-nao-tutelar-os-mais-pobres-diz-um-dos-pais-do-bolsa-familia.shtml;Governo deve regular bets, não tutelar os mais pobres, diz um dos pais do Bolsa Família ;NEU;NEU;0.0760638415813446;0.9006423354148865;0.023293841630220413
+88;88;265;wg3mse;https://oglobo.globo.com/blogs/miriam-leitao/post/2022/08/com-consignado-dinheiro-do-auxilio-brasil-sera-desviado-dos-pobres-para-instituicoes-financeiras.ghtml;Com consignado, dinheiro do Auxílio Brasil será desviado dos pobres para instituições financeiras | A aprovação do consignado do Auxílio Brasil é uma forma de explorar mais ainda os pobres, política e financeiramente ;NEU;NEU;0.08368512988090515;0.8270121812820435;0.08930271118879318
+89;89;405;vheipr;https://www.reddit.com/r/PortalRbn/comments/vheipr/beneficiários_com_nis_final_3_recebem_hoje/;"Beneficiários com NIS final 3 recebem hoje Auxílio Brasil Beneficiários com Número de Inscrição Social (NIS) com final 3 recebem hoje (21) a parcela de junho do Auxílio Brasil. O valor mínimo do benefício é de R$ 400. As datas seguem o modelo do Bolsa Família, que pagava os beneficiários nos dez últimos dias úteis do mês.
+
+https://portalrbn.com.br/beneficiarios-com-nis-final-3-recebem-hoje-auxilio-brasil/";NEU;NEU;0.05967404320836067;0.8713209629058838;0.06900487095117569
+90;90;31;104x51t;https://www.infomoney.com.br/minhas-financas/idec-pede-ao-ministerio-da-justica-suspensao-de-credito-consignado-atrelado-ao-auxilio-brasil/;Idec pede ao Ministério da Justiça suspensão de crédito consignado atrelado ao Auxílio Brasil;NEU;NEU;0.10425158590078354;0.8738430142402649;0.02190544828772545
+91;91;84;1ga7ext;https://www1.folha.uol.com.br/poder/2024/10/zema-associa-bolsa-familia-a-dificuldade-de-empresarios-contratarem-no-pais.shtml;Zema associa Bolsa Família a dificuldade de empresários contratarem no país;NEU;NEU;0.09563060104846954;0.8891445994377136;0.015224836766719818
+92;92;299;wjk3mo;https://i.redd.it/p7uiqe6h0kg91.png;Para cada 100 novas famílias no Auxílio Brasil até julho houve 37 vagas a mais de emprego no país.;NEU;NEG;0.014853212051093578;0.9544044137001038;0.03074236586689949
+93;93;173;1iiec5j;https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2482950;[Max Lemos] PL 273/2025 (1): Dispõe sobre a inclusão de um microsseguro no Programa Bolsa Família para beneficiários, abrangendo as modalidades de seguro de vida, saúde, propriedade, agrícola e funeral.”. ;NEU;NEU;0.03386448696255684;0.9168028831481934;0.04933266341686249
+94;94;94;13qx0qk;https://i.redd.it/e7w62p4kbu1b1.png;Bolsa Família supera trabalho com carteira em 13 estados;NEU;NEU;0.02380540780723095;0.901929497718811;0.07426511496305466
+95;95;227;12l3yud;https://i.redd.it/xdx51auetpta1.jpg;13 estados tem mais pessoas com bolsa familia do que empregados;NEU;NEU;0.039067890495061874;0.93733811378479;0.023594021797180176
+96;96;428;wui8z8;https://www.reddit.com/r/portugal/comments/wui8z8/sério_a_falta_de_noção_neste_sub/;"[Sério] A falta de noção neste sub Obrigatório ""aqui vai vasta"" porque não sou nem a primeira nem a segunda pessoa a escrever uma publicação assim mas....acho que o pessoal de IT neste sub não tem noção.
+
+Sempre cresci numa familia ""pobre"", daquelas que chegavam a dia 15 do mês e tinham 20 euros na conta, e que nunca tinham dinheiro ao final do mês. Mcdonalds, jantar fora era coisa de aniversário, duas ou três vezes ao ano, brinquedos e consolas eram dados de primos mais velhos. Havia alturas em que se tinha que esticar a comida e vivia-se com os empréstimos da avó/amiga que se pagavam assim que se recebia.
+
+Era uma situação de merda onde qualquer merdinha ou emergência nos metia no vermelho- Pneu furado, cano rebentado medicação porque ficamos doentes? Não havia muito espaço de manobra.
+
+Mais tarde fui expulsa de casa e tive que sobreviver com a bolsa de estudo. Eram 311 euros, e ficava com cerca de 60 euros para comida depois de pagar renda na residência universitária e propina. 60 euros para comer e divertir-me. Mais uns 20-30 em biscates, aqui e ali. Não comia bem, até porque era tudo arroz/esparguete/sopa/pouquissima carne mas com os 80-110 euros lá ia conseuindo não pasasr fome.
+
+Trabalho em Lisboa com uma bolsa de investigação de 486 euros. A renda são 200 euros (porque a casa é de um amigo), o Navegante são 40 e partilhamos as contas. Pouco ou nada sobra ao final do mês e tenho noção de ter uma sorte do caraças com o preço de renda.
+
+Agora, digam-me de direito, como é que posso achar 1300  ""pouco""?  Vamos falar honestamente. Os salários em Portugal são uma miséria, é verdade. Mas ao longo dos últimos meses já tenho ouvido coisas como ""não consigo viver em Lisboa com 1500 liquidos"" ou ""sou pobre"".
+
+Toda a minha vida conheci mulheres que com um salário mínimo tinham que cuidar dos filhos, pagar renda, coisas da escola e ainda arranjavam um pouco para visitas de estudo  ou levar os filhos a museus e mais que seja.
+
+Tenho amigos liberais e de it a darem-me conselhos tipo ""a renda nunca deveria ser mais de uma semana de salário"" e fico espantada com a falta de noção aqui. Quando recebes 660,ou pouco mais liquidos ao fim do mês e mesmo t1 no meio do nada começam nos 400 como é que se pode gastar só uma semana de salário?
+
+Em resumo acho que há muita falta de noção...  
+
+
+  
+EDIT: Pessoal eu NÃO VIVO EM LISBOA. O que disse foi que trabalho em Lisboa  depois um ponto final e que pago 200 euros de renda. Estou a viver a 45 minutos de carro e uma hora de comboio.";NEG;NEG;0.8527414798736572;0.1253165900707245;0.021942000836133957
+97;97;152;1jal3vc;https://youtube.com/watch?v=ZD1q0tUCw_4&si=7DagN-UW3e_cAV8K;LULA corta BILHÕES do BOLSA FAMÍLIA e COLOCA em PROPAGANDA: FAZER não DE...;NEG;NEU;0.7162283658981323;0.2767869234085083;0.0069846888072788715
+98;98;354;yrtmap;https://www.reddit.com/r/brasil/comments/yrtmap/nesses_ultimos_2_dias_estou_tendo_total_certeza/;"Nesses ultimos 2 dias estou tendo total certeza de que liberal odeia pobre. Eu vi liberal reclamar do auxilio brasil na era bolsonaro e agora estou vendo reclamarem do Bolsa familia do Lula, que é quase o mesmo fucking valor.
+
+Eu sinceramente não entendo, não é possível que a fome das pessoas seja tão irrelevante assim para essa galera, e eu ressalto que eles reclamaram no governo bolsonaro também para destacar o fato de que eles odeiam auxilio não importa o governo, mas mais do que isso, eles odeiam pobre de um jeito radical. Eu não vejo eles falando pra diminuir o salario dos militares, do funcionalismo público, das verbas para empresas, ele só querem diminuir o gasto com quem passa fome, INCRÍVEL.
+
+&#x200B;
+
+https://preview.redd.it/plmc1kyg87z91.png?width=597&format=png&auto=webp&s=daf95f4b503a993529a6bc46a40a40cc906d554f";NEG;POS;0.8545651435852051;0.08734937757253647;0.05808546021580696
+99;99;272;yl9ay1;https://i.redd.it/vs3vqpf4xrx91.png;No Globo, o Auxílio-Brasil já é chamado de Bolsa Família ;NEU;NEU;0.05426891893148422;0.9243210554122925;0.021410025656223297
+100;100;418;g4mcft;https://www.reddit.com/r/brasil/comments/g4mcft/mano_a_dilma_caiu_porque_pegou_dinheiro/;Mano, a Dilma caiu porque pegou dinheiro emprestado na caixa pra pagar o bolsa família. Kkkkk pensa nisso com o que tá acontecendo agora como parâmetro. Sim, eu sei que esse foi o motivo técnico e que o verdadeiro motivo foi outro, mas falaremos do motivo que está na narrativa oficial.;NEU;NEU;0.27122199535369873;0.6303154230117798;0.09846258163452148
+101;101;5;1deqymb;https://www.reddit.com/r/mistermoney/comments/1deqymb/app_play_store_empréstimo_auxílio_brasil/;"APP PLAY STORE Empréstimo Auxílio Brasil APP PLAY STORE Empréstimo Auxílio Brasil
+
+[https://play.google.com/store/apps/details?id=br.com.emprestimodoauxiliobrasil.twa](https://play.google.com/store/apps/details?id=br.com.emprestimodoauxiliobrasil.twa)";NEU;NEU;0.03074386902153492;0.9121469855308533;0.05710906907916069
+102;102;45;11e4jsp;https://www.reddit.com/gallery/11e4jsp;Para surpresa de 0 pessoas, o Centro da Indústria e Comércio de Bento Gonçalves, RS diz que trabalhadores em condição de escravidão é um problema causado pela Bolsa Família ;NEU;NEG;0.10624096542596817;0.8731672763824463;0.020591698586940765
+103;103;148;10vhmmo;https://noticias.uol.com.br/politica/ultimas-noticias/2023/02/06/lula-ministerio-da-saude-nisia-trindade-cirurgias-sus.htm;Bolsa Família exigirá atestado de vacinação de crianças, diz Lula ;NEU;NEU;0.031026724725961685;0.949266791343689;0.01970655284821987
+104;104;427;b98kyf;https://www.reddit.com/r/brasilivre/comments/b98kyf/guedes_elogiando_lula_e_bolsa_familia_dizendo_que/;"Guedes elogiando Lula e Bolsa Familia dizendo que ele mereceu ganhar duas eleicoes. Vcs concordam com o Guedes nesse ponto? 
+
+""Vários governos que passaram gastaram R$ 300 bilhões, R$ 400 bilhões por ano pagando juros da dívida sem tomar nenhuma medida para corrigir. E o Lula chegou e pegou R$ 10 bilhões só, e atingiu 40 milhões de família favoravelmente com o Bolsa Família. Isso é um impacto extraordinário. Mereceu ganhar uma eleição, duas eleições. Soube trabalhar. Com pouco dinheiro melhorou a vida de muitos de brasileiros.""
+
+https://m.oglobo.globo.com/economia/guedes-elogia-bolsa-familia-diz-que-lula-mereceu-ganhar-duas-eleicoes-23571341?utm_source=Twitter&utm_medium=Social&utm_campaign=O Globo";NEU;NEU;0.08720342069864273;0.739600419998169;0.17319615185260773
+105;105;376;fytnu0;https://www.reddit.com/r/coronabr/comments/fytnu0/pesquisa_na_holanda_da_radboud_universty_medical/;"Pesquisa na Holanda da Radboud Universty Medical Center acredita ter encontrado um mecanismo crítico do COVID-19: o Coronavírus leva a uma diminuição das enzimas ACE2 e a um aumento na bradicinina, causando vazamentos para os pulmões. Link para o estudo:
+
+[https://www.radboudumc.nl/en/nieuws/2020/radboudumc-researchers-publish-new-insights-into-covid-19](https://www.radboudumc.nl/en/nieuws/2020/radboudumc-researchers-publish-new-insights-into-covid-19) 
+
+Retirei daqui:  [https://www.reddit.com/r/Coronavirus/comments/fyqflj/dutch\_researchers\_at\_radboud\_universty\_medical/?sort=new](https://www.reddit.com/r/Coronavirus/comments/fyqflj/dutch_researchers_at_radboud_universty_medical/?sort=new) 
+
+Adendo 1: Há um estudo em andamento com as mesmas hipóteses no Brasil:  [https://bv.fapesp.br/pt/auxilios/106152/ensaio-clinico-de-inibicao-de-bradicinina-em-adultos-hospitalizados-com-covid-19-grave/](https://bv.fapesp.br/pt/auxilios/106152/ensaio-clinico-de-inibicao-de-bradicinina-em-adultos-hospitalizados-com-covid-19-grave/) 
+
+Adendo 2:  A bradicinina foi descoberta por três fisiologistas brasileiros liderados por [Maurício Rocha e Silva](https://pt.wikipedia.org/wiki/Maur%C3%ADcio_Rocha_e_Silva) durante estudos sobre a histamina.";NEU;NEU;0.052723102271556854;0.9087955355644226;0.03848131000995636
+106;106;275;qbhf5s;https://www.metropoles.com/colunas/igor-gadelha/ameaca-de-demissao-e-reuniao-tensa-no-alvorada-os-bastidores-do-auxilio-brasil;Ameaça de demissão e reunião tensa no Alvorada: os bastidores do Auxílio Brasil | Presidente Jair Bolsonaro deu ultimato para equipe econômica viabilizar arranjo para prorrogar auxílio emergencial ou lançar Auxílio Brasil;NEU;NEU;0.16265802085399628;0.7870648503303528;0.050277095288038254
+107;107;16;16p00el;https://womaisceara.blogspot.com/2023/09/auxilio-brasil-recebedores-com-dados.html;Auxílio Brasil: recebedores com dados vazados têm direito a R$ 15 mil;NEU;NEU;0.05121275410056114;0.9056805372238159;0.04310663044452667
+108;108;403;gm5r2j;https://www.reddit.com/r/brasil/comments/gm5r2j/recursos_para_sem_teto_santossp/;Recursos para sem teto ? (Santos,Sp) Ola eu sou ian 19 anos e preciso da sua ajuda. Eu moro com minha mae e irma (22), e eu nao aguento mais todo dia essas duas me odeiam, e me humilham. Por 2 anos eu sofri de depressão e ansiedade severa(coisa da qual minha mae tira sarro) porem eu me superei atraves de dieta e exercicio, estou a 8 meses sem precisar de remedios e ate participei de uma corrida, tambem arrumei emprego no uber eats antes dessa pandemia mais agora mesmo se eu trabalhar quase nunca vem pedido. Hoje foi o ultimo pingo eu não consigo aguentar mais, elas nao me respeitam hoje  a minha mae falou na minha cara que eu tinha que comer menos  se nao elas iam passar fome mesmo quando ontem aquelas mejeras compraram PIZZA, que eu nem posso comer por ser alergico à trigo. Eu decidi que vou me colocar pra fora entao oque eu preciso saber é: oque que existe para apoiar os sem tetos em Santos,Sp ou no Brasil? Ou talvez se voces conhecem algum jeito de arranjar um aluguel de ~400 porque vou receber do auxilio emergencial. Qualquer informação que voces teriam  eu ficaria grato em saber, obrigado.;NEG;NEU;0.4967615604400635;0.43528276681900024;0.06795559823513031
+109;109;117;1jzpwrn;https://www.reddit.com/r/brasilivre/comments/1jzpwrn/depois_do_bolsa_família_vale_gás_pé_de_meia_luz/;"Depois do Bolsa Família, Vale Gás, Pé de Meia, Luz grátis, entre outros, vem aí... [https://www.cnnbrasil.com.br/politica/elite-deveria-ter-vergonha-diz-lula-sobre-investimento-em-educacao/](https://www.cnnbrasil.com.br/politica/elite-deveria-ter-vergonha-diz-lula-sobre-investimento-em-educacao/)
+
+https://preview.redd.it/6vpi8hs5mzue1.png?width=1211&format=png&auto=webp&s=649d7b724a5020d0734abf658a2a757eef7b5b69
+
+";NEU;NEU;0.1446595937013626;0.8138495087623596;0.04149085655808449
+110;110;312;ouu5du;https://www.cnnbrasil.com.br/amp/business/2021/07/30/bolsonaro-avalia-mudar-nome-do-bolsa-familia-para-auxilio-brasil?utm_source=social&utm_medium=twitter-&utm_campaign=--cnn-business&utm_content=&__twitter_impression=true;Bolsonaro avalia mudar nome do Bolsa Família para 'Auxílio Brasil';NEU;NEU;0.09619011729955673;0.8705676794052124;0.033242207020521164
+111;111;3;10396q5;https://www.estadao.com.br/economia/governo-perdoar-divida-auxilio-brasil-emprestimo-consignado/;Governo estuda perdoar dívida de quem pegou empréstimo consignado do Auxílio Brasil - Estadão;NEU;NEU;0.02869936265051365;0.9450082778930664;0.026292426511645317
+112;112;18;16lsmam;https://www.infomoney.com.br/minhas-financas/proposta-de-consignado-do-auxilio-brasil-na-caixa-estimou-concessao-6-vezes-menor-que-demanda-real/;Proposta de consignado do Auxílio Brasil na Caixa estimou concessão 6 vezes menor que demanda real;NEU;NEU;0.04591292142868042;0.9296361207962036;0.02445095404982567
+113;113;168;1itvips;https://portalrbn.com.br/caixa-paga-bolsa-familia-a-beneficiarios-com-nis-de-final-4-4/?feed_id=19814&_unique_id=67b70444883ca;Caixa paga Bolsa Família a beneficiários com NIS de final 4;NEU;NEU;0.04379395395517349;0.9188637137413025;0.03734242543578148
+114;114;60;1htg3c7;https://www1.folha.uol.com.br/equilibrioesaude/2025/01/bolsa-familia-reduziu-casos-de-tuberculose-em-60-e-mortalidade-em-70-em-11-anos.shtml;Bolsa Família reduziu casos de tuberculose em 41% e mortalidade em 31% em 11 anos;NEU;POS;0.08181349188089371;0.8999610543251038;0.01822543703019619
+115;115;408;m8pc7u;https://www.reddit.com/r/desabafos/comments/m8pc7u/tô_ficando_cada_dia_menos_funcional_por_conta_das/;"Tô ficando cada dia menos funcional por conta das notícias do Brasil É bem isso que coloquei no título: Eu levanto, levo o cachorro pra passear, tomo banho e sento pra trabalhar. Daí vem a primeira noticia: Bolsonaro diminuiu o auxilio emergencial pra 150 conto. Ótimo, meus pais tão desempregados e são grupo de risco, como eles vão fazer pra comer? Fico remoendo isso até as 11h e faço pouco/nenhum trabalho. 12:00, hora de almoçar. Uma amiga manda o vídeo do presidente falando que poderia decretar ""estado de sítio"" se o STF não podar os poderes dos governadores, que mal conseguem fazer o mínimo durante a pandemia. No meu Estado, o Dória inclusive está mantendo as escolas abertas. Minha tinha, uma senhorinha com asma, só conseguiu dispensa essa semana da EMEF onde ela trabalha. Penso nisso tudo e meu estômago começa a doer. Não quero mais almoçar. Volto pro computador e tento me distrair com algum podcast burro ou assistir desenho animado enquanto trabalho. Não tá rolando, decido ir tirar 1 cochilo pra ver se me animo: minha mãe me liga falando que a minha irmã tá com sintomas de COVID. Ela passou em uma pós fora do país e tava pra embarcar pra Alemanha, mas, com todas as fronteiras fechadas, ela teve de esperar aqui. Tipo, nem essa misera esperança que a gente tinha - a de poder ir embora desse buraco negro que se tornou o Brasil com Bolsonaro - a gente tem mais. Eu me sinto presa e sufocada, sei lá, como se tivesse presa dentro de uma caixa escura e quente. Juro que tá até difícil de respirar. Se eu não tivesse seguindo a quarentena certinho até suspeitaria de COVID, mas, morando sozinha e só saindo com o cachorro 1 x por dia, acho improvavel. Enfim, 3 mil mortos galera. Quem tá tentando fazer alguma coisa tá sendo cortado pelo Presidente. Apertem os cintos que vai ficar pior.";POS;NEU;0.19579778611660004;0.2066224366426468;0.5975797772407532
+116;116;355;mafi7w;https://www.reddit.com/r/brasilivre/comments/mafi7w/perspectivas_de_um_brasileiro_em_singapura/;"Perspectivas de um brasileiro em Singapura Como diz o titulo, eu moro em Singapura, um pequeno pais Asiatico com a mesma area fisica que o municipio de Mogi das Cruzes, mas com uma populacao de 5,7 milhoes de habitantes.
+
+Hoje a nossa media mensal e' de 10 novos casos de COVID por dia. Praticamente todos importados (Singaporeanos voltando do exterior e trazendo a doenca). Transmissao de COVID dentro do pais praticamente nao existe. Hoje a vida em Singapura e' praticamente normal.[O comercio esta 100% aberto](https://www.youtube.com/watch?v=GW1UlCzqpGU), assim como restaurantes, bares, piscinas publicas, praias, parques, cinemas, etc...So' que todo mundo usa mascara e  tem o aplicativo ""[Trace together](https://www.tracetogether.gov.sg/)"" instalado no celular. Hoje absolutamente ninguem aqui fica preocupado de morrer ou perder alguem por COVID. Eu pessoalmente nao conheco uma unica pessoa aqui em Singapura que tenha contraido COVID.
+
+Mas nem sempre foi assim. A um ano atras a media de novos casos de COVID em Singapura era de 1,000 por dia. Temendo a sobrecarga e eventual colapso do sistema de saude em um pais com grande densidade populacional e com muitos idosos, o governo agiu rapido e de forma decisiva.
+
+No dia 9 de April de 2020 o primeiro ministro Lee Hsien Loong (formado em matematica e mestrado em ciencia da computacao) [veio em rede nacional anunciar um lockdown de 30 dias](https://youtu.be/IzLWFY8wivA).  Esse lockdown seria seguido por uma re-abertura gradual dividida em 3 fases. Durante esse lockdown, as pessoas so' podiam sair de casa para fazer compras essenciais. So' isso e nada mais. Voce nao podia sair para ir visitar parentes, amigos, namorada, nada. E a punicao por desobediencia era cadeia [e muita gente foi presa](https://www.todayonline.com/singapore/robertson-quay-incident-2-more-charged-gathering-drink-chat-during-circuit-breaker). Um auxilio emergencia foi colocado em pratica para cobrir as pessoas que nao podiam trabalhar e as aulas eram conduzidas via video conferencia.
+
+Resultado dessa politica: Desde o inicio da crise ate agora, [30 pessoas em Singapura morreram de COVID](https://www.worldometers.info/coronavirus/country/singapore/) (Mais de 800 mortos em Mogi das Cruzes, que tem 500 mil habitantes). Todos os casos novos sao importados, transmissao interna praticamente nao existe, o comercio esta completamente aberto e funcionando e as escolas estao abertas e conduzindo classes dentro das salas de aula. Nao houve superlotacao de UTIs, nao faltou oxigenio e nao faltou remedio para entubacao. Hidroxocloroquina e vermicida NUNCA sequer foram cogitados por aqui. Acho que o medico que levantar esse topico por aqui perde a licenca e pode ate ser mandado para o hospicio. A vacinacao esta ocorrendo, mas sem urgencia ou panico, ja' que a taxa de contaminacao e' baixissima.
+
+A expectativa e que todos nos estaremos vacinados ate Julho ou Agosto e quando isso acontecer, as ultimas restricoes sobre COVID (uso obrigatorio de mascaras e apps no celular) devem ser suspensas.
+
+Eu aceito argumentos criticos sobre a etica e legalidade de lockdowns, sobre o aspecto da liberdade, etc... Acho que sao argumentos validos e que devem ser discutidos honestamente.
+
+Mas se voce vier com o argumento de que lockdowns nao funcionam, eu vou apontar para a minha experiencia em Singapura e para os resultados em todos os outros paises asiaticos que nao fizeram lockdowns meia-boca.";NEU;NEU;0.16161376237869263;0.8017913699150085;0.036594923585653305
+117;117;63;1jvfu2z;https://g1.globo.com/economia/noticia/2025/04/08/cpi-das-bets-presidente-do-bc-diz-que-nao-sera-possivel-identificar-apostadores-que-usam-o-pix.ghtml;BC diz que brasileiros gastam até R$ 30 bilhões por mês com bets e que não tem poderes para impedir uso do Bolsa Família em apostas;NEU;NEU;0.07976413518190384;0.898652970790863;0.021582936868071556
+118;118;110;18m5fx2;https://www.reddit.com/r/AMABRASIL/comments/18m5fx2/eu_sou_entrevistador_social_do_cadastro_único/;Eu sou entrevistador social do Cadastro Único para programas sociais como o Bolsa Família, AMA. Sou entrevistador social em um CRAS de uma capital, considerada uma das cidades mais bem avaliadas em qualidade de oferta e efetividade do Cadastro Único, me pergunte qualquer coisa.;NEU;NEU;0.029160700738430023;0.8653550148010254;0.10548432171344757
+119;119;277;r13mdj;https://economia.uol.com.br/noticias/redacao/2021/11/24/auxilio-brasil-encolhe-bolsa-e-ignora-558-mil-familias-em-extrema-pobreza.htm;Auxílio Brasil deixa fora pelo menos 558 mil famílias que vivem na miséria;NEU;NEG;0.3526173233985901;0.6320202946662903;0.015362362377345562
+120;120;349;y6v5h9;https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2335646;[Alexandre Frota - PSDB] PL 2612/2022: O programa Auxilio Brasil fica prorrogado por tempo indeterminado os benefícios financeiros decorrentes deste programa para as pessoas que já o recebem desde que não haja alteração na condição sócio econômica da mesma.;NEU;NEU;0.0671958476305008;0.8313952684402466;0.1014089435338974
+121;121;29;104ddnh;https://www.metropoles.com/negocios/governo-estuda-anistia-a-endividados-no-consignado-do-auxilio-brasil;Governo estuda anistia a endividados no consignado do Auxílio Brasil | Metrópoles;NEU;NEU;0.03018602542579174;0.9369398355484009;0.03287418186664581
+122;122;140;1k18vx8;https://www.reddit.com/r/PeTistas/comments/1k18vx8/o_bolsa_família_é_culpado_pela_dificuldade_das/;"O Bolsa Família é culpado pela dificuldade das empresas em contratar? WWW
+Da BBC News Brasil em São Paulo
+Thais Carrança
+15 abril 2025
+https://www.bbc.com/portuguese/articles/cj45n2qzrkqo";NEU;NEU;0.05019912123680115;0.9337800145149231;0.016020815819501877
+123;123;211;1fokppc;https://www.metropoles.com/brasil/beneficiarios-do-bolsa-familia-gastam-r-3-bi-em-apostas-diz-bc;Beneficiários do Bolsa Família gastam R$ 3 bi em apostas, diz BC ;NEU;NEU;0.03101412020623684;0.9379920959472656;0.030993808060884476
+124;124;229;1gyziyz;https://v.redd.it/0s5k40xekw2e1;sem picanha, sem bolsa familia e agora sem agua ;NEG;NEG;0.9147583246231079;0.07742661237716675;0.007815161719918251
+125;125;26;11l9uz2;https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2350322;[Ricardo Ayres - REPUBLICANOS] PL 928/2023 (1): Dispõe sobre a anistia total e irrestrita aos juros, multas e demais encargos financeiros, aos beneficiários do Bolsa-Família (o antigo Auxílio Brasil) que contrataram empréstimo consignado. ;NEU;NEU;0.07165593653917313;0.8820112347602844;0.04633283242583275
+126;126;7;16pnzte;https://oglobo.globo.com/economia/noticia/2023/09/22/cgu-diz-que-93percent-dos-emprestimos-consignados-do-auxilio-brasil-ocorreram-entre-o-1o-e-o-2o-turno-das-eleicoes.ghtml?utm_source=aplicativoOGlobo&utm_medium=aplicativo&utm_campaign=compartilhar;CGU diz que 93% dos empréstimos consignados do Auxílio Brasil ocorreram entre o 1º e o 2º turno das eleições;NEU;NEU;0.02576233260333538;0.9516968131065369;0.022540854290127754
+127;127;176;1ijxsog;https://portalrbn.com.br/caixa-paga-bolsa-familia-a-beneficiarios-com-nis-de-final-8-2/?feed_id=16156&_unique_id=67a628f64a2aa;Caixa paga Bolsa Família a beneficiários com NIS de final 8;NEU;NEU;0.04149923846125603;0.922598123550415;0.035902656614780426
+128;128;396;w5e3sx;https://www1.folha.uol.com.br/mercado/2022/07/350-mil-familias-entram-em-media-na-fila-do-auxilio-brasil-por-mes.shtml;350 mil famílias entram em média na fila do Auxílio Brasil por mês;NEU;NEU;0.017297420650720596;0.9574313759803772;0.025271162390708923
+129;129;108;196vyo3;https://i.redd.it/orj9l8c28icc1.png;Depois que o governo Lulo cortou o Bolsa Família ontem, agora a mídia está querendo noticiar que o bolsa família só é usado para algo ilícito, kkkk ;NEG;NEU;0.8633277416229248;0.1296103447675705;0.00706182885915041
+130;130;317;qbd79o;https://www.reddit.com/r/u_Manada_2/comments/qbd79o/meus_amigos_com_crise_hídrica_eleições_e_agora/;Meus amigos, com crise hídrica, eleições e agora uma possível pro-prorrogração do auxílio emergencial, 2022 pode ser uma grande oportunidade para ganhar dinheiro. Vou manter o portfolio inalterado (com 70% em moeda forte) e vou adquir mais exposição ao Brasil na medida que a crise se intensifique ;NEU;NEU;0.06803765147924423;0.7182087302207947;0.21375364065170288
+131;131;407;vedr6t;https://www.reddit.com/r/serraelitoral/comments/vedr6t/caixa_começa_a_pagar_parcela_de_junho_do_auxílio/;Caixa começa a pagar parcela de junho do Auxílio Brasil Caixa começa a pagar parcela de junho do Auxílio Brasil [https://serraelitoral.com.br/noticia/4632/caixa-comeca-a-pagar-parcela-de-junho-do-auxilio-brasil.html](https://serraelitoral.com.br/noticia/4632/caixa-comeca-a-pagar-parcela-de-junho-do-auxilio-brasil.html);NEU;NEU;0.0675395280122757;0.8513548374176025;0.08110551536083221
+132;132;118;1jg24pb;https://blog.pirataspelomundo.com.br/2025/03/governo-suspende-41-milhoes-de.html;Governo suspende 4,1 milhões de benefícios do Bolsa Família e BPC devido a fraudes - (piratas pelo mundo). ;NEU;NEU;0.14685647189617157;0.8390619158744812;0.014081564731895924
+133;133;114;1kpxu9u;https://agenciabrasil.ebc.com.br/economia/noticia/2025-05/haddad-nega-planos-para-reajustar-valor-do-bolsa-familia;Haddad nega planos para reajustar valor do Bolsa Família | Agência Brasil;NEU;NEU;0.03157411143183708;0.9482202529907227;0.020205598324537277
+134;134;141;143c4ku;https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias/2023/06/beneficiarios-do-bolsa-familia-terao-acesso-gratuito-a-todos-os-medicamentos-do-farmacia-popular;Beneficiários do Bolsa Família terão acesso gratuito a todos os medicamentos do Farmácia Popular;NEU;NEU;0.020128030329942703;0.9183608889579773;0.06151101738214493
+135;135;209;1h1bxch;https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2439782;[Senado Federal - Zenaide Maia] PL 3324/2023 (21): Altera a Lei nº 14.601, de 19 de junho de 2023, para conferir prioridade à família da mulher em situação de violência doméstica e familiar entre os beneficiários do Programa Bolsa Família. ;NEU;NEU;0.044830072671175;0.900593638420105;0.054576326161623
+136;136;323;yd9nnm;https://valor.globo.com/politica/eleicoes-2022/noticia/2022/10/25/consignado-e-usado-para-fake-news.ghtml;Consignado para beneficiário do Auxílio Brasil é usado para 'fake news';NEU;NEU;0.22709718346595764;0.7520169615745544;0.020885862410068512
+137;137;333;q9w0zk;https://www1.folha.uol.com.br/mercado/2021/10/mesmo-com-auxilio-brasil-classe-de-deve-perder-renda-em-ano-eleitoral.shtml;Classe D/E deve perder renda em ano eleitoral mesmo com Auxílio Brasil;NEU;NEU;0.14750854671001434;0.8326257467269897;0.019865674898028374
+138;138;198;1hh3fg4;https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2480894;[Roberta Roma] PL 4943/2024 (1): Institui o Auxílio Inclusão Social como medida complementar ao Benefício de Prestação Continuada (BPC) previsto na Lei Orgânica da Assistência Social (LOAS) e ao Programa Bolsa Família, com o objetivo de incentivar a inclusão produtiva dos seus beneficiários no me... ;NEU;NEU;0.04179484397172928;0.8015474081039429;0.15665771067142487
+139;139;329;y6sx1v;https://veja.abril.com.br/coluna/radar-economico/o-surpreendente-destino-das-parcelas-do-auxilio-brasil-na-economia/amp/;O surpreendente destino das parcelas do Auxílio Brasil na economia;NEU;NEU;0.014530862681567669;0.9459972381591797;0.03947191312909126
+140;140;388;si2fic;https://www.reddit.com/r/brasilivre/comments/si2fic/o_que_acham_do_novo_benefício_empresarial_auxílio/;"O que acham do novo benefício empresarial: ""Auxílio Transição de Gênero"" Bom pessoal, pra quem não sabe, o iFood oferece há alguns meses o Auxílio Transição de Gênero, que oferece ajuda monetária com custos de hormônios, passando por custeio de cirurgias até auxílio jurídico.
+
+Alguém trabalha lá poderia nos contar um pouco mais? Achei bem estranho esse benefício, mais por ele ser específico assim, tipo nuns moldes de ""auxílio cabelo crespo"" ou ""auxílio havaianas, pra quem gosta de usar chinelo""... mas pelo que vi tem até auxilio pra pet lá, então nunca se sabe.
+
+No caso, iFood é no estilo Governo do Brasil que o salário já é alto e ainda tem milhares de penduricalhos ou é meio no estilo iFode, aquele do entregador que não direito nenhum";NEU;NEU;0.13616710901260376;0.8259838819503784;0.03784908354282379
+141;141;320;wrwljo;https://www.em.com.br/app/noticia/politica/2022/08/17/interna_politica,1387115/pesquisa-lula-abre-vantagem-entre-eleitores-que-recebem-auxilio-brasil.shtml;Pesquisa: Lula abre vantagem entre eleitores que recebem Auxílio Brasil;NEU;NEU;0.02344445325434208;0.8929923176765442;0.08356329053640366
+142;142;294;vups2b;https://economia.uol.com.br/noticias/redacao/2022/07/08/emprestimo-consignado-banco-auxilio-brasil.htm;Crédito consignado para quem recebe Auxílio Brasil cobra juro de 98% ao ano - 08/07/2022 - UOL Economia;NEU;NEU;0.03297634795308113;0.9426624774932861;0.02436126209795475
+143;143;180;1ih1ilh;https://portalrbn.com.br/caixa-paga-bolsa-familia-a-beneficiarios-com-nis-de-final-5-3/?feed_id=15426&_unique_id=67a13e09b920b;Caixa paga Bolsa Família a beneficiários com NIS de final 5;NEU;NEU;0.04417482763528824;0.9173896312713623;0.03843555226922035
+144;144;199;1fp725k;https://ibovespahoje.com/3-bi-do-bolsa-familia-destinados-a-casa-de-apostas-em-agosto/;Beneficiários Do Bolsa Família Destinam R$ 3 Bilhões A Empresas De Apostas Em Agosto;NEU;NEU;0.02950664795935154;0.9412038326263428;0.02928951382637024
+145;145;109;1kdpmwn;https://www.reddit.com/r/Economia/comments/1kdpmwn/eu_quero_viver_de_bolsa_família/;"Eu quero viver de BOLSA FAMÍLIA! Sinceramente, estou chegando no meu limite. Já tinha desabafado antes, mas apaguei porque muita gente me julgou, me chamando de vagabundo — e isso machuca.
+
+Nem deveria ser assim as coisas, R$600 é pouquinho, deveria receber pelo menos R$1.500,00 ou R$1.800,00 no mínimo. 
+
+Ah gente, por favor! Acorda mais cedo aí, dá uma forcinha para mim... Vamos protestar pra mudar o Brasil, R$600 não dá mais!
+
+";NEG;NEG;0.8629369139671326;0.11529657244682312;0.02176649309694767
+146;146;430;hox6ak;https://economia.uol.com.br/noticias/redacao/2020/07/10/bolsa-familia-renda-brasil-seguro-defeso-salario-familia-unificar.htm;Bolsa-Familia deve ser unificado com abono, seguro-defeso e salário-familia - 10/07/2020 ;NEU;NEU;0.057017259299755096;0.9022045135498047;0.040778279304504395
+147;147;145;1gru8x8;https://revistaoeste.com/politica/stf-confirma-liminar-que-proibe-uso-do-bolsa-familia-em-bets/;STF confirma liminar que proíbe uso do Bolsa Família em bets;NEU;NEU;0.09695007652044296;0.8650276064872742;0.03802230581641197
+148;148;237;1bhu9iy;https://www.reddit.com/r/ConselhosLegais/comments/1bhu9iy/gente_uma_dúvida_se_uma_pessoa_recebe_bolsa/;Gente uma dúvida se uma pessoa recebe bolsa familia e ela for trabalhar com ifood ela perde o benefício?;NEU;NEU;0.10837329179048538;0.8744272589683533;0.017199479043483734
+149;149;380;gxr99t;https://www.reddit.com/r/brasilivre/comments/gxr99t/guerra_de_narrativas_em_quem_acreditar/;"Guerra de narrativas - Em quem acreditar? O governo federal sugere que a situação está sob controle, porém os governos estaduais de alguns estados dizem que está o caos.
+
+
+No site que é abastecido com informações de Secretarias de Saúde dos Estados/Municípios as últimas informações mostram 1000 mortes/dia - https://covid.saude.gov.br/
+
+
+Já no Portal de Transparência de Cartórios de Registro Civil do Brasil mostra que o pico de mortes no Brasil foi em 14/05 com 829 mortes e já estaríamos no achatamento da curva - 
+https://transparencia.registrocivil.org.br/especial-covid
+
+
+Estados parceiros do governo tem se saído bem nos números Pandemia, por exemplo Paraná (governador Ratinho Jr), já RJ e SP, vocês conhecem o histórico. 
+
+Quem diz a verdade? 
+
+
+Como analisar essa situação sem botar a mão no fogo para nenhum lado ?";NEU;NEU;0.34140631556510925;0.6179178357124329;0.040675800293684006
+150;150;397;uo41iv;https://www.reddit.com/r/brasil/comments/uo41iv/acabei_de_responder_a_uma_pesquisa_do_governo/;"Acabei de responder a uma pesquisa do Governo Federal sobre o Auxílio Brasil. Queria fazer esse post porque nunca conheci ninguém que tenha sido respondido a pesquisas do governo e, como também não encontrei nenhuma outra postagem sobre isso, resolvi fazer aqui o meu registro.
+
+Era uma pesquisa simples, feita por uma ligação automática, e perguntava se eu conhecia os projetos assistenciais do governo como o antigo bolsa família.  Perguntava também se eu sabia qual o órgão responsável (Ministério da Cidadania), se eu já tinha ouvido falar do CAD Único e depois apresentava todas as vantagens do programa social Auxílio Brasil (pareceu de cunho bem informativo e não de propaganda como eu achei que seria).
+
+Depois vieram perguntas sobre o quanto eu achava que o Auxílio Brasil poderia ajudar as pessoas necessitadas, sobre a quão provável era das pessoas pararem de usar o Auxílio Brasil depois de um tempo recebendo essa assistência (provavelmente relacionado com aquele argumento de que o Bolsa Família escolhiam não trabalhar pra receber o Bolsa Família), sobre minha opinião em relação aos atos do governo serem assistencialistas ou não, e finalizou com uma pergunta sobre minha opinião sobre os atos do governo em geral.
+
+Ao fim me fizerem perguntas que pareceram puramente estatísticas, como qual o meu sexo, faixa etária, média salarial e se eu já fui beneficiado com algum auxilio governamental.
+
+Mais alguém recebeu essa ligação?";NEU;NEU;0.09276968985795975;0.7053812742233276;0.2018490582704544
+151;151;83;16tmr46;https://valorinveste.globo.com/mercados/brasil-e-politica/programas-sociais/noticia/2023/09/26/tres-milhoes-deixaram-a-pobreza-em-2023-com-bolsa-familia.ghtml;Três milhões deixaram a pobreza em 2023 com Bolsa Família;NEU;POS;0.07823778688907623;0.9056753516197205;0.016086872667074203
+152;152;406;vgvfbn;https://www.reddit.com/r/PortalRbn/comments/vgvfbn/caixa_paga_hoje_auxílio_brasil_a_beneficiários/;"Caixa paga hoje Auxílio Brasil a beneficiários com NIS final 2 A Caixa Econômica Federal paga hoje (20) a parcela de junho do Auxílio Brasil aos beneficiários com Número de Inscrição Social (NIS) com final 2. O valor mínimo do benefício é de R$ 400. As datas seguem o modelo do Bolsa Família, que pagava os beneficiários nos dez últimos dias úteis do mês.
+
+https://portalrbn.com.br/caixa-paga-hoje-auxilio-brasil-a-beneficiarios-com-nis-final-2/";NEU;NEU;0.06890717148780823;0.8735987544059753;0.0574941411614418
+153;153;172;1irhd9f;https://portalrbn.com.br/caixa-comeca-a-pagar-bolsa-familia-de-fevereiro/?feed_id=19005&_unique_id=67b316fc1e7fe;Caixa começa a pagar Bolsa Família de fevereiro;NEU;NEU;0.03047499805688858;0.933222234249115;0.03630274906754494
+154;154;74;11wg0lj;https://v.redd.it/mqis4syapvoa1;Lula dá um Bolsa Família para o seu Madruga e causa confusão na vila.;NEU;NEU;0.15546104311943054;0.8272351622581482;0.01730377972126007
+155;155;357;jvr3mf;https://www.reddit.com/r/brasilivre/comments/jvr3mf/voto_pela_internet_ou_pelo_celular_é_a_maior/;"Voto pela internet ou pelo celular é a maior idiotice que existe e quem defende isso não tem cérebro Deixa eu começar falando que eu sempre gostei do Barroso, mas ultimamente o cara tem dado umas cagadas feias.
+
+Já boto o TLDR no começo: Voto pela internet só vai piorar os currais eleitorais
+
+Não vou falar de fraude, hacking, ou seja o que for. Segundo os nossos donos, o sistema é seguro. Teve que mudar tudo pra ser contado em Brasília, mas é porque o sistema é muito seguro. Inclusive tem um rant bom do Oinegue sobre isso aqui (https://www.youtube.com/watch?v=_TSBV9HKGOU) pra quem tiver interesse.
+
+Mas esquece a segurança do processo. Vamos falar de fatos, coisas que estão acontecendo agora, nesse ano.
+
+Fato: As milícias controlam 57% do território carioca. (https://g1.globo.com/rj/rio-de-janeiro/noticia/2020/10/19/rio-tem-37-milhoes-de-habitantes-em-areas-dominadas-pelo-crime-organizado-milicia-controla-57percent-da-area-da-cidade-diz-estudo.ghtml) Nas áreas controladas pela milícia, o cidadão tem que comprar gás mais caro com eles, pagar as taxas deles, fazer o que eles mandam ou então é vala. Com o auxílio emergencial que foi liberado esse ano, as milícias estavam **fazendo o cadastro dos moradores e ficando com o auxílio pra elas**. (https://jornalpovo.com.br/2020/04/19/milicia-mira-no-auxilio-emergencial/) 
+
+Imagina agora com a eleição por celular. Ao invés de ter fila na seção eleitoral, vai ter fila na loja do gás da milícia, pra você votar na frente deles, e se não votar vai pra vala. Você quer mais milicianos no poder? Porque é assim que você tem mais milicianos no poder.
+
+Isso só considerando as áreas dominadas por milícia. O mesmo vale pra áreas dominadas pelo tráfico. As filas vão ser na boca de fumo. Você quer mais pastores no poder?
+
+Isso pensando só no Rio de Janeiro. Agora expande isso pro interior do Brasil. To falando aquela cidadezinha no meio do nada com 30k habitantes, onde quem manda é o dono da fazenda ou o delegado. Sabe quem vai sempre ganhar as eleições? Pois é. Se antigamente eles recolhiam os títulos dos trabalhadores e votavam por todo mundo, agora vai ser com os celulares. Ou então vão colocar um único computador com acesso à internet e obrigar todo mundo a votar em quem quiserem.
+
+E quanto ao crime hediondo absurdo de se tirar uma foto da urna quando se vota? Pois é, as eleições vão passar a ser shows de prints, com candidatos pedindo ativamente por prints do voto pra poder te colocar naquela fila da operação pelo SUS. Não votou nele? Que pena, tenta novamente em 4 anos.
+
+É tanta merda nessa idéia que não dá pra entender como que os grandes meios de comunicação estão comprando essa porra sem nem pensar um segundo.
+
+A santidade do segredo do voto vai pro caralho. A segurança que se tem de se votar anonimamente, sem ninguém estar vendo, vai pro caralho. 
+
+A idéia é ruim, e quem defende isso deveria ter vergonha.";NEG;NEU;0.9755504131317139;0.014571654610335827;0.00987799372524023
+156;156;386;r2braj;https://www.reddit.com/r/brasilivre/comments/r2braj/na_monarquia_pagávamos_15_do_ouro_hoje/;"Na monarquia pagávamos 1/5 do ouro, hoje trabalhamos 4 meses e 29 dias só pra pagar imposto. Que bela ""democracia liberal"". Só pra deixar claro, não sou a favor da monarquia, foi só um insight que eu tive vendo um vídeo no yt que infelizmente fez até um sentido. Ignorando todos os benefícios que o estado democrático brasileiro trazem ( que são poucos ) a monarquia te roubava menos  :/";NEG;NEG;0.7960687875747681;0.08777249604463577;0.11615873128175735
+157;157;119;1jsybgr;https://www.reddit.com/gallery/1jsybgr;Novo cartão do bolsa família;NEU;NEU;0.019045453518629074;0.9315913915634155;0.04936309531331062
+158;158;316;vgmkjf;https://economia.uol.com.br/noticias/estadao-conteudo/2022/06/20/demanda-pelo-auxilio-brasil-explode-e-fila-ja-tem-278-milhoes-de-familias.htm;Demanda pelo Auxílio Brasil explode e fila já tem 2,78 milhões de famílias ;NEU;NEU;0.11063738912343979;0.861258327960968;0.02810421586036682
+159;159;327;zf1i3r;https://www.bbc.com/portuguese/brasil-63886712;PEC da Transição: como medida para garantir Auxílio Brasil poderá custear saúde e também abastecer orçamento secreto;NEU;NEU;0.04588286951184273;0.9133404493331909;0.04077666252851486
+160;160;193;1b3qu0f;https://noticias.uol.com.br/colunas/leticia-casado/2024/03/01/governo-credito-bolsa-familia.htm;Letícia Casado: Governo quer R$ 1,5 bi em crédito para quem tem Bolsa Família abrir negócio ;NEU;NEU;0.019063927233219147;0.9317049980163574;0.04923110082745552
+161;161;247;ylg458;https://www.estadao.com.br/economia/auxilio-brasil-voltara-a-ser-chamado-de-bolsa-familia-em-governo-lula/;Auxílio Brasil voltará a ser chamado de Bolsa Família em governo Lula - Estadão;NEU;NEU;0.029303455725312233;0.9519113898277283;0.01878516748547554
+162;162;281;y9e7pv;https://www.metropoles.com/colunas/guilherme-amado/ministro-do-tcu-devera-suspender-consignado-do-auxilio-brasil;Ministro do TCU deverá suspender consignado do Auxílio Brasil;NEU;NEU;0.13686880469322205;0.8404044508934021;0.022726722061634064
+163;163;195;1htk6v1;https://portalrbn.com.br/estudo-mostra-que-bolsa-familia-reduziu-mortes-por-tuberculose/?feed_id=13231&_unique_id=677977aca5405;Estudo mostra que Bolsa Família reduziu mortes por tuberculose;NEU;POS;0.03572394326329231;0.9485793709754944;0.015696709975600243
+164;164;338;zso8ww;https://www.reddit.com/r/PortalRbn/comments/zso8ww/caixa_paga_auxílio_brasil_a_beneficiários_com_nis/;"Caixa paga Auxílio Brasil a beneficiários com NIS de final 9 A Caixa Econômica Federal paga hoje (22) a parcela de dezembro do Auxílio Brasil aos beneficiários com Número de Inscrição Social (NIS) com final 9. Essa é a quinta parcela com o valor mínimo de R$ 600, estabelecido por emenda constitucional promulgada em julho pelo Congresso Nacional.
+
+Ontem (21),
+
+https://portalrbn.com.br/caixa-paga-auxilio-brasil-a-beneficiarios-com-nis-de-final-9/";NEU;NEU;0.05877356603741646;0.8766775131225586;0.06454890966415405
+165;165;335;yybvga;https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2338697;[Raimundo Costa - PODE] PL 2805/2022: Dispõe sobre o recebimento cumulativo do Auxílio Brasil e o Seguro Defeso da Pesca Artesanal.;NEU;NEU;0.031030137091875076;0.921043872833252;0.04792588949203491
+166;166;222;1gxnz8k;https://portalrbn.com.br/caixa-paga-bolsa-familia-a-beneficiarios-com-nis-de-final-5/?feed_id=10344&_unique_id=67412e73baac4;Caixa paga Bolsa Família a beneficiários com NIS de final 5;NEU;NEU;0.04417482763528824;0.9173896312713623;0.03843555226922035
+167;167;36;1ki94bi;https://v.redd.it/uvh7n2eqfoze1;25 anos recebendo Bolsa Família;NEU;NEU;0.04802665859460831;0.891680121421814;0.06029319763183594
+168;168;139;1jvgud5;https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2496168;"[Felipe Carreras] PL 1599/2025 (1): Dispõe sobre a criação do Programa de Desenvolvimento Econômico e Social ""Emprega Turismo"", institui incentivos especiais para contratação de empregados nos setores vinculados ao turismo, garante a manutenção do benefício do Bolsa Família e altera a Lei nº 8.0... ";NEU;NEU;0.04153618589043617;0.8304476737976074;0.12801606953144073
+169;169;392;h7bgp1;https://www.reddit.com/r/brasil/comments/h7bgp1/não_a_culpa_não_é_do_brasileiro/;"Não, a culpa NÃO é do brasileiro. Bom dia/tarde/noite, recentemente eu estava visitando meus pais depois de um longo tempo sem vê-los. Até então está tudo bem, até que entra no papo de política. Não, meus pais não são bolsominions ou algo do tipo, eu classificaria eles como ""eu não gosto do que o governo está fazendo, mas não quero fazer nada e só implorar para que algo aconteça"".
+
+Ok, mas o que isso tem a ver com política? O que aconteceu é que apareceu uma notícia na TV mostrando o furdúncio de pessoas no centro de uma cidade, logo depois começou os comentários dos meus pais:
+
+>Olha essa gente na rua, só o brasileiro mesmo!  
+>  
+>O brasileiro não tem jeito mesmo...
+
+E coisas do tipo.
+
+Resolvi colocar minha posição a fora, basicamente falando que as pessoas ali só estão fazendo isso por 3 motivos (que eu imagino): 
+
+\- A grande maioria não possui um grau de educação muito elevado e se tem provavelmente é de má qualidade;
+
+\- Muitas pessoas ali não recebe nenhum tipo de suporte financeiro (exemplos: não recebeu auxilio do governo, não tem nenhum tipo de dinheiro guardado) ou alimentício (pessoas faltando comida ou algo assim);
+
+\- O nosso presidente literalmente implora para as pessoas saírem de casa, pode parecer bobo para alguns, mas o presidente pedindo para as pessoas saírem para alguns é o mesmo que mandar sair (só lembrar do [caso Trump com desinfetante](https://www.uol.com.br/vivabem/noticias/redacao/2020/04/25/ny-tem-30-chamados-por-ingestao-de-desinfetante-melhor-prevencao-e-higiene.htm).
+
+Com isso eu sintetizei que **a culpa não é do brasileiro**, ser brasileiro não quer dizer absolutamente nada, ser brasileiro não faz ninguém diferente ou inferior a qualquer outro ser humano, nosso país se encontra aonde está pois a **elite quer assim**. Com isso eu inicio uma discussão gigante comigo defendendo a educação e dizendo que é essencial lutar por ela.
+
+Nunca parei para pensar o quão danoso é a ideia de que a ""culpa é do brasileiro"" ou que o ""Brasil é um caso separado"", vejo que em todo lugar isso se fala verbal ou não verbalmente, as pessoas falam isso (de várias formas, como o próprio brasileiro não presta, ou o Brasil não consegue fazer isso, ou o ""jeitinho brasileiro""), programas de TV dão a entender isso (novelas muitas vezes ridicularizam o povo, como exemplo), o governo tenta mostrar que somos dependentes dele e assim vai.
+
+Até se olharmos para a história, grande parte dos eventos históricos no Brasil tratam o povo como incapaz, esses momentos históricos eu divido assim:
+
+\- Os que ""venceram"" (entenda vencer como o grupo que consegue algo que quer): vide Getúlio Vargas e a CLT, vide a primeira república com os militares, vide a ditadura militar, assim vai, quase nada de participação popular;
+
+\- Os que perderam: os farroupilhos (teve bastante participação da elite, mas teve grande participação do povo também), conjuração baiana, guerra de canudos, balaiada, revolta da chibata e muitos outros (muitos MESMO).
+
+Dá para ver que o brasileiro perde sua autoestima, não só como nação, mas como humanos.
+
+Disso é fácil ver o porquê desse papo de ""salvador"" ou ""messias"" no governo, a repressão na história é tão grande que o brasileiro começa a se sentir inferior diante o governo (necessitando dessa ""ajuda sagrada"") e diante o mundo (desqualifica a própria cultura, gerando esse complexo de vira-lata).
+
+Vou colocar aqui minha opinião final sobre o Brasil e o brasileiro: o Brasil NUNCA vai melhorar (para o povo) enquanto o próprio povo não se erguer sobre isso\*, povo eu quero dizer TODO ele (ou pelo menos uma parte gigante), o Brasil é um país lindo com uma cultura linda, a cultura DO POVO é linda, a elite NÃO representa o Brasil, nem NUNCA vai, eles querem colocar a ideia de que o brasileiro é ruim, mas isso é só uma forma de expressar os próprios defeitos nojentos.
+
+Não me confunda com um nacionalismo cego, o brasileiro não é superior a outros seres humanos, **ele é igual a todos eles**, eu acredito que o potencial humano é infinito, por isso **o potencial brasileiro também é infinito**.
+
+Obrigado pela leitura.
+
+\* Como vai ser erguer? Não sei.";NEG;NEU;0.629766583442688;0.3352277874946594;0.03500565513968468
+170;170;184;1ibiv1c;https://portalrbn.com.br/caixa-paga-bolsa-familia-a-beneficiarios-com-nis-de-final-3-4/?feed_id=15032&_unique_id=6797e987c3a5b;Caixa paga Bolsa Família a beneficiários com NIS de final 3;NEU;NEU;0.04029727354645729;0.9223302006721497;0.03737258166074753
+171;171;239;12zsn81;/r/brasil/comments/12ze833/meu_pai_é_bolsonarista_roxo_e_frauda_o_bolsa/;MEU PAI É BOLSONARISTA ROXO E FRAUDA O BOLSA FAMILIA!;NEG;NEU;0.9233944416046143;0.07246827334165573;0.004137395415455103
+172;172;253;xuogoi;https://valorinveste.globo.com/mercados/brasil-e-politica/programas-sociais/noticia/2022/10/03/governo-antecipa-calendario-do-auxilio-brasil-de-outubro-para-antes-da-data-do-segundo-turno.ghtml;Governo antecipa calendário do Auxílio Brasil de outubro e todos vão receber antes do segundo turno das eleições;NEU;NEU;0.02500550076365471;0.9117987751960754;0.06319571286439896
+173;173;59;1ccroqb;https://www.reddit.com/r/brasil/comments/1ccroqb/como_as_pessoas_mentem_sobre_o_bolsa_família/;"Como as pessoas mentem sobre o bolsa família Vi um post no X (twitter) que já está rodando de uma deputada de SC falando que Santa Catarina seria melhor porque tem mais pessoas trabalhando do que recebendo bolsa família diferente do Maranhão (o outro extremo). 
+
+Eu não vou entrar no mérito do que ela falou mas falar de um assunto correlato, porque as pessoas estão ficando cada vez mais burras a respeito do bolsa família? 
+
+Pessoas que recebem bolsa família também trabalham seja informalmente ou formalmente mas também recebem o auxílio porque sua renda mensal não é suficiente para ter o mínimo de dignidade, a tese de que a pessoa ou trabalha ou recebe o bolsa família NÃO EXISTE. É impossível você viver com 600 reais ou até mesmo criar filhos com 600 reais, em que planeta essas pessoas estão vivendo? As taxas de fecundidade estão caindo em todo o país.  
+
+Esses gráficos do poder360 estão sendo muito divulgados para espalhar desinformação ou meias verdades e as pessoas simplesmente não são capazes de pesquisar por conta própria por pelo menos 10 minutinhos e ver as mentiras que estão sendo ditas. 
+
+Não vou me alongar mais do que isso mas está na hora das pessoas se unirem mais para combater essas mentiras, está ficando insuportável a quantidade de preconceito e xenofobia ainda mais se tratando de uma mentira descarada. ";NEG;POS;0.8456569314002991;0.09944622218608856;0.05489683523774147
+174;174;111;1jfjun8;https://youtu.be/HaUgSWTnAtM?si=c7T6GJT-lVhWZEnZ;Empresários reclamam de falta de mão de obra e culpam bolsa família (canal Galãs Feios);NEU;NEG;0.1276266723871231;0.8587979078292847;0.013575500808656216
+175;175;196;1ga7enq;https://www1.folha.uol.com.br/poder/2024/10/zema-associa-bolsa-familia-a-dificuldade-de-empresarios-contratarem-no-pais.shtml;Zema associa Bolsa Família a dificuldade de empresários contratarem no país;NEU;NEG;0.09563060104846954;0.8891445994377136;0.015224836766719818
+176;176;208;1hb48an;https://portalrbn.com.br/caixa-comeca-a-pagar-bolsa-familia-de-dezembro/?feed_id=12158&_unique_id=67585d694ee15;Caixa começa a pagar Bolsa Família de dezembro;NEU;NEU;0.029960215091705322;0.9348083138465881;0.035231515765190125
+177;177;6;106782p;https://veja.abril.com.br/coluna/radar/tcu-descobre-mar-de-irregularidades-no-auxilio-brasil-de-bolsonaro/amp/;TCU descobre mar de irregularidades no Auxílio Brasil de Bolsonaro;NEU;NEU;0.249746173620224;0.7257389426231384;0.024514954537153244
+178;178;383;jpbcte;https://www.reddit.com/r/brasilivre/comments/jpbcte/na_minha_opnião_as_chances_do_bolsonaro_se/;"Na Minha Opnião as Chances do Bolsonaro se re-eleger em 2022 é alta, leia antes de criticar Todo mundo sabe que o Trump Perdeu, e a Lacração LGBTexto, Army KPOP BTS, foi a loucura falando que o Bonoro vai perder 2022, na minha opnião não, por alguns motivos
+
+1-Eu chamo isso de Efeito Boulos ou Efeito Napoleão:
+
+É bem Simples de Explicar, basicamente o canditado mais provavel é de esquerda provavelmente o PT, O negocio é que diferente dos EUA, o Brasil tem um Odio gigante do PT ou da esquerda em geral, Por Isso Efeito Napoleão, pq basicamente varias pessoas se votariam no bolso só pro pt n ganhar, meu pai votou no NOVO em 2018 no Primeiro Turno mas ele votou no Bonoro no segundo, eu tmb chamo de efeito boulos, pq se ele chegar ao segundo turno grande parte das pessoas que votam em outros partidos votariam pro oponente dele no segundo turno
+
+2-PT
+
+o PT é provavelmente o partido mais odiado desse país, se eles chegarem no segundo turno ele vão perder, se tentaram botar o lula na presidencia, vão perder mais feio, Diferente dos Democratas nos eua o PT é cheio de acusações e provas de corrução, isso causaria o Efeito Napoleão e o efeito do mal menor no segundo turno, o mal menor sendo o Bonoro, até eu que não vou votar em 2022, votaria no Bolso se o PT chegar no segundo turno só pro PT n chegar pq o Bonoro é ""Menos Corrupto"", isso prova como esse país é fudido
+
+3-O Distanciamento da Esquerda e do Trabalhador:
+
+Desde o Inicio a Esquerda defendia o trabalhador, hoje é o contrario, em vez de querer ajudar o trabalhador ou os pobres a esquerda se importa mais com problemas de ""Primeiro Mundo"" ( Racismo e Homofobia), Eu **NÃO** estou falando que racismo não é um problema, mas o trabalhador ve a esquerda falando de Racismo e Transfobia e a Caralha quatro e olha pro bonoro falando em Lei e Ordem e Pobreza e as outras caralha quatro que é mais importante é pensa
+
+""Esse Cara parece q se importa mais com os problemas atuais, e vou votar nele""
+
+E vamos falar a verdade, no final do dia acabar com a pobreza pq a pobreza leva a falta de educação que leva a, a Ignorancia, que leva a discriminação
+
+O unico partido de esquerda que realmente defende o Trabalhador é o PCO, a Base de apoio da esquerda é o nordesta, q é ironico pq o Povo Nordestino tende a ser conservador,Religioso e Patriarcal, (alguns até Homofobicos) bem contrario ao Feminismo e LGBTismo PSOLista de hoje em dia, e foi só o Governo da Auxilio  que a aprovação do governo subiu
+
+Ironicamente a Esquerda que falava pra pegar em armas e trazer a revolução do trabalhador, hoje fala em Des-armamento e seria massacrada se tentassem fazer sua ""Revolução""";NEG;NEG;0.5524922609329224;0.40195232629776;0.0455554760992527
+179;179;301;yjvwxc;https://www.reddit.com/r/brasil/comments/yjvwxc/dúvida_sobre_diminuição_do_auxílio_brasil_de_600/;"Dúvida sobre diminuição do auxílio brasil de 600 para 405 reais e salário mínimo de 1400 para 1302 reais. Salve galera, tudo bom? Tenho uma dúvida aqui sobre o auxílio brasil e salário mínimo. Eu recebi um vídeo de uma noticia de um jornal de 31 de agosto desse ano. No video é falado que será reduzido o auxílio brasil de 600 para 405 reais em 2023. 
+
+Eu pesquisei sobre o assunto e as informações que eu encontrei foram falando que inicialmente o auxílio brasil começou com 400 reais, mas devido a emergência da pandemia ele subiu para 600 reais. O problema é que esses 200 a mais ficam acima do teto de gastos, então ele seria até dezembro de 2022 e que em 2023 voltaria para 405 reais. Tudo isso com aprovação do atual governo.
+
+Essas notícias são de agosto/setembro. Até aqui tudo certo? É verídico? Qualquer coisa que tiver errado, corrija por favor.
+
+Outra informação no vídeo foi falando que vão colocar o salário mínimo em 1.302 reais. 
+
+Até aqui tudo certo?
+
+Se isso for verdade eu to muito chocado, porque pegaram esse video e destorceram tudo, dando a entender que a notícia é de hoje, como se o PT tivesse falado que vai reduzir o auxílio pra 405 reais, que o bozo prometeu 1.400 de salario mínimo e o pt quer reduzir pra 1.302, sendo que a notícia do salario minimo de 1.400 é de 4 dias atrás, e o jornal é de mais de 1 mês atrás, sem contar que tem todo aquele papo vangloriando o atual presidente, que ele pegou o país quebrado, enfrentou uma pandemia e uma guerra e como ele não rouba, conseguiu dar o auxílio de 600, mas como o PT é ladrão, ele vai abaixar pra 405 pra poder roubar o resto.
+
+O pior é o tanto de gente nos comentários acreditando e zombando do PT. O video está no momento com quase 3 milhões de views e 13.000 comentários. Eu tive que vim aqui perguntar pra ver se realmente o que falei ali acima é isso mesmo, porque ainda não consigo acreditar que tem tanta gente que não pesquisa as coisas. Eu ainda to achando que eu to errado, que realmente foi o pt que disse que vai abaixar pra 405 e que o bozo prometeu um salario de 1400 mas o pt vai abaixar pra 1302, mesmo que o bozo falou isso a 4 dias e a notícia do jornal é de 2 meses. Não consigo acreditar que tem tanta gente que não pesquisa as coisas e toma como verdade a primeira informação que aparece pra elas e que seja confortável.
+
+Voces estão entendendo o nível do negócio? 31 de agosto a matéria no jornal disse que o salário será aumentado para 1.302. A 4 dias atrás o bozo disse que vai aumentar pra 1.400. Ai pegaram a noticia e colocaram como se fosse de hoje, dando a entender também nas legendas que o pt vai abaixar de 1.400 pra 1.302. Na época ninguem nem tinha falado de salário em 1.400. É muito bizarro ver tanta gente acreditando nisso.
+
+Eu quero realmente saber se eu sou o errado da história.";NEU;NEU;0.1564096063375473;0.7685876488685608;0.07500272244215012
+180;180;158;1httvh2;https://i.redd.it/hg88c7sht2be1.png;Irmãs de senadora suplente de Wellington Dias recebem Bolsa Família;NEU;NEU;0.020206300541758537;0.9434134364128113;0.03638014942407608
+181;181;150;1foocn0;https://i.redd.it/3jrotkz8vtqd1.jpeg;Bolsa Família é gain? [Valores representam 20% do total pago no mês passado.](https://www1.folha.uol.com.br/mercado/2024/09/beneficiarios-do-bolsa-familia-gastam-r-3-bilhoes-em-bets-so-em-agosto.shtml);NEU;NEU;0.05371411517262459;0.9068530797958374;0.039432767778635025
+182;182;177;1ijxk82;https://portalrbn.com.br/caixa-paga-bolsa-familia-a-beneficiarios-com-nis-de-final-7-2/?feed_id=15973&_unique_id=67a6269d45864;Caixa paga Bolsa Família a beneficiários com NIS de final 7;NEU;NEU;0.040282607078552246;0.9229987859725952;0.03671853616833687
+183;183;10;17cd8z8;https://www.infomoney.com.br/minhas-financas/instituto-sigilo-veja-se-voce-tem-direito-a-indenizacao-de-r-15-mil-por-dados-vazados-no-auxilio-brasil/;Instituto Sigilo: veja se você tem direito a indenização de R$ 15 mil por dados vazados no Auxílio Brasil;NEU;NEU;0.051902640610933304;0.928602397441864;0.019494881853461266
+184;184;231;1ixvckf;https://www.reddit.com/r/Desenvolvimentismo/comments/1ixvckf/seria_melhor_se_o_lula_usasse_boa_parte_do/;Seria melhor se o lula usasse boa parte do dinheiro do bolsa familia no PAC 3 ou na infraestrutura O programa tem sua importancia social, mas o investimento insuficiente do PAC 3, somado aos juros impagaveis da divida e o aumento do consumo vindo do bolsa familia estão causando um forte aumento da inflação, então se usar parte do dinheiro do bolsa familia no PAC ou na infraestrutura, a inflação vai cair a inflação no curto prazo pela queda do consume e no longo prazo pelo aumento da produtividade.;NEU;NEU;0.44248583912849426;0.4548528492450714;0.1026613786816597
+185;185;103;1k5bqyl;https://v.redd.it/vp9nwv8r5fwe1;Ironia mesmo é ver o tio Lule, o tal pai dos pobre, ser justamente quem vai meter a tesoura no Bolsa Família. Vai vendo. ;NEG;NEU;0.7877466678619385;0.19265998899936676;0.01959339529275894
+186;186;81;16gqei2;https://www.bbc.com/portuguese/articles/cv2kd3vrvp8o.amp?at_format=image&at_link_type=web_link&at_link_origin=bbcbrasil&at_medium=social&at_ptr_name=twitter&at_campaign_type=owned&at_link_id=B9B23804-50B2-11EE-8B2E-B6153AE5AB7B&at_campaign=Social_Flow&at_bbc_team=editorial;Bolsa Família, 20 anos: 'Meus pais foram beneficiários, hoje sou engenheiro de software' ;NEU;NEU;0.019713766872882843;0.9477803707122803;0.03250594064593315
+187;187;249;vj3jhb;https://www.poder360.com.br/economia/governo-estuda-aumentar-auxilio-e-recuar-de-icms-zerado/;Bolsonaro eleva Auxílio Brasil de R$ 400 para R$ 600;NEU;NEU;0.04592305049300194;0.894477128982544;0.05959976837038994
+188;188;274;zbn8h0;https://youtu.be/1VRRHjib4-8;Mercadante denuncia crimes relacionados ao Auxílio Brasil na coletiva do GT do Combate à fome;NEU;NEU;0.10302357375621796;0.8751260042190552;0.021850407123565674
+189;189;167;1hzkhwi;https://www1.folha.uol.com.br/mercado/2025/01/trabalho-ainda-que-formal-nao-garante-porta-de-saida-a-beneficiario-do-bolsa-familia.shtml;Trabalho, ainda que formal, não garante porta de saída a beneficiário do Bolsa Família ;NEU;NEU;0.11376988887786865;0.8645247220993042;0.021705323830246925
+190;190;409;rifbm3;https://www.reddit.com/r/Filosofia/comments/rifbm3/existem_preceitos_éticos_atrelados_com_conceitos/;"Existem preceitos éticos atrelados com conceitos de perpetuação da especie no seio familiar? Estava pensando sobre a ética familiar e como nós humanos somos K estrategistas...No atual contexto neoliberal de produção nós, criamos 1 ou 2 filhos o melhor que pudermos para q eles deem continuidade na família.
+
+ Esses 2 filhos estão em um dado contexto cultural q sua menor unidade seja a familia, dentro da família temos alguns valores q beneficiam a continuidade do genes. Por exemplo: O fato dos filhos se esforçarem durante os anos iniciais de sua vida aprimorando suas capacidades cognitivas e posteriormente é comum os país retribuírem o favor o auxiliando financeiramente e emocionalmente para ingressar em um ensino superior (a casos que esse auxilio ja começa em fases iniciais)
+
+ E dado o nosso contexto econômico isso é totalmente valido para definir o nosso lugar hierárquico na estratificação social (se desigualdade n distorcesse este fato no brasil). 
+
+ Analogamente poderíamos olhar para décadas passadas onde a estrategia predominante em nossas sociedade pré-industriais eram a de R-estrategistas onde a criação de mts filhos era beneficiada para o trabalho do campo e se empregava pouco investimento da parte auxiliadora, tornando assim os filhos um investimento de curto prazo uma vez q eles entrariam em vida laboral mt precocemente e n desenvolveriam sua capacidade cognitiva.
+
+ Deste modo, a ética no que concerne a responsabilidade de criação dos filhos parece estar se modificando ao longo do tempo, porem essa adaptação biologica-sociologica parece estar cobrando o seu preço uma vez q nunca antes tivesse visto tanta pressão externa (e interna) para desempenho satisfatório em fases tão juvenis. O que acarreta em altos niveis de cortisol nos primeiros anos da fase adulta, o que significa pessoas mais ansiosas e manifestando cada vez mais sintomas depressivos.
+
+ Voces concordam com essa afirmação?";NEU;NEU;0.07144947350025177;0.7186475992202759;0.20990294218063354
+191;191;415;zgavxa;https://i.redd.it/0unrzuhf1s4a1.jpg;Senadores que votaram contra o bolsa-família de R$600 pra janeiro/23;NEU;NEU;0.19732972979545593;0.7800644636154175;0.02260577119886875
+192;192;321;qbqjxa;https://g1.globo.com/economia/noticia/2021/10/19/auxilio-brasil-derruba-a-bolsa-e-faz-dolar-subir-entenda-por-que-mercados-reagem-mal-ao-plano-do-governo.ghtml;"Auxílio Brasil derruba a bolsa e faz dólar subir; entenda por que mercados reagem mal ao plano do governo";NEU;NEU;0.13114209473133087;0.8448262214660645;0.024031687527894974
+193;193;356;k7c7rp;https://www.reddit.com/r/brasil/comments/k7c7rp/tjsp_aprova_criação_de_auxíliosaúde_de_r_400000/;TJ-SP aprova criação de auxílio-saúde de R$ 4.000,00 aos magistrados do estado Como um mero serventuário desta corte essa notícia me inoja de uma maneira que vocês não tem ideia. No começo de 2020 (antes da pandemia) os servidores sequer tiveram a reposição inflacionária de seus salários, e já falaram que em 2021 também não terá. Sempre a mesma desculpa: falta dinheiro. Eu aceitei de boa, entendo a crise que estamos passando, mas agora ver esse auxilio que eles se deram no meio de uma FUCKING pandemia é um tapa na cara da sociedade. Enfim, so queria falar aqui que eu to puto pra cacete com isso.;NEG;NEU;0.8852218389511108;0.08591241389513016;0.028865737840533257
+194;194;210;1h0p1uf;https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2471981;[Cabo Gilberto Silva] PL 4529/2024 (1): Altera a Lei nº 14.601, de 19 de junho de 2023, para criar mecanismos de monitoramento da frequência escolar e implementar incentivos pedagógicos e medidas de suporte educacional para beneficiários do Programa Bolsa Família. ;NEU;NEU;0.03274771571159363;0.8538517951965332;0.11340048909187317
+195;195;194;1htn0gk;https://portalrbn.com.br/pagamento-do-bolsa-familia-comeca-no-proximo-dia-20/?feed_id=13271&_unique_id=6779945330092;Pagamento do Bolsa Família começa no próximo dia 20;NEU;NEU;0.018057456240057945;0.9396839141845703;0.042258646339178085
+196;196;89;1faj31j;https://noticias.uol.com.br/eleicoes/2024/09/06/pablo-marcal-bolsa-familia-desempregados-profissionais.htm;Marçal sugere que Bolsa Família produz 'desempregados profissionais'. O que você acha dessa ideia?;NEU;NEU;0.04057309776544571;0.9496996998786926;0.009727261029183865
+197;197;412;qxr1p2;https://www.reddit.com/r/u_Morocotacoin/comments/qxr1p2/caixa_econômica_federal_libera_hoje_pagamento/;"Caixa Econômica Federal libera hoje pagamento para novo grupo do Auxílio Brasil &#x200B;
+
+[ ](https://preview.redd.it/nkh6gs1knm081.png?width=533&format=png&auto=webp&s=cbd63efeb0ed0cb2552fbf5dc0b9896f97e33d36)
+
+Nesta sexta-feira, 19 de novembro foi **liberado o pagamento** do [Auxílio Brasil](https://www.gov.br/cidadania/pt-br/auxilio-brasil) para inscritos no **Bolsa Família** com o **Número de Inscrição Social** (**NIS**) de **final 3**.
+
+No último mês de outubro, o governo federal [anunciou](https://www.gov.br/cidadania/pt-br/auxilio-brasil) o programa de assistência social Auxílio Brasil, que **substituirá o extinto Bolsa Família** com um valor médio de **R$ 217,18** mensais para cada beneficiário.
+
+[ ](https://preview.redd.it/zp82kwilnm081.png?width=713&format=png&auto=webp&s=404ced9e2e71a9ea600fd555077442eddde4e562)
+
+## Mas o que é o Auxílio Brasil?
+
+É um **programa assistencial** de transferência de renda direta e indireta para famílias em situação de **vulnerabilidade**, integrando **benefícios** de assistência social, saúde, educação e emprego. 
+
+## Quem tem direito ao Auxílio Brasil?
+
+Segundo o **Ministério da Cidadania**, tem direito ao benefício famílias em situação de extrema pobreza e famílias em **situação de pobreza**, que possuírem em sua composição gestantes ou pessoas com idade até 21 (vinte e um) anos incompletos.
+
+O ministro da Cidadania, **João Roma**, reafirmou que os beneficiários do Bolsa Família **não necessitam se recadastrar**, estando automaticamente eleitos ao benefício.
+
+[ ](https://preview.redd.it/qiqqek4nnm081.png?width=300&format=png&auto=webp&s=568c1f8e2219860acd956d0475ebdb229a12463c)
+
+## Como ocorrerá o pagamento do Auxílio Brasil?
+
+O pagamento dos benefícios **iniciou nesta quarta-feira, 17** de novembro, através da [Caixa Econômica Federa](https://www.caixa.gov.br/Paginas/home-caixa.aspx)l e seguirá o mesmo calendário do **Bolsa Família**.
+
+[ ](https://preview.redd.it/dt88ayeonm081.png?width=505&format=png&auto=webp&s=30a618e3df67de61141a1780e3c822a58481ccf8)
+
+## App Auxílio Brasil
+
+A [Caixa econômica](https://www.caixa.gov.br/Paginas/home-caixa.aspx) lançou um [aplicativo](https://play.google.com/store/apps/details?id=br.gov.caixa.bolsafamilia&hl=pt_BR&gl=US) para que os beneficiários tenham acesso à informações corretas de maneira rápida e segura. O novo app chama-se **AUXILIO BRASIL CAIXA**, e para os beneficiários do extinto **Bolsa Família** não há necessidade de baixar um novo app, **apenas atualizar** o antigo.
+
+Acesse o **aplicativo oficial** Auxílio Brasil da Caixa Econômica Federal [aqui](https://play.google.com/store/apps/details?id=br.gov.caixa.bolsafamilia&hl=pt_BR&gl=US)";NEU;NEU;0.03886569291353226;0.9115091562271118;0.049625203013420105
+198;198;163;1h14u5d;https://g1.globo.com/economia/noticia/2024/11/27/financas-publicas-2023-necessidade-de-financiamento.ghtml;"Gasto com Bolsa Família aumenta 47% em 2023, diz IBGE; necessidade de financiamento do governo cresce 111% ";NEU;NEU;0.04882841929793358;0.9226823449134827;0.028489189222455025
+199;199;204;1hdbus3;https://portalrbn.com.br/caixa-paga-bolsa-familia-a-beneficiarios-com-nis-de-final-4-2/?feed_id=12670&_unique_id=675c3238a55a0;Caixa paga Bolsa Família a beneficiários com NIS de final 4;NEU;NEU;0.04379395395517349;0.9188637137413025;0.03734242543578148
+200;200;147;1ip0rr0;https://i.redd.it/ks3575q7r0je1.jpeg;Usar bolsa família pra pagar do job, é gain ou loss? ;NEU;NEU;0.3055698275566101;0.6673218011856079;0.027108369395136833
+201;201;2;1gv8q6q;https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2335094;[Célio Studart] PL 2479/2022 (39): Inclui os motoristas de transporte individual e entregadores por aplicativos no Programa Auxílio Brasil.;NEU;NEU;0.0448324978351593;0.9061385989189148;0.049028970301151276
+202;202;92;16gzzai;https://i.redd.it/yyhoxx1yhvnb1.jpg;"Filhos do Bolsa Família encontram a ""porta de saída"" ";NEU;NEU;0.042550891637802124;0.939121425151825;0.01832764968276024
+203;203;69;1hubego;https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3766234;"­Estudo associa recebimento de bolsa família com redução de até 61% na taxa de suicídio de seus beneficiários O artigo é em inglês. Está em pré-print e não foi revisado por pares ainda. Os autores não afirmam associação causal, mas é uma forte correlação. Não antecipem conclusões.
+
+De qualquer jeito acho um resultado interessante para discussão, o que acham?";NEU;POS;0.06344536691904068;0.8891778588294983;0.04737679660320282
+204;204;381;tt8k9w;https://www.reddit.com/r/brasil/comments/tt8k9w/o_que_os_bolsominions_tem_a_dizer_do_auxilio_pai/;"O que os bolsominions tem a dizer do Auxilio Pai Solteiro? Então, quando o Bozo era a salvação da nação ele era a salvação porque o governo era de: DIREITA. Não era esse o problema do Brasil? Muita caridade pros pobres? Agora fico sabendo que o porteiro do meu prédio recebeu do nada 2 mil reais na conta dele, pelo fato de ser pai solteiro. O cara nem é solteiro, tá casado, como a maioria, só junta e pronto. Nem pediu auxílio, já recebe. Até 3 mil reais poderá receber.
+
+Acho ótimo, pelo menos tá indo pra quem precisa. Mas imagina que se fosse no governo do PT ia ter mensagem pronta pra compartilhar no whatsapp e o povo revoltado com a esmola e obviamente a conta da SOMA total gasta com isso. Mas no governo de direita incrivelmente não vejo isso pipocando, e olha que só tem bolsominion na família.
+
+E o auxílio presidiário? Esse continua tendo. Lei antiga. Mas no governo do PT todo ano aparecia.
+
+Pode vim bad karma, pode vim. Pelo menos aqui no reddit tem como falar e alguém escuta, mesmo tomando voadora.";NEG;NEG;0.5318860411643982;0.4410194456577301;0.027094541117548943
