@@ -1,7 +1,39 @@
+# -------------------------
+# FRAMEWORK PRINCIPAL
+# -------------------------
 streamlit==1.26.0
+
+# -------------------------
+# CIÊNCIA DE DADOS
+# -------------------------
 pandas==2.2.2
 numpy==1.26.4
-plotly==5.16.0
 scikit-learn==1.3.2
 joblib==1.3.2
+
+# -------------------------
+# VISUALIZAÇÃO
+# -------------------------
+plotly==5.16.0
+matplotlib==3.8.0
+
+# -------------------------
+# NLP / SENTIMENT ANALYSIS
+# -------------------------
+transformers==4.36.2
+torch==2.1.0
+pysentimiento==0.7.3
+sentencepiece==0.1.99
+
+# -------------------------
+# UTILITÁRIOS
+# -------------------------
+regex==2023.10.3
+nltk==3.8.1
+tqdm==4.66.1
+requests==2.31.0
+
+# -------------------------
+# DEPLOY (necessário no Streamlit Cloud)
+# -------------------------
 gunicorn==21.2.0
