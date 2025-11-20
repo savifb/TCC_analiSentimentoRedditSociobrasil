@@ -110,7 +110,7 @@ with col4:
 sent_counts = df["Classe Sentimento"].value_counts().reset_index()
 sent_counts.columns = ["Sentimento", "Quantidade"]
 
-color_scale = alt.Scale(domain=["POS","NEG","NEU"], range=["#1351B4","#D22630","#F7C325"])
+color_scale = alt.Scale(domain=["NEU", "NEG", "POS",], range=["#F7C325" ,"#D22630","#1351B4"])
 
 chart = alt.Chart(sent_counts).mark_bar().encode(
     x='Sentimento',
