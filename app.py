@@ -3,7 +3,7 @@ import pandas as pd
 import os
 import altair as alt
 
-st.set_page_config(page_title="Lab Opinion SocioBrasil", layout="wide")
+st.set_page_config(page_title="Laboratorios de Opiniões BR", layout="wide")
 
 # ----------------------------
 # ESTILO GLOBAL (Tema Claro Gov.br)
