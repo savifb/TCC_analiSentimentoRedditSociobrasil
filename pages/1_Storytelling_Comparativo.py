@@ -133,38 +133,66 @@ if evolucao_posts:
 # DISTRIBUIÇÃO DE SENTIMENTOS (POSTAGENS)
 # ================================
 st.subheader("💬 Distribuição de Sentimentos — POSTAGENS")
+
 dist_posts = []
 for tema, (_, posts, _) in tema_info.items():
     temp = posts["Classe Sentimento"].value_counts().reset_index()
     temp.columns = ["Sentimento", "Quantidade"]
     temp["Tema"] = tema
     dist_posts.append(temp)
+
 df_dist_posts = pd.concat(dist_posts)
 
-fig2 = alt.Chart(df_dist_posts).mark_bar().encode(
-    x="Tema",
-    y="Quantidade",
-    color="Sentimento",
-    tooltip=["Tema", "Sentimento", "Quantidade"]
-).properties(title="Sentimentos nas Postagens por Tema")
+color_scale = alt.Scale(
+    domain=['NEG', 'NEU', 'POS'],
+    range=["#D22630", "#F7C325","#1351B4"]
+)
+
+fig2 = (
+    alt.Chart(df_dist_posts)
+    .mark_bar()
+    .encode(
+        x=alt.X("Sentimento:N", title="Sentimentos"),
+        y=alt.Y("Quantidade:Q", title="Quantidade"),
+        color=alt.Color("Sentimento:N", scale=color_scale),
+        tooltip=["Tema", "Sentimento", "Quantidade"]
+    )
+    .properties(width=160, height=250)
+    .facet(
+        column=alt.Column("Tema:N", title=None)  # deixa os 3 temas lado a lado
+    )
+)
+
 st.altair_chart(fig2, use_container_width=True)
+
 
 # ================================
 # DISTRIBUIÇÃO DE SENTIMENTOS (COMENTÁRIOS)
 # ================================
 st.subheader("💬 Distribuição de Sentimentos — COMENTÁRIOS")
+
 dist_com = []
 for tema, (_, _, coments) in tema_info.items():
     temp = coments["Classe Sentimento"].value_counts().reset_index()
     temp.columns = ["Sentimento", "Quantidade"]
     temp["Tema"] = tema
     dist_com.append(temp)
+
 df_dist_com = pd.concat(dist_com)
 
-fig3 = alt.Chart(df_dist_com).mark_bar().encode(
-    x="Tema",
-    y="Quantidade",
-    color="Sentimento",
-    tooltip=["Tema", "Sentimento", "Quantidade"]
-).properties(title="Sentimentos nos Comentários por Tema")
+fig3 = (
+    alt.Chart(df_dist_com)
+    .mark_bar()
+    .encode(
+        x=alt.X("Sentimento:N", title="Sentimentos"),
+        y=alt.Y("Quantidade:Q", title="Quantidade"),
+        color=alt.Color("Sentimento:N", scale=color_scale),
+        tooltip=["Tema", "Sentimento", "Quantidade"]
+    )
+    .properties(width=160, height=250)
+    .facet(
+        column=alt.Column("Tema:N", title=None)
+    )
+)
+
 st.altair_chart(fig3, use_container_width=True)
