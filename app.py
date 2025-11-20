@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import os
-import plotly.express as px
+import altair as alt
 
 st.set_page_config(page_title="Lab Opinion SocioBrasil", layout="wide")
 
@@ -105,17 +105,21 @@ with col4:
     st.markdown(f"""<div class="gov-card"><h3>Neutros</h3><h1>{neutros}</h1></div>""", unsafe_allow_html=True)
 
 # ----------------------------
-# GRÁFICO
+# GRÁFICO — SUBSTITUINDO PLOTLY POR ALTair
 # ----------------------------
 sent_counts = df["Classe Sentimento"].value_counts().reset_index()
 sent_counts.columns = ["Sentimento", "Quantidade"]
 
-fig = px.bar(
-    sent_counts,
-    x="Sentimento",
-    y="Quantidade",
-    title="Distribuição de Sentimentos",
-    color="Sentimento",
-    color_discrete_map={"POS": "#1351B4", "NEG": "#D22630", "NEU": "#F7C325"}
+color_scale = alt.Scale(domain=["POS","NEG","NEU"], range=["#1351B4","#D22630","#F7C325"])
+
+chart = alt.Chart(sent_counts).mark_bar().encode(
+    x='Sentimento',
+    y='Quantidade',
+    color=alt.Color('Sentimento', scale=color_scale)
+).properties(
+    title='Distribuição de Sentimentos',
+    width=600,
+    height=400
 )
-st.plotly_chart(fig, use_container_width=True)
+
+st.altair_chart(chart, use_container_width=True)

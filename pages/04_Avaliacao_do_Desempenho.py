@@ -1,12 +1,12 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
 from sklearn.metrics import (
     accuracy_score, classification_report, confusion_matrix,
     roc_curve, roc_auc_score
 )
 from sklearn.preprocessing import label_binarize
+import altair as alt
 
 # =========================================
 # 1. STORYTELLING
@@ -35,7 +35,6 @@ Selecione abaixo o conjunto de dados para visualizar sua análise.
 # =========================================
 # 2. CARREGAMENTO DOS DATASETS
 # =========================================
-
 DATA_PATH = "data/"
 
 FILES = {
@@ -57,14 +56,11 @@ def load_csv(path):
 def padronizar(df):
     replace_map = {'neu': 'NEU', 'NEY': 'NEU', 'UNKNOWN': 'NEU', 'MEI': 'NEU', 
                    'NaN': 'NEU', 'BEG': 'NEG', 'BEY': 'NEU'}
-
     for col in ['Classe Sentimento', 'rotulo']:
         if col in df.columns:
             df[col] = df[col].fillna("NEU").astype(str)
             df[col] = df[col].replace(replace_map)
-
     return df
-
 
 # =========================================
 # 4. ESPECIFICIDADE
@@ -77,40 +73,34 @@ def calcular_especificidade(matriz, classes):
         espec[cls] = VN / (VN + FP)
     return espec
 
-
 # =========================================
 # 5. CURVAS ROC
 # =========================================
-def plot_roc(df, titulo):
+def plot_roc_altair(df, titulo):
     classes = ["NEG", "NEU", "POS"]
-
     y_true = df["rotulo"]
     y_score = df[["prob_NEG", "prob_NEU", "prob_POS"]]
     y_bin = label_binarize(y_true, classes=classes)
-
-    aucs = {}
-
-    plt.figure(figsize=(8, 6))
+    
+    roc_list = []
     for i, cls in enumerate(classes):
         fpr, tpr, _ = roc_curve(y_bin[:, i], y_score.iloc[:, i])
         auc_cls = roc_auc_score(y_bin[:, i], y_score.iloc[:, i])
-        aucs[cls] = auc_cls
-        plt.plot(fpr, tpr, label=f"{cls} – AUC {auc_cls:.2f}")
-
-    plt.plot([0, 1], [0, 1], "k--")
-    plt.title(f"Curvas ROC – {titulo}")
-    plt.xlabel("Falsos Positivos (FPR)")
-    plt.ylabel("Verdadeiros Positivos (TPR)")
-    plt.legend()
-    st.pyplot(plt)
-
-    return aucs
-
+        for x, y in zip(fpr, tpr):
+            roc_list.append({"FPR": x, "TPR": y, "Classe": f"{cls} – AUC {auc_cls:.2f}"})
+    
+    df_roc = pd.DataFrame(roc_list)
+    chart = alt.Chart(df_roc).mark_line().encode(
+        x="FPR",
+        y="TPR",
+        color="Classe",
+        tooltip=["Classe", "FPR", "TPR"]
+    ).properties(title=f"Curvas ROC – {titulo}")
+    st.altair_chart(chart, use_container_width=True)
 
 # =========================================
 # 6. UI – SELEÇÃO DO DATASET
 # =========================================
-
 opcao = st.selectbox("Selecione o conjunto de dados:", list(FILES.keys()))
 
 df = load_csv(DATA_PATH + FILES[opcao])
@@ -122,11 +112,6 @@ st.write(df["rotulo"].value_counts())
 # =========================================
 # 7. CÁLCULO DAS MÉTRICAS
 # =========================================
-
-# =========================================
-# 7. CÁLCULO DAS MÉTRICAS (FLASH-CARDS POR CLASSE)
-# =========================================
-
 from sklearn.metrics import precision_recall_fscore_support
 
 y_true = df["rotulo"]
@@ -140,92 +125,59 @@ st.metric("Acurácia (%)", f"{acuracia*100:.2f}%")
 # Relatório em dict para acesso individual
 report_dict = classification_report(y_true, y_pred, output_dict=True)
 
-import plotly.express as px
-
-# Matriz de confusão
+# =========================================
+# MATRIZ DE CONFUSÃO – Altair
+# =========================================
 matriz = confusion_matrix(y_true, y_pred, labels=["NEG", "NEU", "POS"])
-df_matriz = pd.DataFrame(matriz, 
-                         index=["NEG", "NEU", "POS"], 
-                         columns=["NEG", "NEU", "POS"])
+df_matriz = pd.DataFrame(matriz, index=["NEG", "NEU", "POS"], columns=["NEG", "NEU", "POS"])
+df_matriz_reset = df_matriz.reset_index().melt(id_vars="index")
+df_matriz_reset.columns = ["Verdadeiro", "Predito", "Quantidade"]
 
 st.subheader("🔲 Matriz de Confusão")
+chart_cm = alt.Chart(df_matriz_reset).mark_rect().encode(
+    x="Predito:O",
+    y="Verdadeiro:O",
+    color="Quantidade:Q",
+    tooltip=["Verdadeiro", "Predito", "Quantidade"]
+).properties(width=400, height=400)
+st.altair_chart(chart_cm, use_container_width=True)
 
-fig = px.imshow(
-    df_matriz,
-    text_auto=True,       # coloca os números dentro das células
-    color_continuous_scale="Blues",
-    aspect="auto",
-)
-
-fig.update_layout(
-    font=dict(color='black', size=14, family='Times New Roman'),
-    xaxis_title="Predito",
-    yaxis_title="Verdadeiro",
-    coloraxis_colorbar_title="Quantidade",
-    margin=dict(l=50, r=50, t=50, b=50),
-)
-fig.update_xaxes(tickfont=dict(color="black", size=14))
-fig.update_yaxes(tickfont=dict(color="black", size=14))
-
-fig.update_xaxes(side="top")  # coloca o eixo predito em cima (mais padrão em papers)
-
-st.plotly_chart(fig, use_container_width=True)
-
-
-# Especificidade por classe (usa sua função)
+# Especificidade
 espec = calcular_especificidade(matriz, ["NEG", "NEU", "POS"])
 
-# Função utilitária para ler valores com fallback
+# Função utilitária
 def get_metric(report, cls, metric):
     try:
         return report[cls][metric]
     except Exception:
         return 0.0
 
-# Layout: 3 colunas (um flash-card por classe)
 st.markdown("### 📑 Métricas por Classe")
 col_neg, col_neu, col_pos = st.columns(3)
-
-# Formatação bonita (valores em % com 1 casa)
-def fmt(v):
-    return f"{v*1:.1f}" 
+def fmt(v): return f"{v*1:.1f}" 
 
 with col_neg:
     st.markdown("#### 🔴 NEGATIVO")
-    p = get_metric(report_dict, "NEG", "precision")
-    r = get_metric(report_dict, "NEG", "recall")
-    f1 = get_metric(report_dict, "NEG", "f1-score")
-    s = espec.get("NEG", 0.0)
-    # pode usar st.metric para destaque
-    st.metric("Precisão", fmt(p))
-    st.metric("Recall (Sensibilidade)", fmt(r))
-    st.metric("F1-Score", fmt(f1))
-    st.metric("Especificidade", fmt(s))
+    st.metric("Precisão", fmt(get_metric(report_dict, "NEG", "precision")))
+    st.metric("Recall (Sensibilidade)", fmt(get_metric(report_dict, "NEG", "recall")))
+    st.metric("F1-Score", fmt(get_metric(report_dict, "NEG", "f1-score")))
+    st.metric("Especificidade", fmt(espec.get("NEG", 0.0)))
 
 with col_neu:
     st.markdown("#### ⚪ NEUTRO")
-    p = get_metric(report_dict, "NEU", "precision")
-    r = get_metric(report_dict, "NEU", "recall")
-    f1 = get_metric(report_dict, "NEU", "f1-score")
-    s = espec.get("NEU", 0.0)
-    st.metric("Precisão", fmt(p))
-    st.metric("Recall (Sensibilidade)", fmt(r))
-    st.metric("F1-Score", fmt(f1))
-    st.metric("Especificidade", fmt(s))
+    st.metric("Precisão", fmt(get_metric(report_dict, "NEU", "precision")))
+    st.metric("Recall (Sensibilidade)", fmt(get_metric(report_dict, "NEU", "recall")))
+    st.metric("F1-Score", fmt(get_metric(report_dict, "NEU", "f1-score")))
+    st.metric("Especificidade", fmt(espec.get("NEU", 0.0)))
 
 with col_pos:
     st.markdown("#### 🟢 POSITIVO")
-    p = get_metric(report_dict, "POS", "precision")
-    r = get_metric(report_dict, "POS", "recall")
-    f1 = get_metric(report_dict, "POS", "f1-score")
-    s = espec.get("POS", 0.0)
-    st.metric("Precisão", fmt(p))
-    st.metric("Recall (Sensibilidade)", fmt(r))
-    st.metric("F1-Score", fmt(f1))
-    st.metric("Especificidade", fmt(s))
+    st.metric("Precisão", fmt(get_metric(report_dict, "POS", "precision")))
+    st.metric("Recall (Sensibilidade)", fmt(get_metric(report_dict, "POS", "recall")))
+    st.metric("F1-Score", fmt(get_metric(report_dict, "POS", "f1-score")))
+    st.metric("Especificidade", fmt(espec.get("POS", 0.0)))
+
 # =========================================
 # Curva ROC
 st.subheader("📈 Curvas ROC e AUC")
-auc_resultados = plot_roc(df, opcao)
-
-
+plot_roc_altair(df, opcao)
