@@ -82,6 +82,7 @@ def plot_roc_altair(df, titulo):
     y_score = df[["prob_NEG", "prob_NEU", "prob_POS"]]
     y_bin = label_binarize(y_true, classes=classes)
     
+    # Construir dataframe para Altair
     roc_list = []
     for i, cls in enumerate(classes):
         fpr, tpr, _ = roc_curve(y_bin[:, i], y_score.iloc[:, i])
@@ -90,13 +91,24 @@ def plot_roc_altair(df, titulo):
             roc_list.append({"FPR": x, "TPR": y, "Classe": f"{cls} – AUC {auc_cls:.2f}"})
     
     df_roc = pd.DataFrame(roc_list)
+    
+    # Gráfico principal ROC
     chart = alt.Chart(df_roc).mark_line().encode(
         x="FPR",
         y="TPR",
         color="Classe",
         tooltip=["Classe", "FPR", "TPR"]
-    ).properties(title=f"Curvas ROC – {titulo}")
-    st.altair_chart(chart, use_container_width=True)
+    )
+
+    # Linha diagonal de referência (classificador aleatório)
+    diag = pd.DataFrame({"FPR": [0, 1], "TPR": [0, 1]})
+    diag_chart = alt.Chart(diag).mark_line(color="black", strokeDash=[5,5]).encode(
+        x="FPR",
+        y="TPR"
+    )
+
+    st.altair_chart((chart + diag_chart).properties(title=f"Curvas ROC – {titulo}"), use_container_width=True)
+
 
 # =========================================
 # 6. UI – SELEÇÃO DO DATASET
@@ -134,13 +146,24 @@ df_matriz_reset = df_matriz.reset_index().melt(id_vars="index")
 df_matriz_reset.columns = ["Verdadeiro", "Predito", "Quantidade"]
 
 st.subheader("🔲 Matriz de Confusão")
+
 chart_cm = alt.Chart(df_matriz_reset).mark_rect().encode(
     x="Predito:O",
     y="Verdadeiro:O",
     color="Quantidade:Q",
     tooltip=["Verdadeiro", "Predito", "Quantidade"]
-).properties(width=400, height=400)
-st.altair_chart(chart_cm, use_container_width=True)
+)
+
+text = alt.Chart(df_matriz_reset).mark_text(size=20, color="#FFFFFF", fontStyle="stroke").encode(
+    x="Predito:O",
+    y="Verdadeiro:O",
+    text="Quantidade:Q"
+)
+
+chart_final = (chart_cm + text).properties(width=400, height=400)
+
+st.altair_chart(chart_final, use_container_width=True)
+
 
 # Especificidade
 espec = calcular_especificidade(matriz, ["NEG", "NEU", "POS"])
@@ -154,7 +177,7 @@ def get_metric(report, cls, metric):
 
 st.markdown("### 📑 Métricas por Classe")
 col_neg, col_neu, col_pos = st.columns(3)
-def fmt(v): return f"{v*1:.1f}" 
+def fmt(v): return f"{v*1:.2f}" 
 
 with col_neg:
     st.markdown("#### 🔴 NEGATIVO")
