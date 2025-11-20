@@ -107,10 +107,16 @@ with col4:
 # ----------------------------
 # GRÁFICO — SUBSTITUINDO PLOTLY POR ALTair
 # ----------------------------
+
+
 sent_counts = df["Classe Sentimento"].value_counts().reset_index()
 sent_counts.columns = ["Sentimento", "Quantidade"]
+ordem_sent = ['POS', 'NEG', 'NEU']
+sent_counts['Sentimento'] = pd.Categorical(
+    sent_counts['Sentimento'], categories=ordem_sent, ordered=True
+)
 
-color_scale = alt.Scale(domain=["NEU", "NEG", "POS",], range=["#F7C325" ,"#D22630","#1351B4"])
+color_scale = alt.Scale(domain=["POS", "NEG", "NEU",], range=["#1351B4","#D22630","#F7C325"])
 
 chart = alt.Chart(sent_counts).mark_bar().encode(
     x='Sentimento',
