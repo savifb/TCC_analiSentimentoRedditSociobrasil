@@ -10,6 +10,12 @@ st.set_page_config(page_title="Laboratorios de Opiniões BR", layout="wide")
 # ----------------------------
 st.markdown("""
 <style>
+     /* Tema escuro moderno */
+    .main {
+        background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+        color: #e8e8e8;
+    }
+    
     body, .main, .stApp { background-color: #FFFFFF !important; }
     section[data-testid="stSidebar"] { background-color: #E9F2FF; }
     .gov-header {

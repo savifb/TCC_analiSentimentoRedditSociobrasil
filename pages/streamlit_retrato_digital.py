@@ -6,7 +6,7 @@ from datetime import datetime
 
 # ==================== CONFIGURAÇÃO DA PÁGINA ====================
 st.set_page_config(
-    page_title="Retrato Digital da Opinião Pública",
+    page_title="Retrato Digital da Opinião Brasileira Sobre Temas Sociopolíticos",
     layout="wide",
     initial_sidebar_state="collapsed"
 )
