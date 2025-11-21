@@ -1220,3 +1220,15 @@ with tab4:
         
         Explosão de discussões durante a pandemia (2020-2022), com forte polarização sobre gestão governamental. Normalização gradual pós-pandemia.
         """)
+        
+# ==================== RODAPÉ ====================
+st.markdown("---")
+st.markdown("""
+<div style="text-align: center; color: #a0a0a0; padding: 2rem;">
+    <strong>O Retrato Digital da Opinião Pública Brasileira</strong><br>
+    Análise de Sentimentos no Reddit | 2015-2025<br>
+    Modelo: BERTweet.br via PysentimentoBR<br>
+    <br>
+    <em>"Os números não mentem, mas também não contam toda a história."</em>
+</div>
+""", unsafe_allow_html=True)
