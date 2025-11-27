@@ -304,11 +304,11 @@ with st.spinner('Carregando dados... Isso pode levar alguns segundos.'):
     ], ignore_index=True)
 # ==================== PÁGINA PRINCIPAL ====================
 st.markdown('<h1 class="big-title">O Retrato Digital da Opinião Pública Brasileira</h1>', unsafe_allow_html=True)
-st.markdown('<p class="subtitle">Uma jornada pelos debates que dividem o país • 2015-2025</p>', unsafe_allow_html=True)
+st.markdown('<p class="subtitle">Uma analise sobre temas sociopolíticos brasileiros • 2015-2025</p>', unsafe_allow_html=True)
 
 # RESULTADOS GERAIS - 1 SEÇÃO RESULTADOS E DISCUSSÕES - 
 
-st.markdown("### 📊 Visão Geral da Pesquisa")
+st.markdown("### Visão Geral da Pesquisa")
 col1, col2, col3, col4 = st.columns(4)
 
 with col1:
@@ -350,13 +350,12 @@ with col4:
 st.markdown("<br>", unsafe_allow_html=True)
 
 # ==================== NAVEGAÇÃO POR TABS ====================
-tab1, tab2, tab3, tab4, tab5 = st.tabs([
+tab1, tab2, tab3, tab4 = st.tabs([
     "📖 Principais Conclusões", 
     "📈 Polaridades", 
-    "🎯 Desempenho do Modelo",
     "📅 Evolução Temporal",
-    "🔬 Análise Detalhada"
-])
+    "🎯 Desempenho do Modelo",
+    ])
 
 # ==================== TAB 1: PRINCIPAIS CONCLUSÕES ====================
 with tab1:
