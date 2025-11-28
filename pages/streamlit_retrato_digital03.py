@@ -349,13 +349,14 @@ with col4:
 
 st.markdown("<br>", unsafe_allow_html=True)
 
-# ==================== NAVEGAÇÃO POR TABS ====================
-tab1, tab2, tab3, tab4 = st.tabs([
-    "📖 Principais Conclusões", 
-    "📈 Polaridades", 
-    "📅 Evolução Temporal",
-    "🎯 Desempenho do Modelo",
-    ])
+# ==================== NAVEGAÇÃO POR TABS ==================== 
+tab4, tab2, tab3, tab5, tab1 = st.tabs([
+    "📅 Evolução Temporal", # tab5 / 1
+    "📈 Polaridades",  # tab2 / 2 
+    "🎯 Desempenho do Modelo", #tab3 / 4
+    "🔬 Análise Detalhada", #tab4 / 5
+    "📖 Principais Conclusões" # tab1 / 5
+])
 
 # ==================== TAB 1: PRINCIPAIS CONCLUSÕES ====================
 with tab1:
@@ -894,24 +895,22 @@ with tab3:
             </div>
         </div>
         """, unsafe_allow_html=True)
-# ==================== TAB 4: EVOLUÇÃO TEMPORAL ====================
-
-    # ==================== TAB 4: EVOLUÇÃO TEMPORAL ====================
+#================================tab 4: EVOLUÇÃO TEMPORAL ====================
 with tab4:
-    st.markdown("### 🎬 Evolução Temporal das Opiniões Por Tema")
+    st.markdown("### Evolução Temporal das Opiniões Por Tema")
     
     # ==================== 1. EVOLUÇÃO HISTÓRICA TOTAL - TODOS OS TEMAS ====================
-    st.markdown("#### 📈 Evolução Histórica das Postagens - Todos os Temas")
+    st.markdown("#### Evolução Histórica das Postagens e Comentários - Todos os Temas")
     
     @st.cache_data
     def gerar_evolucao_unificada():
-        """Gera evolução temporal de todos os temas em um único gráfico"""
-        evolucao_posts = []
+        """Gera evolução temporal de todos os temas (postagens + comentários) em um único gráfico"""
+        evolucao_dados = []
         
         for tema, arquivos in ARQUIVOS_DATASET.items():
+            # POSTAGENS
             df_posts = load_data(arquivos['posts'], tipo="completo")
             
-            # Procurar coluna de data
             coluna_data = None
             for col in df_posts.columns:
                 if any(keyword in col.lower() for keyword in ['date', 'data', 'created', 'timestamp']):
@@ -920,187 +919,225 @@ with tab4:
             
             if coluna_data and coluna_data in df_posts.columns:
                 try:
-                    # Converter para datetime
                     df_posts[coluna_data] = pd.to_datetime(df_posts[coluna_data], errors='coerce')
                     df_posts = df_posts.dropna(subset=[coluna_data])
                     
                     if len(df_posts) > 0:
-                        # Agrupar por mês
                         temp = df_posts.groupby(df_posts[coluna_data].dt.to_period("M")).size().reset_index()
                         temp.columns = ["Mes", "Quantidade"]
                         temp["Mes"] = temp["Mes"].astype(str)
                         temp["Tema"] = tema
-                        evolucao_posts.append(temp)
+                        temp["Tipo"] = "Postagens"
+                        evolucao_dados.append(temp)
                 except Exception as e:
-                    st.warning(f"Erro ao processar {tema}: {e}")
+                    st.warning(f"Erro ao processar postagens de {tema}: {e}")
+                    continue
+            
+            # COMENTÁRIOS
+            df_comments = load_data(arquivos['comentarios'], tipo="completo")
+            
+            coluna_data_comm = None
+            for col in df_comments.columns:
+                if any(keyword in col.lower() for keyword in ['date', 'data', 'created', 'timestamp']):
+                    coluna_data_comm = col
+                    break
+            
+            if coluna_data_comm and coluna_data_comm in df_comments.columns:
+                try:
+                    df_comments[coluna_data_comm] = pd.to_datetime(df_comments[coluna_data_comm], errors='coerce')
+                    df_comments = df_comments.dropna(subset=[coluna_data_comm])
+                    
+                    if len(df_comments) > 0:
+                        temp = df_comments.groupby(df_comments[coluna_data_comm].dt.to_period("M")).size().reset_index()
+                        temp.columns = ["Mes", "Quantidade"]
+                        temp["Mes"] = temp["Mes"].astype(str)
+                        temp["Tema"] = tema
+                        temp["Tipo"] = "Comentários"
+                        evolucao_dados.append(temp)
+                except Exception as e:
+                    st.warning(f"Erro ao processar comentários de {tema}: {e}")
                     continue
         
-        if evolucao_posts:
-            return pd.concat(evolucao_posts, ignore_index=True)
+        if evolucao_dados:
+            return pd.concat(evolucao_dados, ignore_index=True)
         else:
             return pd.DataFrame()
     
     df_evo = gerar_evolucao_unificada()
     
     if not df_evo.empty:
-        # Gráfico de linha unificado - VOLUME TOTAL
-        linha_unificada = alt.Chart(df_evo).mark_line(point=True, strokeWidth=3).encode(
-            x=alt.X('Mes:N', title='Mês', axis=alt.Axis(labelAngle=-45)),
-            y=alt.Y('Quantidade:Q', title='Número de Postagens'),
-            color=alt.Color('Tema:N', 
-                          scale=alt.Scale(scheme='category10'),
-                          legend=alt.Legend(title='Tema')),
-            tooltip=['Mes:N', 'Tema:N', 'Quantidade:Q']
-        ).properties(
-            height=450,
-            title='Evolução Mensal das Postagens - Comparativo entre Temas'
-        )
+        # ==================== FILTROS INTERATIVOS ====================    
+        col_filtro1, col_filtro2 = st.columns([1, 2])
         
-        st.altair_chart(linha_unificada, use_container_width=True)
+        with col_filtro1:
+            tipo_visualizacao = st.radio(
+                "Selecione o tipo de publicação:",
+                options=["📝 Postagens", "💬 Comentários", "📊 Ambos"],
+                index=0,
+                key="tipo_viz_evolucao",
+                horizontal=False
+            )
         
-        # Estatísticas rápidas
-        st.markdown("#### 📊 Estatísticas por Tema")
-        
-        col1, col2, col3 = st.columns(3)
-        
-        for idx, tema in enumerate(df_agregado['temas'].tolist()):
-            dados_tema = df_evo[df_evo['Tema'] == tema]
+        with col_filtro2:
+            st.markdown("**Filtrar temas (selecione um ou mais):**")
             
-            if not dados_tema.empty:
-                total = dados_tema['Quantidade'].sum()
-                media = dados_tema['Quantidade'].mean()
-                pico = dados_tema['Quantidade'].max()
-                mes_pico = dados_tema[dados_tema['Quantidade'] == pico]['Mes'].values[0] if len(dados_tema[dados_tema['Quantidade'] == pico]) > 0 else 'N/A'
+            col_check1, col_check2, col_check3 = st.columns(3)
+            
+            with col_check1:
+                check_stf = st.checkbox("STF", value=True, key="check_stf_evo")
+            with col_check2:
+                check_auxilio = st.checkbox("Auxílio Brasil", value=True, key="check_auxilio_evo")
+            with col_check3:
+                check_vacinacao = st.checkbox("Vacinação", value=True, key="check_vacinacao_evo")
+        
+        # Criar lista de temas selecionados
+        temas_selecionados = []
+        if check_stf:
+            temas_selecionados.append("STF")
+        if check_auxilio:
+            temas_selecionados.append("Auxílio Brasil")
+        if check_vacinacao:
+            temas_selecionados.append("Vacinação")
+        
+        # Verificar se pelo menos um tema foi selecionado
+        if not temas_selecionados:
+            st.warning("⚠️ Selecione pelo menos um tema para visualizar o gráfico.")
+        else:
+            # Filtrar dados baseado nas seleções
+            df_evo_filtrado = df_evo[df_evo['Tema'].isin(temas_selecionados)].copy()
+            
+            # Filtrar por tipo de publicação
+            if tipo_visualizacao == "📝 Postagens":
+                df_evo_filtrado = df_evo_filtrado[df_evo_filtrado['Tipo'] == 'Postagens']
+                titulo_grafico = 'Evolução Mensal das Postagens'
+                mostrar_legenda_tipo = False
+            elif tipo_visualizacao == "💬 Comentários":
+                df_evo_filtrado = df_evo_filtrado[df_evo_filtrado['Tipo'] == 'Comentários']
+                titulo_grafico = 'Evolução Mensal dos Comentários'
+                mostrar_legenda_tipo = False
+            else:  # Ambos
+                titulo_grafico = 'Evolução Mensal das Postagens e Comentários'
+                mostrar_legenda_tipo = True
+            
+            # Criar identificador único para legenda
+            if mostrar_legenda_tipo:
+                df_evo_filtrado['Legenda'] = df_evo_filtrado['Tema'] + ' (' + df_evo_filtrado['Tipo'] + ')'
+            else:
+                df_evo_filtrado['Legenda'] = df_evo_filtrado['Tema']
+            
+            # ==================== GRÁFICO FILTRADO ====================
+            chart = alt.Chart(df_evo_filtrado).mark_line(point=True, strokeWidth=3).encode(
+                x=alt.X('Mes:N', 
+                       title='Mês', 
+                       axis=alt.Axis(labelAngle=-45, labelFontSize=10)),
+                y=alt.Y('Quantidade:Q', 
+                       title='Número de Publicações',
+                       axis=alt.Axis(labelFontSize=11)),
+                color=alt.Color('Legenda:N', 
+                              scale=alt.Scale(scheme='category10'),
+                              legend=alt.Legend(
+                                  title='Tema' if not mostrar_legenda_tipo else 'Tema e Tipo',
+                                  titleFontSize=12,
+                                  labelFontSize=10,
+                                  symbolSize=150
+                              )),
+                tooltip=['Mes:N', 'Tema:N', 'Tipo:N', alt.Tooltip('Quantidade:Q', format=',')]
+            )
+            
+            # Adicionar strokeDash apenas se estiver mostrando ambos
+            if mostrar_legenda_tipo:
+                chart = chart.encode(
+                    strokeDash=alt.StrokeDash('Tipo:N',
+                                             scale=alt.Scale(
+                                                 domain=['Postagens', 'Comentários'],
+                                                 range=[[1], [5, 3]]
+                                             ),
+                                             legend=alt.Legend(
+                                                 title='Tipo de Publicação',
+                                                 titleFontSize=12,
+                                                 labelFontSize=10,
+                                                 symbolSize=150,
+                                                 symbolStrokeWidth=3
+                                             ))
+                )
+            
+            chart = chart.properties(
+                height=500,
+                title={
+                    "text": titulo_grafico,
+                    "fontSize": 15,
+                    "fontWeight": "bold"
+                }
+            ).interactive()
+            
+            st.altair_chart(chart, use_container_width=True)
+            
+            # ==================== ESTATÍSTICAS DINÂMICAS ====================
+            st.markdown("---")
+            
+            # Estatísticas de POSTAGENS (se selecionadas)
+            if tipo_visualizacao in ["📝 Postagens", "📊 Ambos"]:
+                st.markdown("#### 📊 Estatísticas por Tema - Postagens")
                 
-                with [col1, col2, col3][idx]:
-                    st.markdown(f"""
-                    <div class="metric-card">
-                        <div class="metric-label">{tema}</div>
-                        <div class="metric-value">{total:,}</div>
-                        <div class="metric-label">Posts no período</div>
-                        <hr style="border-color: rgba(255,255,255,0.1); margin: 0.5rem 0;">
-                        <small style="color: #a0a0a0;">
-                        📊 Média: {media:.1f}/mês<br>
-                        🔝 Pico: {pico} em {mes_pico}
-                        </small>
-                    </div>
-                    """, unsafe_allow_html=True)
+                cols_posts = st.columns(len(temas_selecionados))
+                
+                for idx, tema in enumerate(temas_selecionados):
+                    dados_tema = df_evo[(df_evo['Tema'] == tema) & (df_evo['Tipo'] == 'Postagens')]
+                    
+                    if not dados_tema.empty:
+                        total = dados_tema['Quantidade'].sum()
+                        media = dados_tema['Quantidade'].mean()
+                        pico = dados_tema['Quantidade'].max()
+                        mes_pico = dados_tema[dados_tema['Quantidade'] == pico]['Mes'].values[0] if len(dados_tema[dados_tema['Quantidade'] == pico]) > 0 else 'N/A'
+                        
+                        with cols_posts[idx]:
+                            st.markdown(f"""
+                            <div class="metric-card" style="background: linear-gradient(135deg, #1e3a5f 0%, #2d1b4e 100%);">
+                                <div class="metric-label">{tema}</div>
+                                <div class="metric-value">{total:,}</div>
+                                <div class="metric-label">Posts no período</div>
+                                <hr style="border-color: rgba(255,255,255,0.1); margin: 0.5rem 0;">
+                                <small style="color: #a0a0a0;">
+                                📊 Média: {media:.1f}/mês<br>
+                                🔝 Pico: {pico} em {mes_pico}
+                                </small>
+                            </div>
+                            """, unsafe_allow_html=True)
+            
+            # Estatísticas de COMENTÁRIOS (se selecionadas)
+            if tipo_visualizacao in ["💬 Comentários", "📊 Ambos"]:
+                st.markdown("#### 💬 Estatísticas por Tema - Comentários")
+                
+                cols_comments = st.columns(len(temas_selecionados))
+                
+                for idx, tema in enumerate(temas_selecionados):
+                    dados_tema = df_evo[(df_evo['Tema'] == tema) & (df_evo['Tipo'] == 'Comentários')]
+                    
+                    if not dados_tema.empty:
+                        total = dados_tema['Quantidade'].sum()
+                        media = dados_tema['Quantidade'].mean()
+                        pico = dados_tema['Quantidade'].max()
+                        mes_pico = dados_tema[dados_tema['Quantidade'] == pico]['Mes'].values[0] if len(dados_tema[dados_tema['Quantidade'] == pico]) > 0 else 'N/A'
+                        
+                        with cols_comments[idx]:
+                            st.markdown(f"""
+                            <div class="metric-card" style="background: linear-gradient(135deg, #4a2c2a 0%, #3d2a1f 100%); border: 1px solid rgba(255, 140, 0, 0.3);">
+                                <div class="metric-label" style="color: #ffb366;">{tema}</div>
+                                <div class="metric-value" style="color: #ff8c42;">{total:,}</div>
+                                <div class="metric-label" style="color: #cc9966;">Comentários no período</div>
+                                <hr style="border-color: rgba(255,140,0,0.2); margin: 0.5rem 0;">
+                                <small style="color: #cc9966;">
+                                📊 Média: {media:.1f}/mês<br>
+                                🔝 Pico: {pico} em {mes_pico}
+                                </small>
+                            </div>
+                            """, unsafe_allow_html=True)
     else:
         st.warning("⚠️ Não foi possível gerar evolução temporal. Verifique as colunas de data nos arquivos.")
     
     st.markdown("---")
     
     # ==================== 2. EVOLUÇÃO DOS SENTIMENTOS - TODOS OS TEMAS UNIFICADOS ====================
-    st.markdown("#### 🌐 Evolução dos Sentimentos - Comparativo Geral entre Temas")
-    
-    @st.cache_data
-    def gerar_evolucao_sentimentos_unificada():
-        """Gera evolução temporal dos sentimentos de todos os temas em um único gráfico"""
-        evolucao_sentimentos = []
-        
-        for tema, arquivos in ARQUIVOS_DATASET.items():
-            df = load_data(arquivos['posts'], tipo="completo")
-            
-            # Procurar coluna de data
-            coluna_data = None
-            for col in df.columns:
-                if any(keyword in col.lower() for keyword in ['date', 'data', 'created', 'timestamp']):
-                    coluna_data = col
-                    break
-            
-            if coluna_data and coluna_data in df.columns and 'Classe Sentimento' in df.columns:
-                try:
-                    # Converter para datetime
-                    df[coluna_data] = pd.to_datetime(df[coluna_data], errors='coerce')
-                    df = df.dropna(subset=[coluna_data])
-                    
-                    if len(df) > 0:
-                        # Criar período mensal
-                        df['Ano-Mês'] = df[coluna_data].dt.to_period('M').dt.to_timestamp()
-                        
-                        # Agrupar por mês e sentimento
-                        temp = (
-                            df.groupby(['Ano-Mês', 'Classe Sentimento'])
-                              .size()
-                              .reset_index(name='Quantidade')
-                        )
-                        temp['Tema'] = tema
-                        evolucao_sentimentos.append(temp)
-                except Exception as e:
-                    st.warning(f"Erro ao processar sentimentos de {tema}: {e}")
-                    continue
-        
-        if evolucao_sentimentos:
-            return pd.concat(evolucao_sentimentos, ignore_index=True)
-        else:
-            return pd.DataFrame()
-    
-    df_evo_sent = gerar_evolucao_sentimentos_unificada()
-    
-    if not df_evo_sent.empty:
-        # Criar combinação Tema + Sentimento para legendas
-        df_evo_sent['Tema-Sentimento'] = df_evo_sent['Tema'] + ' - ' + df_evo_sent['Classe Sentimento']
-        
-        # Gráfico de linhas unificado com TODOS OS SENTIMENTOS DE TODOS OS TEMAS
-        linha_sent_unif = alt.Chart(df_evo_sent).mark_line(point=True, strokeWidth=2).encode(
-            x=alt.X('Ano-Mês:T', title='Data', axis=alt.Axis(format='%b %Y', labelAngle=-45)),
-            y=alt.Y('Quantidade:Q', title='Quantidade de Postagens'),
-            color=alt.Color('Tema-Sentimento:N', 
-                          legend=alt.Legend(title='Tema e Sentimento', columns=2)),
-            strokeDash=alt.StrokeDash('Classe Sentimento:N',
-                                     scale=alt.Scale(domain=['NEG', 'NEU', 'POS'],
-                                                   range=[[5,5], [1,0], [3,3]])),
-            tooltip=[
-                alt.Tooltip('Ano-Mês:T', format='%B %Y', title='Mês'),
-                alt.Tooltip('Tema:N', title='Tema'),
-                alt.Tooltip('Classe Sentimento:N', title='Sentimento'),
-                alt.Tooltip('Quantidade:Q', title='Quantidade')
-            ]
-        ).properties(
-            height=500,
-            title='Evolução Temporal dos Sentimentos - Comparativo entre Todos os Temas'
-        )
-        
-        st.altair_chart(linha_sent_unif, use_container_width=True)
-        
-        # Estatísticas comparativas
-        st.markdown("#### 📊 Comparativo de Sentimentos por Tema")
-        
-        # Calcular percentuais por tema
-        comparativo = df_evo_sent.groupby(['Tema', 'Classe Sentimento'])['Quantidade'].sum().reset_index()
-        comparativo_pivot = comparativo.pivot(index='Tema', columns='Classe Sentimento', values='Quantidade').fillna(0)
-        
-        # Calcular percentuais
-        comparativo_pivot['Total'] = comparativo_pivot.sum(axis=1)
-        for col in ['NEG', 'NEU', 'POS']:
-            if col in comparativo_pivot.columns:
-                comparativo_pivot[f'{col}_pct'] = (comparativo_pivot[col] / comparativo_pivot['Total'] * 100).round(1)
-        
-        col1, col2, col3 = st.columns(3)
-        
-        for idx, tema in enumerate(df_agregado['temas'].tolist()):
-            if tema in comparativo_pivot.index:
-                neg_pct = comparativo_pivot.loc[tema, 'NEG_pct'] if 'NEG_pct' in comparativo_pivot.columns else 0
-                neu_pct = comparativo_pivot.loc[tema, 'NEU_pct'] if 'NEU_pct' in comparativo_pivot.columns else 0
-                pos_pct = comparativo_pivot.loc[tema, 'POS_pct'] if 'POS_pct' in comparativo_pivot.columns else 0
-                
-                with [col1, col2, col3][idx]:
-                    st.markdown(f"""
-                    <div class="metric-card">
-                        <div class="metric-label">{tema}</div>
-                        <div style="margin: 1rem 0;">
-                            <div style="color: #ff006e; font-size: 1.2rem;">🔴 Negativo: {neg_pct}%</div>
-                            <div style="color: #00d4ff; font-size: 1.2rem;">⚪ Neutro: {neu_pct}%</div>
-                            <div style="color: #00f5a0; font-size: 1.2rem;">🟢 Positivo: {pos_pct}%</div>
-                        </div>
-                    </div>
-                    """, unsafe_allow_html=True)
-    else:
-        st.warning("⚠️ Não foi possível gerar evolução dos sentimentos.")
-    
-    st.markdown("---")
-    
-    # ==================== 3. EVOLUÇÃO INDIVIDUAL POR TEMA ====================
     st.markdown("#### 📅 Evolução Temporal dos Sentimentos - Análise Individual")
     
     col1, col2 = st.columns(2)
@@ -1228,6 +1265,6 @@ st.markdown("""
     Análise de Sentimentos no Reddit | 2015-2025<br>
     Modelo: BERTweet.br via PysentimentoBR<br>
     <br>
-    <em>"Os números não mentem, mas também não contam toda a história."</em>
+    <em>"Entender a opinião pública é decifrar um país em movimento."</em>
 </div>
 """, unsafe_allow_html=True)
