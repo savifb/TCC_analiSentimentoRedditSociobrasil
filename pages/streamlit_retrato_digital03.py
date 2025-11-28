@@ -351,7 +351,7 @@ st.markdown("<br>", unsafe_allow_html=True)
 
 # ==================== NAVEGAÇÃO POR TABS ==================== 
 tab1, tab4, tab2, tab3, tab5 = st.tabs([
-    "📖 Visão Geral" # tab1 / 5
+    "📖 Visão Geral", # tab1 / 5
     "📅 Evolução Temporal", # tab5 / 1
     "📈 Polaridades",  # tab2 / 2 
     "🎯 Desempenho do Modelo", #tab3 / 4
@@ -361,64 +361,303 @@ tab1, tab4, tab2, tab3, tab5 = st.tabs([
 
 # ==================== TAB 1: PRINCIPAIS CONCLUSÕES ====================
 with tab1:
-    st.markdown('<div class="story-section">', unsafe_allow_html=True)
-    st.markdown('<div class="story-title">Capítulo 1: O Ponto de Partida</div>', unsafe_allow_html=True)
-    st.markdown('''
-    <div class="story-text">
-    Imagine entrar em uma sala repleta de brasileiros debatendo os temas mais polêmicos do país. 
-    Você ouviria vozes exaltadas falando sobre o <span class="highlight-number">Supremo Tribunal Federal</span>, 
-    discussões acaloradas sobre <span class="highlight-number">programas sociais</span>, e opiniões divergentes 
-    sobre a <span class="highlight-number">vacinação contra a Covid-19</span>. 
-    <br><br>
-    Essa sala existe — e se chama <strong>Reddit</strong>.
-    </div>
-    ''', unsafe_allow_html=True)
-    st.markdown('</div>', unsafe_allow_html=True)
+
+   import streamlit as st
+
+# Configuração da página
+st.set_page_config(page_title="Análise de Sentimentos", layout="wide")
+
+# --- ESTILO APRIMORADO ---
+st.markdown("""
+<style>
+    /* Importar fonte mais moderna */
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
     
-    col1, col2 = st.columns(2)
+    /* Reset e configurações gerais */
+    .main {
+        font-family: 'Inter', sans-serif;
+    }
     
-    with col1:
-        st.markdown('<div class="story-section">', unsafe_allow_html=True)
-        st.markdown('<div class="story-title">O STF: A Instituição que Não Convence</div>', unsafe_allow_html=True)
-        st.markdown('''
+    /* Container principal com sombra suave */
+    .main > div {
+        padding: 2rem;
+    }
+    
+    /* Título principal */
+    .story-title {
+        font-size: 32px; 
+        font-weight: 700;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        color: #1a1a1a;
+        border-left: 5px solid #2563eb;
+        padding-left: 20px;
+        line-height: 1.3;
+    }
+    
+    /* Subtítulo */
+    .story-subtitle {
+        font-size: 24px; 
+        font-weight: 600;
+        margin-top: 35px;
+        margin-bottom: 15px;
+        color: #2563eb;
+        position: relative;
+    }
+    
+    .story-subtitle::after {
+        content: '';
+        position: absolute;
+        bottom: -8px;
+        left: 0;
+        width: 60px;
+        height: 3px;
+        background: linear-gradient(90deg, #2563eb, transparent);
+    }
+    
+    /* Texto principal */
+    .story-text {
+        font-size: 17px; 
+        line-height: 1.8;
+        color: #374151;
+        margin-bottom: 25px;
+        text-align: justify;
+    }
+    
+    /* Destaque inline */
+    .highlight {
+        font-weight: 600;
+        color: #1e40af;
+        background: linear-gradient(120deg, #dbeafe 0%, #dbeafe 100%);
+        background-repeat: no-repeat;
+        background-size: 100% 40%;
+        background-position: 0 85%;
+        padding: 2px 4px;
+    }
+    
+    /* Lista estilizada */
+    .custom-list {
+        margin: 20px 0;
+        padding-left: 0;
+    }
+    
+    .list-item {
+        padding: 12px 20px;
+        margin: 10px 0;
+        background: #f8fafc;
+        border-left: 4px solid #60a5fa;
+        border-radius: 4px;
+        font-size: 16px;
+        color: #1e293b;
+        transition: all 0.3s ease;
+    }
+    
+    .list-item:hover {
+        background: #eff6ff;
+        transform: translateX(5px);
+    }
+    
+    /* Card para seções temáticas */
+    .theme-card {
+        background: white;
+        padding: 25px;
+        border-radius: 12px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        margin-bottom: 25px;
+        border-top: 4px solid #2563eb;
+        transition: all 0.3s ease;
+    }
+    
+    .theme-card:hover {
+        box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+        transform: translateY(-2px);
+    }
+    
+    /* Seção de destaque */
+    .highlight-box {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        padding: 30px;
+        border-radius: 12px;
+        color: white;
+        margin: 30px 0;
+        box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+    }
+    
+    .highlight-box .story-text {
+        color: white;
+    }
+    
+    /* Separador visual */
+    .divider {
+        height: 2px;
+        background: linear-gradient(90deg, transparent, #e5e7eb, transparent);
+        margin: 40px 0;
+    }
+    
+    /* Ajustes para colunas */
+    [data-testid="column"] {
+        padding: 0 15px;
+    }
+    
+    /* Badge/Tag */
+    .badge {
+        display: inline-block;
+        padding: 6px 14px;
+        background: #dbeafe;
+        color: #1e40af;
+        border-radius: 20px;
+        font-size: 14px;
+        font-weight: 600;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+</style>
+""", unsafe_allow_html=True)
+
+
+# ---------------- HEADER COM CONTEXTO ----------------
+st.markdown('<div class="story-title">📊 Panorama Geral dos Resultados (2015–2025)</div>', unsafe_allow_html=True)
+st.markdown("""
+<div class="story-text">
+A década analisada revela um padrão emocional sólido: as discussões sociopolíticas no Reddit 
+brasileiro começam neutras, mas rapidamente se transformam em espaços de crítica. A neutralidade 
+domina a superfície; a negatividade domina a conversa. E o sentimento positivo permanece raro, 
+explícito apenas quando impossível de ignorar.
+</div>
+""", unsafe_allow_html=True)
+
+st.markdown('<div class="divider"></div>', unsafe_allow_html=True)
+
+# ---------------- DINÂMICA EMOCIONAL ----------------
+st.markdown('<div class="story-subtitle">💬 A Dinâmica da Conversa Pública</div>', unsafe_allow_html=True)
+st.markdown("""
+<div class="story-text">
+As postagens iniciais apresentam um tom informativo e distanciado, mas basta o diálogo começar 
+para que o padrão emocional mude. <span class="highlight">Comentários transformam informações neutras 
+em debates carregados de crítica</span>.
+</div>
+""", unsafe_allow_html=True)
+
+st.markdown("""
+<div class="custom-list">
+    <div class="list-item">🔵 O neutro inicia a conversa</div>
+    <div class="list-item">🔴 O negativo cresce exponencialmente</div>
+    <div class="list-item">🟢 O positivo quase desaparece</div>
+</div>
+<div class="story-text">
+Esse movimento é consistente em todos os temas analisados.
+</div>
+""", unsafe_allow_html=True)
+
+st.markdown('<div class="divider"></div>', unsafe_allow_html=True)
+
+# ---------------- SEÇÃO DOS TEMAS ----------------
+st.markdown('<div class="story-title">🎯 As Emoções em Cada Tema</div>', unsafe_allow_html=True)
+
+col1, col2 = st.columns(2, gap="large")
+
+# --- STF ---
+with col1:
+    st.markdown("""
+    <div class="theme-card">
+        <span class="badge">Poder Judiciário</span>
+        <div class="story-subtitle">⚖️ STF: A Crítica Estrutural</div>
         <div class="story-text">
-        De <strong>fevereiro/2015 a junho/2025</strong> — uma década inteira de conversas sobre o STF.
-        <br><br>
-        • Postagens neutras <strong>desencadeiam comentários negativos</strong><br>
-        • O STF enfrenta <strong>crise de legitimidade digital</strong><br>
-        • Negatividade supera amplamente o apoio
+        No tema STF, <span class="highlight">a negatividade não é episódica — é estrutural</span>.  
+        Postagens neutras quase sempre geram ondas de críticas diretas, revelando uma 
+        dificuldade contínua da instituição em construir legitimidade discursiva no ambiente digital.
         </div>
-        ''', unsafe_allow_html=True)
-        st.markdown('</div>', unsafe_allow_html=True)
-    
-    with col2:
-        st.markdown('<div class="story-section">', unsafe_allow_html=True)
-        st.markdown('<div class="story-title">Auxílio Brasil: A Promessa Inacabada</div>', unsafe_allow_html=True)
-        st.markdown('''
-        <div class="story-text">
-        <span class="highlight-number">286 negativas</span> vs <span class="highlight-number">28 positivas</span>
-        <br><br>
-        • Frustrações com <strong>burocracia e cadastro</strong><br>
-        • Questionamentos sobre <strong>elegibilidade</strong><br>
-        • Valor considerado <strong>insuficiente</strong><br>
-        • Persistência histórica de <strong>58% de negatividade</strong>
-        </div>
-        ''', unsafe_allow_html=True)
-        st.markdown('</div>', unsafe_allow_html=True)
-    
-    st.markdown('<div class="story-section">', unsafe_allow_html=True)
-    st.markdown('<div class="story-title">Covid-19: A Vacina Aprovada, o Governo Reprovado</div>', unsafe_allow_html=True)
-    st.markdown('''
-    <div class="story-text">
-    Um paradoxo fascinante: <strong>apoiam a ciência, desconfiam do governo</strong>.
-    <br><br>
-    • <span class="highlight-number">665 postagens neutras</span> com dados e estatísticas<br>
-    • <span class="highlight-number">441 comentários negativos</span> sobre gestão governamental<br>
-    • Distinção clara: não é a vacina em julgamento, é a <strong>gestão governamental</strong><br>
-    • 67 comentários positivos celebram o <strong>avanço científico</strong>
     </div>
-    ''', unsafe_allow_html=True)
-    st.markdown('</div>', unsafe_allow_html=True)
+    """, unsafe_allow_html=True)
+
+# --- AUXÍLIO BRASIL ---
+with col2:
+    st.markdown("""
+    <div class="theme-card">
+        <span class="badge">Política Social</span>
+        <div class="story-subtitle">💰 Auxílio Brasil: Frustração Repetida</div>
+        <div class="story-text">
+        A crítica domina as conversas sobre o Auxílio Brasil, reproduzindo um padrão histórico de 
+        negatividade já registrado em estudos anteriores. Reclamações sobre burocracia, acesso, 
+        valor insuficiente e politização do programa formam um conjunto de frustrações recorrentes.
+        </div>
+    </div>
+    """, unsafe_allow_html=True)
+
+# --- COVID (largura total) ---
+st.markdown("""
+<div class="theme-card">
+    <span class="badge">Saúde Pública</span>
+    <div class="story-subtitle">💉 Vacinação Covid-19: Ciência Aprovada, Gestão Reprovada</div>
+    <div class="story-text">
+    O tema traz o padrão mais paradoxal: confiança na ciência, reprovação à gestão governamental.  
+    <span class="highlight">A crítica não recai sobre a vacina, mas sobre quem conduziu o processo</span>.  
+    Enquanto a superfície permanece neutra, os comentários revelam insatisfação explícita 
+    com políticas, atrasos e decisões governamentais.
+    </div>
+</div>
+""", unsafe_allow_html=True)
+
+st.markdown('<div class="divider"></div>', unsafe_allow_html=True)
+
+# ---------------- MÉTRICAS ----------------
+st.markdown('<div class="story-subtitle">📈 O Que as Métricas Contam Sobre o Modelo</div>', unsafe_allow_html=True)
+st.markdown("""
+<div class="story-text">
+O modelo apresenta desempenho consistente para identificar neutralidade e negatividade, 
+mas enfrenta dificuldades com sentimentos positivos — não por falha técnica, mas pela própria 
+natureza dos debates: <span class="highlight">o positivo é raro, sutil e muitas vezes irônico</span>.
+</div>
+""", unsafe_allow_html=True)
+
+col1, col2, col3 = st.columns(3)
+
+with col1:
+    st.markdown("""
+    <div class="list-item">
+        <strong>🔵 Neutro</strong><br>
+        Melhor desempenho, maior recall
+    </div>
+    """, unsafe_allow_html=True)
+
+with col2:
+    st.markdown("""
+    <div class="list-item">
+        <strong>🔴 Negativo</strong><br>
+        Estabilidade consistente
+    </div>
+    """, unsafe_allow_html=True)
+
+with col3:
+    st.markdown("""
+    <div class="list-item">
+        <strong>🟢 Positivo</strong><br>
+        Subdetecção pela raridade
+    </div>
+    """, unsafe_allow_html=True)
+
+st.markdown("""
+<div class="story-text">
+As métricas confirmam o padrão emocional encontrado nos dados.
+</div>
+""", unsafe_allow_html=True)
+
+st.markdown('<div class="divider"></div>', unsafe_allow_html=True)
+
+# ---------------- FECHAMENTO ----------------
+st.markdown("""
+<div class="highlight-box">
+    <div class="story-title" style="border: none; padding: 0; margin-top: 0; color: white;">
+        ✨ Em Síntese
+    </div>
+    <div class="story-text">
+    Os resultados revelam um ecossistema discursivo em que a informação abre o debate, 
+    mas a crítica o define. A neutralidade domina a superfície; a negatividade domina o diálogo; 
+    e o sentimento positivo, quando aparece, se torna exceção que confirma o padrão.
+    </div>
+</div>
+""", unsafe_allow_html=True)
+
 
 
 
