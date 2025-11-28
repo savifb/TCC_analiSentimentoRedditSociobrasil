@@ -350,12 +350,13 @@ with col4:
 st.markdown("<br>", unsafe_allow_html=True)
 
 # ==================== NAVEGAÇÃO POR TABS ==================== 
-tab4, tab2, tab3, tab5, tab1 = st.tabs([
+tab1, tab4, tab2, tab3, tab5 = st.tabs([
+    "📖 Visão Geral" # tab1 / 5
     "📅 Evolução Temporal", # tab5 / 1
     "📈 Polaridades",  # tab2 / 2 
     "🎯 Desempenho do Modelo", #tab3 / 4
     "🔬 Análise Detalhada", #tab4 / 5
-    "📖 Principais Conclusões" # tab1 / 5
+    
 ])
 
 # ==================== TAB 1: PRINCIPAIS CONCLUSÕES ====================
