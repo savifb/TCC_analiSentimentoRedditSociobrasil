@@ -516,7 +516,7 @@ with tab1:
 
 
     # ---------------- HEADER COM CONTEXTO ----------------
-    st.markdown('<div class="story-title">📊 Panorama Geral dos Resultados (2015–2025)</div>', unsafe_allow_html=True)
+    st.markdown('<div class="story-title">Panorama Geral dos Resultados (2015–2025)</div>', unsafe_allow_html=True)
     st.markdown("""
     <div class="story-text">
     A década analisada revela um padrão emocional sólido: as discussões sociopolíticas no Reddit 
@@ -810,7 +810,7 @@ with tab3:
             'Especificidade': '{:.3f}',
             'AUC': '{:.3f}',
             'Acurácia': '{:.3f}'
-        }).background_gradient(cmap='viridis', subset=['Precision', 'Recall', 'F1-Score']),
+        }).background_gradient(cmap='RdPu', subset=['Precision', 'Recall', 'F1-Score']),
         use_container_width=True,
         height=300
     )
@@ -1106,7 +1106,7 @@ with tab3:
     st.altair_chart(chart_comparison, use_container_width=True)
     
     # Insights finais
-    st.markdown("#### 🎯 Principais Insights")
+    st.markdown("#### 🎯 Principais Conclusões")
     
     col1, col2 = st.columns(2)
     
@@ -1470,41 +1470,18 @@ with tab4:
         st.warning(f"⚠️ Coluna de data ou 'Classe Sentimento' não encontrada para {tema_sel} ({tipo_sel}).")
         st.info("💡 Colunas esperadas: 'date', 'data', 'Data', 'created_at' ou similar")
     
-    # Insights contextualizados
-    st.markdown("---")
-    st.markdown("#### 🎯 Insights Históricos")
-    
-    col1, col2, col3 = st.columns(3)
-    
-    with col1:
-        st.info("""
-        **📍 STF (2015-2025)**
-        
-        Presença contínua ao longo de toda a década, com picos significativos em momentos de decisões controversas como impeachment, eleições e julgamentos de alta repercussão.
-        """)
-    
-    with col2:
-        st.info("""
-        **💰 Auxílio Brasil (2019-2025)**
-        
-        Intensificação a partir de 2019 com a reformulação do Bolsa Família. Debates constantes sobre burocracia, elegibilidade e suficiência do benefício.
-        """)
-    
-    with col3:
-        st.info("""
-        **💉 Vacinação (2018-2025)**
-        
-        Explosão de discussões durante a pandemia (2020-2022), com forte polarização sobre gestão governamental. Normalização gradual pós-pandemia.
-        """)
-        
+
 # ==================== RODAPÉ ====================
 st.markdown("---")
 st.markdown("""
 <div style="text-align: center; color: #a0a0a0; padding: 2rem;">
     <strong>O Retrato Digital da Opinião Pública Brasileira</strong><br>
     Análise de Sentimentos no Reddit | 2015-2025<br>
-    Modelo: BERTweet.br via PysentimentoBR<br>
+    Modelo: BERTweet.br via Pysentimento<br>
     <br>
     <em>"Entender a opinião pública é decifrar um país em movimento."</em>
+</div>
+<div style='text-align: center; color: #FFFFFF; font-size: 0.9rem; background-color: #000000; padding: 1rem; border-radius: 8px;'> 
+    <footer> Desenvolvido Por Sávio Sousa • © 2025 </footer>
 </div>
 """, unsafe_allow_html=True)
