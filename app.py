@@ -368,22 +368,27 @@ with tab1:
     st.set_page_config(page_title="Análise de Sentimentos", layout="wide")
 
     # --- ESTILO APRIMORADO ---
+# --- ESTILO ADAPTATIVO - TEMA CLARO E ESCURO ---
     st.markdown("""
     <style>
         /* Importar fonte mais moderna */
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
         
         /* Reset e configurações gerais */
-        .main {
+        .visao-geral-container {
             font-family: 'Inter', sans-serif;
         }
         
-        /* Container principal com sombra suave */
-        .main > div {
+        /* Container principal */
+        .visao-geral-container > div {
             padding: 2rem;
         }
         
-        /* Título principal */
+        /* ============================================
+           TEMA CLARO (padrão)
+           ============================================ */
+        
+        /* Título principal - CLARO */
         .story-title {
             font-size: 32px; 
             font-weight: 700;
@@ -395,7 +400,7 @@ with tab1:
             line-height: 1.3;
         }
         
-        /* Subtítulo */
+        /* Subtítulo - CLARO */
         .story-subtitle {
             font-size: 24px; 
             font-weight: 600;
@@ -415,7 +420,7 @@ with tab1:
             background: linear-gradient(90deg, #2563eb, transparent);
         }
         
-        /* Texto principal */
+        /* Texto principal - CLARO */
         .story-text {
             font-size: 17px; 
             line-height: 1.8;
@@ -424,7 +429,7 @@ with tab1:
             text-align: justify;
         }
         
-        /* Destaque inline */
+        /* Destaque inline - CLARO */
         .highlight {
             font-weight: 600;
             color: #1e40af;
@@ -435,7 +440,7 @@ with tab1:
             padding: 2px 4px;
         }
         
-        /* Lista estilizada */
+        /* Lista - CLARO */
         .custom-list {
             margin: 20px 0;
             padding-left: 0;
@@ -457,7 +462,7 @@ with tab1:
             transform: translateX(5px);
         }
         
-        /* Card para seções temáticas */
+        /* Card temático - CLARO */
         .theme-card {
             background: white;
             padding: 25px;
@@ -473,7 +478,94 @@ with tab1:
             transform: translateY(-2px);
         }
         
-        /* Seção de destaque */
+        /* Separador - CLARO */
+        .divider {
+            height: 2px;
+            background: linear-gradient(90deg, transparent, #e5e7eb, transparent);
+            margin: 40px 0;
+        }
+        
+        /* Badge - CLARO */
+        .badge {
+            display: inline-block;
+            padding: 6px 14px;
+            background: #dbeafe;
+            color: #1e40af;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 600;
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+        
+        /* ============================================
+           TEMA ESCURO (media query)
+           ============================================ */
+        
+        @media (prefers-color-scheme: dark) {
+            
+            /* Título principal - ESCURO */
+            .story-title {
+                color: #e8e8e8;
+                border-left-color: #00d4ff;
+            }
+            
+            /* Subtítulo - ESCURO */
+            .story-subtitle {
+                color: #00d4ff;
+            }
+            
+            .story-subtitle::after {
+                background: linear-gradient(90deg, #00d4ff, transparent);
+            }
+            
+            /* Texto principal - ESCURO */
+            .story-text {
+                color: #d0d0d0;
+            }
+            
+            /* Destaque inline - ESCURO */
+            .highlight {
+                color: #00d4ff;
+                background: linear-gradient(120deg, rgba(0, 212, 255, 0.2) 0%, rgba(0, 212, 255, 0.2) 100%);
+            }
+            
+            /* Lista - ESCURO */
+            .list-item {
+                background: rgba(255, 255, 255, 0.05);
+                border-left-color: #00d4ff;
+                color: #d0d0d0;
+            }
+            
+            .list-item:hover {
+                background: rgba(0, 212, 255, 0.1);
+            }
+            
+            /* Card temático - ESCURO */
+            .theme-card {
+                background: linear-gradient(135deg, #1e3a5f 0%, #2d1b4e 100%);
+                box-shadow: 0 8px 32px rgba(0, 212, 255, 0.15);
+                border-top-color: #00d4ff;
+                border: 1px solid rgba(255, 255, 255, 0.1);
+            }
+            
+            .theme-card:hover {
+                box-shadow: 0 12px 40px rgba(0, 212, 255, 0.25);
+            }
+            
+            /* Separador - ESCURO */
+            .divider {
+                background: linear-gradient(90deg, transparent, rgba(0, 212, 255, 0.3), transparent);
+            }
+            
+            /* Badge - ESCURO */
+            .badge {
+                background: rgba(0, 212, 255, 0.2);
+                color: #00d4ff;
+            }
+        }
+        
+        /* Seção de destaque (mantém o mesmo em ambos os temas) */
         .highlight-box {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             padding: 30px;
@@ -487,37 +579,17 @@ with tab1:
             color: white;
         }
         
-        /* Separador visual */
-        .divider {
-            height: 2px;
-            background: linear-gradient(90deg, transparent, #e5e7eb, transparent);
-            margin: 40px 0;
-        }
-        
         /* Ajustes para colunas */
         [data-testid="column"] {
             padding: 0 15px;
         }
-        
-        /* Badge/Tag */
-        .badge {
-            display: inline-block;
-            padding: 6px 14px;
-            background: #dbeafe;
-            color: #1e40af;
-            border-radius: 20px;
-            font-size: 14px;
-            font-weight: 600;
-            margin-right: 10px;
-            margin-bottom: 10px;
-        }
     </style>
     """, unsafe_allow_html=True)
-
 
     # ---------------- HEADER COM CONTEXTO ----------------
     st.markdown('<div class="story-title">Panorama Geral dos Resultados (2015–2025)</div>', unsafe_allow_html=True)
     st.markdown("""
+    
     <div class="story-text">
     A década analisada revela um padrão emocional sólido: as discussões sociopolíticas no Reddit 
     brasileiro começam neutras, mas rapidamente se transformam em espaços de crítica. A neutralidade 
