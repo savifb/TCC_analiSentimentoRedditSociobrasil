@@ -1129,8 +1129,6 @@ with tab3:
             <div class="story-title">Desafios Identificados</div>
             <div class="story-text">
             • <strong>Classe Positiva</strong>: Recall baixo (20-50%)<br>
-            • <strong>Comentários</strong>: Maior variabilidade linguística<br>
-            • <strong>Ironia</strong>: Dificulta detecção de positivos<br>
             • Desbalanceamento dos dados impacta predições
             </div>
         </div>
